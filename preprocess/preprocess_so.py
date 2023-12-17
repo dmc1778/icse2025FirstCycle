@@ -7,8 +7,8 @@ ROOT_DIR = "/media/nima/SSD/stackexchange/extracted"
 
 
 def write_dict(data, stage):
-    # if not os.path.exists(f'logs/stage{stage}/'):
-    #     os.makedirs(f'logs/stage{stage}/')
+    if not os.path.exists(f'logs/stage{stage}/'):
+        os.makedirs(f'logs/stage{stage}/')
 
     file_path = f"logs/stage{stage}/data.json"
 
@@ -98,25 +98,28 @@ def xml_parse():
         for dir in dirs:
             current_dir = os.path.join(ROOT_DIR, dir)
             dir_files = os.listdir(current_dir)
-            with open(os.path.join(current_dir, 'Posts.xml'), encoding="utf-8") as fp:
-                xml_string = fp.read()
-            decomposed_posts = decompose_detections(xml_string.split('\n'))
-            for post in decomposed_posts:
-                match = tags_pattern.search(post[0])
-                unscape_tag = unscape_tags(match)
-                if unscape_tag and match_co_existance_tag(patterns, unscape_tag[0]):
-                    stage_1_dict = {
-                            'file_path': current_dir,
-                            'post': post[0],
-                    }
-                    write_dict(stage_1_dict, stage=1)
-                    
-                    if re.findall(r'(warning:|Warning)', post[0]):
+            try:
+                with open(os.path.join(current_dir, 'Posts.xml'), encoding="utf-8") as fp:
+                    xml_string = fp.read()
+                decomposed_posts = decompose_detections(xml_string.split('\n'))
+                for post in decomposed_posts:
+                    match = tags_pattern.search(post[0])
+                    unscape_tag = unscape_tags(match)
+                    if unscape_tag and match_co_existance_tag(patterns, unscape_tag[0]):
                         stage_1_dict = {
                                 'file_path': current_dir,
                                 'post': post[0],
                         }
-                        write_dict(stage_1_dict, stage=2)
+                        write_dict(stage_1_dict, stage=1)
+                        
+                        if re.findall(r'(warning:|Warning)', post[0]):
+                            stage_1_dict = {
+                                    'file_path': current_dir,
+                                    'post': post[0],
+                            }
+                            write_dict(stage_1_dict, stage=2)
+            except (FileNotFoundError, json.decoder.JSONDecodeError):
+                pass
 
 
 
