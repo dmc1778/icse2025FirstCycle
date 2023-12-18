@@ -2,8 +2,10 @@ import os, re, json
 import xml.etree.ElementTree as ET
 from colorama import Fore, Back, Style, init
 from itertools import permutations, product
+import threading, time
 
 ROOT_DIR = "/media/nima/SSD/stackexchange/extracted"
+TIMEOUT = 60
 
 def load_line_by_line(file_path):
     splited_lines = []
@@ -11,6 +13,10 @@ def load_line_by_line(file_path):
         for line in file:
             splited_lines.append(line) 
     return splited_lines
+
+def write_to_txt(file_path, value):
+    with open(file_path, 'w') as file:
+        file.write(str(value))
 
 def write_dict(data, stage):
     if not os.path.exists(f'logs/stage{stage}/'):
@@ -99,17 +105,25 @@ def unscape_tags(match):
     return output
 
 def xml_parse():
+    GLOBAL_POST_COUNTER = 0
+    thread = threading.Thread(target=load_line_by_line)
+    thread.start()
+    thread.join(timeout=TIMEOUT)
     patterns = get_keyword_coexist_pattern()
     for root, dirs, files in os.walk(ROOT_DIR):
         for dir in dirs:
+            print(dir)
             current_dir = os.path.join(ROOT_DIR, dir)
             dir_files = os.listdir(current_dir)
             try:
                 #with open(, encoding="utf-8") as fp:
+
                 xml_string = load_line_by_line(os.path.join(current_dir, 'Posts.xml'))
                     #xml_string = fp.read()
                 # decomposed_posts = decompose_detections(xml_string.split('\n'))
                 for idx, post in enumerate(xml_string):
+                    if '<row' in post:
+                        GLOBAL_POST_COUNTER = GLOBAL_POST_COUNTER + 1
                     # print(f"Analyzing {dir}:{idx}/{len(xml_string)}")
                     match = tags_pattern.search(post)
                     unscape_tag = unscape_tags(match)
@@ -126,9 +140,9 @@ def xml_parse():
                                     'post': post,
                             }
                             write_dict(stage_1_dict, stage=2)
+                write_to_txt('logs/postCounter.txt', GLOBAL_POST_COUNTER)
             except (FileNotFoundError, json.decoder.JSONDecodeError):
-                pass
-                # print(f"{Back.RED}{'Sorry! the requested file does not exist'}{Style.RESET_ALL}")
+                print(f"{Back.RED}{'Sorry! the requested file does not exist'}{Style.RESET_ALL}")
                 
 
 
