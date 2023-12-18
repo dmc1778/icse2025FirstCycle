@@ -5,6 +5,12 @@ from itertools import permutations, product
 
 ROOT_DIR = "/media/nima/SSD/stackexchange/extracted"
 
+def load_line_by_line(file_path):
+    splited_lines = []
+    with open(file_path, 'r') as file:
+        for line in file:
+            splited_lines.append(line) 
+    return splited_lines
 
 def write_dict(data, stage):
     if not os.path.exists(f'logs/stage{stage}/'):
@@ -99,27 +105,31 @@ def xml_parse():
             current_dir = os.path.join(ROOT_DIR, dir)
             dir_files = os.listdir(current_dir)
             try:
-                with open(os.path.join(current_dir, 'Posts.xml'), encoding="utf-8") as fp:
-                    xml_string = fp.read()
-                decomposed_posts = decompose_detections(xml_string.split('\n'))
-                for post in decomposed_posts:
-                    match = tags_pattern.search(post[0])
+                #with open(, encoding="utf-8") as fp:
+                xml_string = load_line_by_line(os.path.join(current_dir, 'Posts.xml'))
+                    #xml_string = fp.read()
+                # decomposed_posts = decompose_detections(xml_string.split('\n'))
+                for idx, post in enumerate(xml_string):
+                    # print(f"Analyzing {dir}:{idx}/{len(xml_string)}")
+                    match = tags_pattern.search(post)
                     unscape_tag = unscape_tags(match)
                     if unscape_tag and match_co_existance_tag(patterns, unscape_tag[0]):
                         stage_1_dict = {
                                 'file_path': current_dir,
-                                'post': post[0],
+                                'post': post,
                         }
                         write_dict(stage_1_dict, stage=1)
                         
-                        if re.findall(r'(warning:|Warning)', post[0]):
+                        if re.findall(r'(warning:|Warning)', post):
                             stage_1_dict = {
                                     'file_path': current_dir,
-                                    'post': post[0],
+                                    'post': post,
                             }
                             write_dict(stage_1_dict, stage=2)
             except (FileNotFoundError, json.decoder.JSONDecodeError):
                 pass
+                # print(f"{Back.RED}{'Sorry! the requested file does not exist'}{Style.RESET_ALL}")
+                
 
 
 
