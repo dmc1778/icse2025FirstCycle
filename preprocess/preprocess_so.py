@@ -3,6 +3,7 @@ import xml.etree.ElementTree as ET
 from colorama import Fore, Back, Style, init
 from itertools import permutations, product
 import threading, time
+from queue import Queue
 
 ROOT_DIR = "/media/nima/SSD/stackexchange/extracted"
 TIMEOUT = 60
@@ -104,48 +105,74 @@ def unscape_tags(match):
         output.append(tags_unescaped)
     return output
 
-def xml_parse():
-    GLOBAL_POST_COUNTER = 0
-    thread = threading.Thread(target=load_line_by_line)
-    thread.start()
-    thread.join(timeout=TIMEOUT)
-    patterns = get_keyword_coexist_pattern()
-    for root, dirs, files in os.walk(ROOT_DIR):
-        for dir in dirs:
-            print(dir)
-            current_dir = os.path.join(ROOT_DIR, dir)
-            dir_files = os.listdir(current_dir)
-            try:
-                #with open(, encoding="utf-8") as fp:
+def process_directory(queue):
+    global GLOBAL_POST_COUNTER 
 
-                xml_string = load_line_by_line(os.path.join(current_dir, 'Posts.xml'))
-                    #xml_string = fp.read()
-                # decomposed_posts = decompose_detections(xml_string.split('\n'))
-                for idx, post in enumerate(xml_string):
-                    if '<row' in post:
-                        GLOBAL_POST_COUNTER = GLOBAL_POST_COUNTER + 1
-                    # print(f"Analyzing {dir}:{idx}/{len(xml_string)}")
-                    match = tags_pattern.search(post)
-                    unscape_tag = unscape_tags(match)
-                    if unscape_tag and match_co_existance_tag(patterns, unscape_tag[0]):
-                        stage_1_dict = {
-                                'file_path': current_dir,
-                                'post': post,
-                        }
-                        write_dict(stage_1_dict, stage=1)
-                        
-                        if re.findall(r'(warning:|Warning)', post):
+    while True:
+        current_dir = queue.get()
+        if current_dir is None:
+            break  # Signal to exit
+
+        print(current_dir)
+        dir_files = os.listdir(current_dir)
+        
+        for root, dirs, files in os.walk(ROOT_DIR):
+            for dir in dirs:
+                print(dir)
+                current_dir = os.path.join(ROOT_DIR, dir)
+                dir_files = os.listdir(current_dir)
+                try:
+                    #with open(, encoding="utf-8") as fp:
+
+                    xml_string = load_line_by_line(os.path.join(current_dir, 'Posts.xml'))
+                        #xml_string = fp.read()
+                    # decomposed_posts = decompose_detections(xml_string.split('\n'))
+                    for idx, post in enumerate(xml_string):
+                        if '<row' in post:
+                            GLOBAL_POST_COUNTER = GLOBAL_POST_COUNTER + 1
+                        # print(f"Analyzing {dir}:{idx}/{len(xml_string)}")
+                        match = tags_pattern.search(post)
+                        unscape_tag = unscape_tags(match)
+                        if unscape_tag and match_co_existance_tag(patterns, unscape_tag[0]):
                             stage_1_dict = {
                                     'file_path': current_dir,
                                     'post': post,
                             }
-                            write_dict(stage_1_dict, stage=2)
-                write_to_txt('logs/postCounter.txt', GLOBAL_POST_COUNTER)
-            except (FileNotFoundError, json.decoder.JSONDecodeError):
-                print(f"{Back.RED}{'Sorry! the requested file does not exist'}{Style.RESET_ALL}")
+                            write_dict(stage_1_dict, stage=1)
+                            
+                            if re.findall(r'(warning:|Warning)', post):
+                                stage_1_dict = {
+                                        'file_path': current_dir,
+                                        'post': post,
+                                }
+                                write_dict(stage_1_dict, stage=2)
+                    write_to_txt('logs/postCounter.txt', GLOBAL_POST_COUNTER)
+                except (FileNotFoundError, json.decoder.JSONDecodeError):
+                    print(f"{Back.RED}{'Sorry! the requested file does not exist'}{Style.RESET_ALL}")
                 
 
 
 
-if __name__ == '__main__':
-    xml_parse()
+def main():
+    patterns = get_keyword_coexist_pattern()
+
+    queue = Queue()
+
+    num_threads = 4  
+    threads = [threading.Thread(target=process_directory, args=(queue,)) for _ in range(num_threads)]
+
+    for thread in threads:
+        thread.start()
+
+    for root, dirs, files in os.walk(ROOT_DIR):
+        for dir in dirs:
+            queue.put(os.path.join(ROOT_DIR, dir))
+
+    for _ in range(num_threads):
+        queue.put(None)
+
+    for thread in threads:
+        thread.join()
+
+if __name__ == "__main__":
+    main()
