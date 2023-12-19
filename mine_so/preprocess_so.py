@@ -149,8 +149,6 @@ def process_directory(queue, patterns):
                     print(f"{Back.RED}{'Sorry! the requested file does not exist'}{Style.RESET_ALL}")
                 
 
-
-
 def main():
     patterns = get_keyword_coexist_pattern()
 
