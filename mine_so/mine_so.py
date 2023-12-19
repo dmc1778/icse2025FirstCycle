@@ -1,4 +1,4 @@
-import os, re, json
+import os, re, json, csv
 import xml.etree.ElementTree as ET
 from colorama import Fore, Back, Style, init
 from itertools import permutations, product
@@ -19,21 +19,17 @@ def write_to_txt(file_path, value):
     with open(file_path, 'w') as file:
         file.write(str(value))
 
-def write_dict(data, stage):
+def write_csv(data, stage):
     if not os.path.exists(f'posts/stage{stage}/'):
         os.makedirs(f'posts/stage{stage}/')
 
-    file_path = f"posts/stage{stage}/data.json"
+    file_path = f"posts/stage{stage}/stage{stage}_data.csv"
 
     # Read existing content or create an empty list if the file doesn't exist
-    with open(file_path, 'a') as json_file:
-        json.dump(data, json_file, indent=2)
-        json_file.write('\n') 
 
-    # with open(f"posts/stage{stage}/data.json", "a") as json_file:
-    #     json.dump(data, json_file, indent=4)
-    #     json_file.write(',')
-    #     json_file.write('\n')
+    with open(file_path, 'a', newline='\n') as csv_file:
+        writer = csv.writer(csv_file)
+        writer.writerow(data)
 
 REG_PTR = re.compile(r'(\<row)')
 tags_pattern = re.compile(r'Tags="([^"]*)"')
@@ -124,18 +120,12 @@ def process_directory(queue, patterns):
                         match = tags_pattern.search(post)
                         unscape_tag = unscape_tags(match)
                         if unscape_tag and match_co_existance_tag(patterns, unscape_tag[0]):
-                            stage_1_dict = {
-                                    'file_path': current_dir,
-                                    'post': post,
-                            }
-                            write_dict(stage_1_dict, stage=1)
+                            stage_1_dict = [current_dir, post]
+                            write_csv(stage_1_dict, stage=1)
                             
                             if re.findall(r'(warning:|Warning)', post):
-                                stage_1_dict = {
-                                        'file_path': current_dir,
-                                        'post': post,
-                                }
-                                write_dict(stage_1_dict, stage=2)
+                                stage_1_dict = [current_dir, post]
+                                write_csv(stage_1_dict, stage=2)
                     write_to_txt('posts/postCounter.txt', GLOBAL_POST_COUNTER)
                 except (FileNotFoundError, json.decoder.JSONDecodeError):
                     print(f"{Back.RED}{'Sorry! the requested file does not exist'}{Style.RESET_ALL}")
