@@ -20,25 +20,17 @@ def write_to_txt(file_path, value):
         file.write(str(value))
 
 def write_dict(data, stage):
-    if not os.path.exists(f'logs/stage{stage}/'):
-        os.makedirs(f'logs/stage{stage}/')
+    if not os.path.exists(f'posts/stage{stage}/'):
+        os.makedirs(f'posts/stage{stage}/')
 
-    file_path = f"logs/stage{stage}/data.json"
+    file_path = f"posts/stage{stage}/data.json"
 
     # Read existing content or create an empty list if the file doesn't exist
-    try:
-        with open(file_path, "r") as json_file:
-            existing_data = json.load(json_file)
-    except (FileNotFoundError, json.decoder.JSONDecodeError):
-        existing_data = []
-    
-    existing_data.append(data)
+    with open(file_path, 'a') as json_file:
+        json.dump(data, json_file, indent=2)
+        json_file.write('\n') 
 
-
-    with open(file_path, "a") as json_file:
-        json.dump(existing_data, json_file, indent=4)
-
-    # with open(f"logs/stage{stage}/data.json", "a") as json_file:
+    # with open(f"posts/stage{stage}/data.json", "a") as json_file:
     #     json.dump(data, json_file, indent=4)
     #     json_file.write(',')
     #     json_file.write('\n')
@@ -144,7 +136,7 @@ def process_directory(queue, patterns):
                                         'post': post,
                                 }
                                 write_dict(stage_1_dict, stage=2)
-                    write_to_txt('logs/postCounter.txt', GLOBAL_POST_COUNTER)
+                    write_to_txt('posts/postCounter.txt', GLOBAL_POST_COUNTER)
                 except (FileNotFoundError, json.decoder.JSONDecodeError):
                     print(f"{Back.RED}{'Sorry! the requested file does not exist'}{Style.RESET_ALL}")
                 
