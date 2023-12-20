@@ -93,6 +93,12 @@ def unscape_tags(match):
         output.append(tags_unescaped)
     return output
 
+def match_dependency_level(post):
+    flag = False
+    if 'from sklearn.' in post or 'from sklearn' in post or 'import tensorflow as tf' in post or 'import torch' in post or 'from mxnet' in post or 'from mxnet.gluon' in post:
+        flag = True
+    return flag
+
 def process_directory(queue, patterns):
     GLOBAL_POST_COUNTER = 0 
 
@@ -122,10 +128,12 @@ def process_directory(queue, patterns):
                         if unscape_tag and match_co_existance_tag(patterns, unscape_tag[0]):
                             stage_1_dict = [current_dir, post]
                             write_csv(stage_1_dict, stage=1)
-                            
-                            if re.findall(r'(warning:|Warning)', post):
+                            if match_dependency_level:
                                 stage_1_dict = [current_dir, post]
                                 write_csv(stage_1_dict, stage=2)
+                                if re.findall(r'(warning:|Warning)', post):
+                                    stage_1_dict = [current_dir, post]
+                                    write_csv(stage_1_dict, stage=3)
                     write_to_txt('posts/postCounter.txt', GLOBAL_POST_COUNTER)
                 except (FileNotFoundError, json.decoder.JSONDecodeError):
                     print(f"{Back.RED}{'Sorry! the requested file does not exist'}{Style.RESET_ALL}")
