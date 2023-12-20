@@ -34,7 +34,7 @@ def write_csv(data, stage):
 REG_PTR = re.compile(r'(\<row)')
 tags_pattern = re.compile(r'Tags="([^"]*)"')
 
-def match_co_existance_tag(patterns, unscape_tag):
+def match_pattern(patterns, unscape_tag):
     flag = False
     for pattern in patterns:
         if re.findall(pattern, unscape_tag):
@@ -93,13 +93,7 @@ def unscape_tags(match):
         output.append(tags_unescaped)
     return output
 
-def match_dependency_level(post):
-    flag = False
-    if 'from sklearn.' in post or 'from sklearn' in post or 'import tensorflow as tf' in post or 'import torch' in post or 'from mxnet' in post or 'from mxnet.gluon' in post:
-        flag = True
-    return flag
-
-def process_directory(queue, patterns):
+def process_directory(queue, patterns_co_existence, patterns_dependency):
     GLOBAL_POST_COUNTER = 0 
 
     while True:
@@ -125,10 +119,10 @@ def process_directory(queue, patterns):
      
                         match = tags_pattern.search(post)
                         unscape_tag = unscape_tags(match)
-                        if unscape_tag and match_co_existance_tag(patterns, unscape_tag[0]):
+                        if unscape_tag and match_pattern(patterns_co_existence, unscape_tag[0]):
                             stage_1_dict = [current_dir, post]
                             write_csv(stage_1_dict, stage=1)
-                            if match_dependency_level:
+                            if match_pattern(patterns_dependency, post):
                                 stage_1_dict = [current_dir, post]
                                 write_csv(stage_1_dict, stage=2)
                                 if re.findall(r'(warning:|Warning)', post):
@@ -140,8 +134,8 @@ def process_directory(queue, patterns):
                 
 
 def main():
-    patterns = get_keyword_coexist_pattern()
-
+    patterns_co_existence = get_keyword_coexist_pattern()
+    patterns_dependency = ['from sklearn.','from sklearn','import tensorflow as tf','import torch','from mxnet','from mxnet.gluon']
     queue = Queue()
 
     for root, dirs, files in os.walk(ROOT_DIR):
@@ -149,7 +143,7 @@ def main():
             queue.put(os.path.join(ROOT_DIR, dir))
 
     num_threads = min(4, queue.qsize()) 
-    threads = [threading.Thread(target=process_directory, args=(queue,patterns)) for _ in range(num_threads)]
+    threads = [threading.Thread(target=process_directory, args=(queue,patterns_co_existence, patterns_dependency)) for _ in range(num_threads)]
 
     for thread in threads:
         thread.start()
