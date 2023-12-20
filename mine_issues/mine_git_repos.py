@@ -43,17 +43,13 @@ def write_list_to_txt2(data, filename):
             file.write(row+'\n')
 
 def determine_page_number(lib, v , per_page):
-    _pre_link = "https://api.github.com/search/repositories?q={0}%20in:name,description+created:{1}&python?language=python&sort=stars&per_page={2}".format(lib, v , per_page)
+    _pre_link = f"https://api.github.com/search/repositories?q={lib}%20in:name,description+created:{v}&python?language=python&sort=stars&per_page={per_page}"
     response = r.get(_pre_link, headers={'Authorization': 'token {}'.format(TOKEN0)})       
 
     print(response.status_code)       
     response = json.loads(response.text)
     x = response['total_count']
     return x
-    # if x < 100:
-    #     return 1
-    # else:
-    #     return math.trunc(x / 100)
 
 def main():
     page_num = 1
@@ -64,8 +60,6 @@ def main():
     libs = ['deep learning']
     years = [2020, 2021, 2022, 2023]
 
-    # pg_list_size = [tensor_pg_size, torch_pg_size, keras_pg_size, numpy_pg_size, pandas_pg_size, sklearn_pg_size]
-    
     for lib in libs:
         for item in years:
             start_dt = date(item, 1, 1)
@@ -81,11 +75,6 @@ def main():
                     v = d_list[i]+'..'+d_list[j]
                     i = j+1
                     j = j+7
-                    #v2 = d_list[n+1]+'..'+d_list[n*2]
-                    #for v in [v1, v2]:
-                        # for sub_item in lib[1]:
-                        #     for p in range(1, sub_item):
-
                     pg_size = determine_page_number(lib, v , per_page)
 
                     for p in range(1, pg_size+1):
