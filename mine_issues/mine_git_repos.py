@@ -37,11 +37,6 @@ def write_list_to_txt4(data, filename):
     with open(filename, "a", encoding='utf-8') as file:
         file.write(data+'\n')
 
-def write_list_to_txt2(data, filename):
-    with open(filename+".txt", "a") as file:
-        for row in data:
-            file.write(row+'\n')
-
 def determine_page_number(lib, v , per_page):
     _pre_link = f"https://api.github.com/search/repositories?q={lib}%20in:name,description+created:{v}&python?language=python&sort=stars&per_page={per_page}"
     response = r.get(_pre_link, headers={'Authorization': 'token {}'.format(TOKEN0)})       
