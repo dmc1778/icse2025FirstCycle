@@ -66,7 +66,6 @@ def main():
             j = 6
             while(j < len(d_list)):
                 try:
-                    repo_list = []
                     v = d_list[i]+'..'+d_list[j]
                     i = j+1
                     j = j+7
