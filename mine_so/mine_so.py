@@ -44,7 +44,7 @@ def match_co_existance_tag(patterns, unscape_tag):
         # re.findall(r'(tensorflow|TensorFlow|tensorFlow|Tensorflow|tf|TF|PyTorch|pytorch|Pytorch|pyTorch|torch|MXNet|mxnet|MXnet|python|Python|scikit-learn|sklearn|Sklearn|Scikit-learn|anaconda|Anaconda|conda|Conda)', unscape_tag[0])
 
 def get_keyword_coexist_pattern():
-    lib_keyword = "tensorflow|TensorFlow|tensorFlow|Tensorflow|tf|TF|PyTorch|pytorch|Pytorch|pyTorch|torch|MXNet|mxnet|MXnet|scikit-learn|sklearn|Sklearn|Scikit-learn".split('|')
+    lib_keyword = "tensorflow|TensorFlow|tensorFlow|Tensorflow|PyTorch|pytorch|Pytorch|pyTorch|torch|MXNet|mxnet|MXnet|scikit-learn|sklearn|Sklearn|Scikit-learn".split('|')
     python_keyword = "python|Python".split('|')
     # keyword_permutations = list(permutations(keywords_list, 2))
     permutations_result = list(product(lib_keyword, python_keyword))
