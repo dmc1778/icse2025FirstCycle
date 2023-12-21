@@ -19,11 +19,11 @@ def write_to_txt(file_path, value):
     with open(file_path, 'w') as file:
         file.write(str(value))
 
-def write_csv(data, stage):
+def write_csv(data, target, stage):
     if not os.path.exists(f'posts/stage{stage}/'):
         os.makedirs(f'posts/stage{stage}/')
 
-    file_path = f"posts/stage{stage}/stage{stage}_data.csv"
+    file_path = f"posts/stage{stage}/stage{stage}_{target}.csv"
 
     # Read existing content or create an empty list if the file doesn't exist
 
@@ -93,7 +93,7 @@ def unscape_tags(match):
         output.append(tags_unescaped)
     return output
 
-def process_directory(queue, patterns_co_existence, patterns_dependency):
+def process_directory(queue, patterns_co_existence, patterns_dependency, target):
     GLOBAL_POST_COUNTER = 0 
 
     while True:
@@ -121,13 +121,13 @@ def process_directory(queue, patterns_co_existence, patterns_dependency):
                         unscape_tag = unscape_tags(match)
                         if unscape_tag and match_pattern(patterns_co_existence, unscape_tag[0]):
                             stage_1_dict = [current_dir, post]
-                            write_csv(stage_1_dict, stage=1)
+                            write_csv(stage_1_dict, target, stage=1,)
                             if match_pattern(patterns_dependency, post):
                                 stage_1_dict = [current_dir, post]
-                                write_csv(stage_1_dict, stage=2)
+                                write_csv(stage_1_dict, target,stage=2)
                                 if re.findall(r'(warning:|Warning)', post):
                                     stage_1_dict = [current_dir, post]
-                                    write_csv(stage_1_dict, stage=3)
+                                    write_csv(stage_1_dict,target, stage=3)
                     write_to_txt('posts/postCounter.txt', GLOBAL_POST_COUNTER)
                 except (FileNotFoundError, json.decoder.JSONDecodeError):
                     print(f"{Back.RED}{'Sorry! the requested file does not exist'}{Style.RESET_ALL}")
@@ -136,6 +136,8 @@ def process_directory(queue, patterns_co_existence, patterns_dependency):
 def main():
     patterns_co_existence = get_keyword_coexist_pattern()
     patterns_dependency = ['from sklearn.','from sklearn','import tensorflow as tf','import torch','from mxnet','from mxnet.gluon']
+    patterns_device_bugs = ['GPU compatibility', 'cuDNN error', 'CUDA error', 'GPU support', 'device placement', 'GPU error', 'GPU utilization', 'GPU memory']
+    target = 'device'
     queue = Queue()
 
     for root, dirs, files in os.walk(ROOT_DIR):
@@ -143,7 +145,7 @@ def main():
             queue.put(os.path.join(ROOT_DIR, dir))
 
     num_threads = min(4, queue.qsize()) 
-    threads = [threading.Thread(target=process_directory, args=(queue,patterns_co_existence, patterns_dependency)) for _ in range(num_threads)]
+    threads = [threading.Thread(target=process_directory, args=(queue,patterns_co_existence, patterns_device_bugs, target)) for _ in range(num_threads)]
 
     for thread in threads:
         thread.start()
