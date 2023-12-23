@@ -202,7 +202,7 @@ def get_commits(
                             data =  [currentRepo, commit["html_url"],commit["created_at"], 'No version']
 
                         with open(
-                                f"./issues/{currentRepo}.csv",
+                                f"./issues/device/{currentRepo}.csv",
                                 "a",
                                 newline="\n",
                             ) as fd:
@@ -439,7 +439,7 @@ def main():
                             
         
                             with open(
-                                    f"./issues/{r_prime[4]}_new.csv",
+                                    f"./issues/device/{r_prime[4]}_new.csv",
                                     "a",
                                     newline="\n",
                                 ) as fd:
