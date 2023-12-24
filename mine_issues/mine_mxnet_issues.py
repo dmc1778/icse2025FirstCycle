@@ -21,7 +21,7 @@ TOKEN0 = os.getenv("GIT_TOKEN0")
 TOKEN1 = os.getenv("GIT_TOKEN1")
 TOKEN2 = os.getenv("GIT_TOKEN2")
 TOKEN3 = os.getenv("GIT_TOKEN3")
-PARAM = os.getenv('STATE')
+TARGET = os.getenv('TARGET')
 
 tokens = {
     0: TOKEN0,
@@ -161,8 +161,10 @@ def get_commits(
         return None
     for i, commit in enumerate(first_100_commits):
 
-        memory_related_rules_strict = r"(FutureWarning:|Warning:|warning:)"
-
+        if TARGET == 'device':
+            pattern = r'(\bCUDA Out of Memory\b|\bCUDA out of memory\b|\bCUDA compilation error\b|\bGPU temperature\b|\bMixed precision training\b|\bVulkan\b|\bVulkan backend\b|\bAMP\b|\bgpu version mismatch\b|\bGPU version mismatch\b|\bgpu hangs\b|\bGPU hangs\b|\bdriver issue\b|\bgpu driver issue\b|\bGPU driver issue\b|\bGPU memory issue\b|\bTensorRT error\b|\bGPU compatibility\b|\bcuDNN error\b|\bCUDA error\b|\bGPU support\b|\bdevice placement\b|\bGPU error\b|\bGPU utilization\b|\bGPU memory\b)'
+        else:
+            pattern = r"(FutureWarning:|Warning:|warning:)"
         title_match = False
         body_match = False
 
@@ -174,11 +176,18 @@ def get_commits(
                     comment_flag = parse_comment(
                         commit["comments_url"], current_token)
 
-
-                    if re.findall(memory_related_rules_strict, commit["title"]):
+                    title_match_keyword = []
+                    body_match_keyword = []
+                    if re.findall(pattern, commit["title"]):
+                        title_match_keyword.append(re.findall(pattern, commit["title"]))
                         title_match = True
-                    if re.findall(memory_related_rules_strict, commit["body"]):
+                    if re.findall(pattern, commit["body"]):
+                        body_match_keyword.append(re.findall(pattern, commit["body"]))
                         body_match = True
+
+                    if title_match_keyword or body_match_keyword:
+                        print(f'I matched a keyword in title: {title_match_keyword}')
+                        print(f'I matched a keyword in body: {body_match_keyword}')
 
                     _date = commit["created_at"]
                     sdate = _date.split("-")
@@ -195,7 +204,7 @@ def get_commits(
                         data =  [currentRepo, commit["html_url"],commit["created_at"], 'No version']
 
                         with open(
-                                f"./issues/{currentRepo}.csv",
+                                f"./issues/{TARGET}/{currentRepo}.csv",
                                 "a",
                                 newline="\n",
                             ) as fd:
@@ -256,7 +265,7 @@ def select_access_token(current_token):
 
 def main():
 
-    repo_list = ["https://github.com/scikit-learn/scikit-learn"]
+    repo_list = ["https://github.com/google/jax"]
 
     if not os.path.exists("./issues"):
         os.makedirs("./issues")
@@ -402,8 +411,12 @@ def main():
             )
 
         else:
-
-            warning_ = r"(FutureWarning:|Warning:|warning:)"
+            
+            if TARGET == 'device':
+                pattern = r'(\bCUDA Out of Memory\b|\bCUDA out of memory\b|\bCUDA compilation error\b|\bGPU temperature\b|\bMixed precision training\b|\bVulkan\b|\bVulkan backend\b|\bAMP\b|\bgpu version mismatch\b|\bGPU version mismatch\b|\bgpu hangs\b|\bGPU hangs\b|\bdriver issue\b|\bgpu driver issue\b|\bGPU driver issue\b|\bGPU memory issue\b|\bTensorRT error\b|\bGPU compatibility\b|\bcuDNN error\b|\bCUDA error\b|\bGPU support\b|\bdevice placement\b|\bGPU error\b|\bGPU utilization\b|\bGPU memory\b)'
+            else:
+                pattern = r"(FutureWarning:|Warning:|warning:)"
+            
             title_match = False
             body_match = False
 
@@ -416,10 +429,15 @@ def main():
                             commit["comments_url"], current_token
                         )
 
-                        if re.findall(warning_, commit["title"]):
+                        if re.findall(pattern, commit["title"]):
+                            title_match_keyword = re.findall(pattern, commit["title"])
                             title_match = True
-                        if re.findall(warning_, commit["body"]):
+                        if re.findall(pattern, commit["body"]):
+                            body_match_keyword = re.findall(pattern, commit["body"])
                             body_match = True
+
+                        print(f'I matched a keyword in title: {title_match_keyword}')
+                        print(f'I matched a keyword in body: {body_match_keyword}')
 
                         _date = commit["created_at"]
                         sdate = _date.split("-")
@@ -430,7 +448,7 @@ def main():
                             
         
                             with open(
-                                    f"./issues/{r_prime[4]}_new.csv",
+                                    f"./issues/{TARGET}/{r_prime[4]}_new.csv",
                                     "a",
                                     newline="\n",
                                 ) as fd:

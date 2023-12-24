@@ -159,6 +159,7 @@ def get_commits(
     for i, commit in enumerate(first_100_commits):
 
         warning_ = 'Warning:|warning:'
+        patterns_device_bugs = r'(\bCUDA Out of Memory\b|\bCUDA out of memory\b|\bCUDA compilation error\b|\bGPU temperature\b|\bMixed precision training\b|\bVulkan\b|\bVulkan backend\b|\bAMP\b|\bgpu version mismatch\b|\bGPU version mismatch\b|\bgpu hangs\b|\bGPU hangs\b|\bdriver issue\b|\bgpu driver issue\b|\bGPU driver issue\b|\bGPU memory issue\b|\bTensorRT error\b|\bNVIDIA GPU\b|\bGPU compatibility\b|\bcuDNN error\b|\bCUDA error\b|\bGPU support\b|\bdevice placement\b|\bGPU error\b|\bGPU utilization\b|\bGPU memory\b)'
         title_match = False
         body_match = False
 
@@ -170,9 +171,9 @@ def get_commits(
                     comment_flag = parse_comment(
                         commit["comments_url"], current_token)
 
-                    if re.findall(warning_, commit["title"]):
+                    if re.findall(patterns_device_bugs, commit["title"]):
                         title_match = True
-                    if re.findall(warning_, commit["body"]):
+                    if re.findall(patterns_device_bugs, commit["body"]):
                         body_match = True
                         
                     sbody = commit['body'].split('\n')
@@ -197,7 +198,7 @@ def get_commits(
                             data =  [currentRepo, commit["html_url"],commit["created_at"], 'No version']
                             
                         with open(
-                            f"./issues/{currentRepo}.csv",
+                            f"./issues/device/{currentRepo}.csv",
                             "a",
                             newline="\n",
                         ) as fd:
@@ -390,6 +391,7 @@ def main():
 
         else:
             warning_ = r"(warning:|Warning:)"
+            patterns_device_bugs = r'(\bCUDA Out of Memory\b|\bCUDA out of memory\b|\bCUDA compilation error\b|\bGPU temperature\b|\bMixed precision training\b|\bVulkan\b|\bVulkan backend\b|\bAMP\b|\bgpu version mismatch\b|\bGPU version mismatch\b|\bgpu hangs\b|\bGPU hangs\b|\bdriver issue\b|\bgpu driver issue\b|\bGPU driver issue\b|\bGPU memory issue\b|\bTensorRT error\b|\bNVIDIA GPU\b|\bGPU compatibility\b|\bcuDNN error\b|\bCUDA error\b|\bGPU support\b|\bdevice placement\b|\bGPU error\b|\bGPU utilization\b|\bGPU memory\b)'
             title_match = False
             body_match = False
 
@@ -410,11 +412,11 @@ def main():
                                 )
 
                                 if re.findall(
-                                    warning_, commit["title"]
+                                    patterns_device_bugs, commit["title"]
                                 ):
                                     title_match = True
                                 if re.findall(
-                                    warning_, commit["body"]
+                                    patterns_device_bugs, commit["body"]
                                 ):
                                     body_match = True
 
@@ -429,7 +431,7 @@ def main():
                                     sdate = _date.split("-")
 
                                     with open(
-                                        f"./issues/{r_prime[4]}.csv",
+                                        f"./issues/device/{r_prime[4]}.csv",
                                         "a",
                                         newline="\n",
                                     ) as fd:

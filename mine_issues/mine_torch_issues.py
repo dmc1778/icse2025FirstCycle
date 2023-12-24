@@ -162,7 +162,7 @@ def get_commits(
     for i, commit in enumerate(first_100_commits):
 
         memory_related_rules_strict = r"(Warning:|warning:)"
-
+        patterns_device_bugs = r'(\bCUDA Out of Memory\b|\bCUDA out of memory\b|\bCUDA compilation error\b|\bGPU temperature\b|\bMixed precision training\b|\bVulkan\b|\bVulkan backend\b|\bAMP\b|\bgpu version mismatch\b|\bGPU version mismatch\b|\bgpu hangs\b|\bGPU hangs\b|\bdriver issue\b|\bgpu driver issue\b|\bGPU driver issue\b|\bGPU memory issue\b|\bTensorRT error\b|\bNVIDIA GPU\b|\bGPU compatibility\b|\bcuDNN error\b|\bCUDA error\b|\bGPU support\b|\bdevice placement\b|\bGPU error\b|\bGPU utilization\b|\bGPU memory\b)'
         title_match = False
         body_match = False
 
@@ -177,9 +177,9 @@ def get_commits(
                         commit["comments_url"], current_token)
 
                     match_version = False
-                    if re.findall(memory_related_rules_strict, commit["title"]):
+                    if re.findall(patterns_device_bugs, commit["title"]):
                         title_match = True
-                    if re.findall(memory_related_rules_strict, commit["body"]):
+                    if re.findall(patterns_device_bugs, commit["body"]):
                         body_match = True
                         pattern = r"PyTorch version: \S+"
                         match_version = re.search(pattern, commit["body"])
@@ -409,7 +409,7 @@ def main():
             )
 
         else:
-
+            patterns_device_bugs = r'(\bCUDA Out of Memory\b|\bCUDA out of memory\b|\bCUDA compilation error\b|\bGPU temperature\b|\bMixed precision training\b|\bVulkan\b|\bVulkan backend\b|\bAMP\b|\bgpu version mismatch\b|\bGPU version mismatch\b|\bgpu hangs\b|\bGPU hangs\b|\bdriver issue\b|\bgpu driver issue\b|\bGPU driver issue\b|\bGPU memory issue\b|\bTensorRT error\b|\bNVIDIA GPU\b|\bGPU compatibility\b|\bcuDNN error\b|\bCUDA error\b|\bGPU support\b|\bdevice placement\b|\bGPU error\b|\bGPU utilization\b|\bGPU memory\b)'
             warning_ = r"(warning:|Warning:)"
             title_match = False
             body_match = False
@@ -425,9 +425,9 @@ def main():
                             commit["comments_url"], current_token
                         )
 
-                        if re.findall(warning_, commit["title"]):
+                        if re.findall(patterns_device_bugs, commit["title"]):
                             title_match = True
-                        if re.findall(warning_, commit["body"]):
+                        if re.findall(patterns_device_bugs, commit["body"]):
                             body_match = True
 
                         _date = commit["created_at"]
