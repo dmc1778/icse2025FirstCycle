@@ -1,0 +1,43 @@
+tensorflow,https://github.com/tensorflow/tensorflow/issues/62170,2023-10-19T09:36:17Z,['tf-gpu 2.4.0']
+tensorflow,https://github.com/tensorflow/tensorflow/issues/62142,2023-10-17T17:58:27Z,['v1.12.1-100714-gd8e55c05473 2.15.0-dev20231005']
+tensorflow,https://github.com/tensorflow/tensorflow/issues/61643,2023-08-19T02:33:17Z,['2.13.0']
+tensorflow,https://github.com/tensorflow/tensorflow/issues/61642,2023-08-19T02:28:18Z,['2.13.0']
+tensorflow,https://github.com/tensorflow/tensorflow/issues/61578,2023-08-15T02:01:35Z,['2.13.0\r']
+tensorflow,https://github.com/tensorflow/tensorflow/issues/61562,2023-08-14T23:10:46Z,['2.13.0\r']
+tensorflow,https://github.com/tensorflow/tensorflow/issues/61560,2023-08-14T23:03:24Z,['2.13.0\r']
+tensorflow,https://github.com/tensorflow/tensorflow/issues/61557,2023-08-14T22:16:47Z,['2.13.0\r']
+tensorflow,https://github.com/tensorflow/tensorflow/issues/61547,2023-08-13T06:20:08Z,['2.13.0\r']
+tensorflow,https://github.com/tensorflow/tensorflow/issues/61538,2023-08-13T04:11:20Z,['2.13.0\r']
+tensorflow,https://github.com/tensorflow/tensorflow/issues/61530,2023-08-12T16:55:59Z,['2.13.0\r']
+tensorflow,https://github.com/tensorflow/tensorflow/issues/61314,2023-07-18T14:56:01Z,['2.13.0']
+tensorflow,https://github.com/tensorflow/tensorflow/issues/60895,2023-06-16T07:46:52Z,No version
+tensorflow,https://github.com/tensorflow/tensorflow/issues/60890,2023-06-15T20:54:26Z,No version
+tensorflow,https://github.com/tensorflow/tensorflow/issues/60790,2023-06-06T20:06:53Z,No version
+tensorflow,https://github.com/tensorflow/tensorflow/issues/60275,2023-04-09T05:57:00Z,No version
+tensorflow,https://github.com/tensorflow/tensorflow/issues/60199,2023-04-01T08:30:49Z,No version
+tensorflow,https://github.com/tensorflow/tensorflow/issues/60195,2023-04-01T07:09:21Z,No version
+tensorflow,https://github.com/tensorflow/tensorflow/issues/60034,2023-03-18T10:22:30Z,No version
+tensorflow,https://github.com/tensorflow/tensorflow/issues/59729,2023-02-17T17:32:28Z,No version
+tensorflow,https://github.com/tensorflow/tensorflow/issues/59711,2023-02-16T12:17:01Z,No version
+tensorflow,https://github.com/tensorflow/tensorflow/issues/59438,2023-01-25T01:23:13Z,No version
+tensorflow,https://github.com/tensorflow/tensorflow/issues/59405,2023-01-22T16:31:20Z,No version
+tensorflow,https://github.com/tensorflow/tensorflow/issues/59394,2023-01-22T10:25:36Z,No version
+tensorflow,https://github.com/tensorflow/tensorflow/issues/59131,2023-01-06T14:16:14Z,No version
+tensorflow,https://github.com/tensorflow/tensorflow/issues/59117,2023-01-06T00:36:45Z,No version
+tensorflow,https://github.com/tensorflow/tensorflow/issues/59083,2023-01-04T05:11:15Z,No version
+tensorflow,https://github.com/tensorflow/tensorflow/issues/58489,2022-11-09T09:34:34Z,No version
+tensorflow,https://github.com/tensorflow/tensorflow/issues/57623,2022-09-06T09:00:12Z,No version
+tensorflow,https://github.com/tensorflow/tensorflow/issues/57583,2022-09-01T09:42:05Z,No version
+tensorflow,https://github.com/tensorflow/tensorflow/issues/57205,2022-08-18T10:23:08Z,No version
+tensorflow,https://github.com/tensorflow/tensorflow/issues/56885,2022-07-25T04:13:57Z,No version
+tensorflow,https://github.com/tensorflow/tensorflow/issues/56624,2022-06-29T13:52:31Z,No version
+tensorflow,https://github.com/tensorflow/tensorflow/issues/55816,2022-04-30T19:01:09Z,No version
+tensorflow,https://github.com/tensorflow/tensorflow/issues/55441,2022-03-30T21:29:30Z,No version
+tensorflow,https://github.com/tensorflow/tensorflow/issues/54969,2022-03-04T04:52:58Z,['-   **Bazel version (if compiling from source)**: N/A\r']
+tensorflow,https://github.com/tensorflow/tensorflow/issues/53196,2021-11-25T07:18:32Z,['- CUDA/cuDNN version: `NVIDIA-SMI 450.119.04   Driver Version: 450.119.04   CUDA Version: 11.4 `\r']
+tensorflow,https://github.com/tensorflow/tensorflow/issues/52988,2021-11-08T14:54:48Z,['- Bazel version (if compiling from source): N/A\r']
+tensorflow,https://github.com/tensorflow/tensorflow/issues/52223,2021-10-01T21:18:11Z,['- Bazel version (if compiling from source):\r']
+tensorflow,https://github.com/tensorflow/tensorflow/issues/50363,2021-06-19T12:45:01Z,['- CUDA version 11.2\r']
+tensorflow,https://github.com/tensorflow/tensorflow/issues/48559,2021-04-16T11:27:09Z,['- Bazel version (if compiling from source):\r']
+tensorflow,https://github.com/tensorflow/tensorflow/issues/47474,2021-03-01T11:37:31Z,['- Bazel version (if compiling from source): N/A\r']
+tensorflow,https://github.com/tensorflow/tensorflow/issues/34841,2019-12-04T23:21:03Z,['\r']
