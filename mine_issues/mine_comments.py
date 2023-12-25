@@ -16,6 +16,7 @@ TOKEN0 = os.getenv("GIT_TOKEN0")
 TOKEN1 = os.getenv("GIT_TOKEN1")
 TOKEN2 = os.getenv("GIT_TOKEN2")
 TOKEN3 = os.getenv("GIT_TOKEN3")
+TARGET = os.getenv('TARGET')
 
 tokens = {
     0: TOKEN0,
@@ -31,8 +32,10 @@ tokens_status = {
     TOKEN3: True,
 }
 
-memory_related_rules_strict = r"(Warning:|warning:)"
-
+if TARGET == 'device':
+    pattern = r'(\bERROR: OpenGL error\b|\bfail\b|ROCm fails|ROCm runtime|NCCL error\b|CPU error\b|\bmkldnn error\b|\brocm driver error\b|\bGPUassert\b|\bDLA_RUNTIME Error\b|\bCUDA compilation error\b|\bCUDA MMU fault\b|\bGPU temperature\b|\bVulkan error\b|\bvulkan validation error\b|\bOpenGL Error\b|\bVulkan errors\b|\bGPU version mismatch\b|\bGPU hangs\b|\bdriver issue\b|\bGPU driver issue\b|\bGPU memory issue\b|\bTensorRT error\b|\bGPU compatibility\b|\bcuDNN error\b|\bCUDA error\b|\bGPU support\b|\bGPU error\b|\bGPU utilization\b|\bGPU memory\b)'
+else:
+    pattern = r"(FutureWarning:|Warning:|warning:)"
 
 def requests_retry_session(
     retries=3,
@@ -112,7 +115,7 @@ def parse_comment(first_100_commits, current_token):
         try:
             for i, com in enumerate(first_100_commits):
 
-                body_match_sec = re.findall(memory_related_rules_strict, com["body"])
+                body_match_sec = re.findall(pattern, com["body"])
 
                 if body_match_sec:
                     match_flag = True

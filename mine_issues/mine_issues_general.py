@@ -157,14 +157,14 @@ def get_commits(
     for i, commit in enumerate(first_100_commits['items']):
 
         if TARGET == 'device':
-            pattern = r'(\bCUDA Out of Memory\b|\bCUDA out of memory\b|\bCUDA compilation error\b|\bGPU temperature\b|\bMixed precision training\b|\bVulkan\b|\bVulkan backend\b|\bAMP\b|\bgpu version mismatch\b|\bGPU version mismatch\b|\bgpu hangs\b|\bGPU hangs\b|\bdriver issue\b|\bgpu driver issue\b|\bGPU driver issue\b|\bGPU memory issue\b|\bTensorRT error\b|\bGPU compatibility\b|\bcuDNN error\b|\bCUDA error\b|\bGPU support\b|\bdevice placement\b|\bGPU error\b|\bGPU utilization\b|\bGPU memory\b)'
+            pattern = r'(\bERROR: OpenGL error\b|\bfail\b|ROCm fails|ROCm runtime|NCCL error\b|CPU error\b|\bmkldnn error\b|\brocm driver error\b|\bGPUassert\b|\bDLA_RUNTIME Error\b|\bCUDA compilation error\b|\bCUDA MMU fault\b|\bGPU temperature\b|\bVulkan error\b|\bvulkan validation error\b|\bOpenGL Error\b|\bVulkan errors\b|\bGPU version mismatch\b|\bGPU hangs\b|\bdriver issue\b|\bGPU driver issue\b|\bGPU memory issue\b|\bTensorRT error\b|\bGPU compatibility\b|\bcuDNN error\b|\bCUDA error\b|\bGPU support\b|\bGPU error\b|\bGPU utilization\b|\bGPU memory\b)'
         else:
             pattern = r"(FutureWarning:|Warning:|warning:)"
         title_match = False
         body_match = False
 
         if isinstance(commit["body"], str):
-            if isinstance(commit["body"], str):
+            # if re.findall(r'(from sklearn|import tensorflow as tf|import torch|from mxnet|from mxnet.gluon)', commit['body']):
                     comment_flag = parse_comment(
                         commit["comments_url"], current_token)
 
@@ -177,9 +177,9 @@ def get_commits(
                         body_match_keyword.append(re.findall(pattern, commit["body"]))
                         body_match = True
 
-                    if title_match_keyword or body_match_keyword:
-                        print(f'I matched a keyword in title: {title_match_keyword}')
-                        print(f'I matched a keyword in body: {body_match_keyword}')
+                    # if title_match_keyword or body_match_keyword:
+                    #     print(f'I matched a keyword in title: {title_match_keyword}')
+                    #     print(f'I matched a keyword in body: {body_match_keyword}')
 
                     _date = commit["created_at"]
                     sdate = _date.split("-")
@@ -205,10 +205,10 @@ def get_commits(
                                 )
 
         if i == len(first_100_commits['items']) - 1:
-            if page_number == 53:
-                print("here!")
-            last_com = response.links["next"]["url"]
-
+            if 'next' in response.links:
+                last_com = response.links["next"]["url"]
+            else:
+                return
             potential_commits = []
 
             get_commits(
@@ -254,11 +254,11 @@ def main():
 
     current_token = tokens[0]
     for keyword in PATTERN_LIST.split(','):
+        print(f"I am working on {keyword}")
         headers = {
             "Authorization": f"Bearer {current_token}"
         }
 
-        
         params = {
             "q": f"{keyword} in:issue",
             "per_page": 100, 
@@ -318,7 +318,7 @@ def main():
                 )
         else:
             if TARGET == 'device':
-                pattern = r'(\bCUDA Out of Memory\b|\bCUDA out of memory\b|\bCUDA compilation error\b|\bGPU temperature\b|\bMixed precision training\b|\bVulkan\b|\bVulkan backend\b|\bAMP\b|\bgpu version mismatch\b|\bGPU version mismatch\b|\bgpu hangs\b|\bGPU hangs\b|\bdriver issue\b|\bgpu driver issue\b|\bGPU driver issue\b|\bGPU memory issue\b|\bTensorRT error\b|\bGPU compatibility\b|\bcuDNN error\b|\bCUDA error\b|\bGPU support\b|\bdevice placement\b|\bGPU error\b|\bGPU utilization\b|\bGPU memory\b)'
+                pattern = r'(\bERROR: OpenGL error\b|\bfail\b|ROCm fails|ROCm runtime|NCCL error\b|CPU error\b|\bmkldnn error\b|\brocm driver error\b|\bGPUassert\b|\bDLA_RUNTIME Error\b|\bCUDA compilation error\b|\bCUDA MMU fault\b|\bGPU temperature\b|\bVulkan error\b|\bvulkan validation error\b|\bOpenGL Error\b|\bVulkan errors\b|\bGPU version mismatch\b|\bGPU hangs\b|\bdriver issue\b|\bGPU driver issue\b|\bGPU memory issue\b|\bTensorRT error\b|\bGPU compatibility\b|\bcuDNN error\b|\bCUDA error\b|\bGPU support\b|\bGPU error\b|\bGPU utilization\b|\bGPU memory\b)'
             else:
                 pattern = r"(FutureWarning:|Warning:|warning:)"
 
@@ -326,23 +326,23 @@ def main():
             body_match = False
 
             for issue in response_text['items']:
-            
-                comment_flag = parse_comment(issue["comments_url"], current_token)
-                
-                if re.findall(pattern, issue["title"]):
-                    title_match = True
-                if re.findall(pattern, issue["body"]):
-                    body_match = True
+                #if re.findall(r'(from sklearn|import tensorflow as tf|import torch|from mxnet|from mxnet.gluon)', issue['body']):
+                    comment_flag = parse_comment(issue["comments_url"], current_token)
+                    
+                    if re.findall(pattern, issue["title"]):
+                        title_match = True
+                    if re.findall(pattern, issue["body"]):
+                        body_match = True
 
-                _date = issue["created_at"]
-                sdate = _date.split("-")
-                print(sdate[0])
-                if title_match or body_match or comment_flag:
                     _date = issue["created_at"]
                     sdate = _date.split("-")
-                    with open(f"./output/issues/{TARGET}/all_issues.csv","a",newline="\n",) as fd:
-                        writer_object = csv.writer(fd)
-                        writer_object.writerow([issue["html_url"].split('/')[-3],issue["html_url"],issue["created_at"],])
+                    print(sdate[0])
+                    if title_match or body_match or comment_flag:
+                        _date = issue["created_at"]
+                        sdate = _date.split("-")
+                        with open(f"./output/issues/{TARGET}/all_issues.csv","a",newline="\n",) as fd:
+                            writer_object = csv.writer(fd)
+                            writer_object.writerow([issue["html_url"].split('/')[-3],issue["html_url"],issue["created_at"],])
             potential_commits = []
 
 if __name__ == "__main__":
