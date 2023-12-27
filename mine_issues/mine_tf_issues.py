@@ -206,8 +206,6 @@ def get_commits(
                             writer_object.writerow(data)
 
         if i == len(first_100_commits) - 1:
-            if page_number == 53:
-                print("here!")
             last_com = response.links["next"]["url"]
 
             potential_commits = []

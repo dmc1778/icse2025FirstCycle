@@ -1,0 +1,1434 @@
+"Keywords: GPU, attention mechanism, Tensorflow.",https://api.github.com/repos/tensorflow/tensorflow/issues/62697
+"Keywords: CUDA, tensorflow-gpu, version.",https://api.github.com/repos/tensorflow/tensorflow/issues/62696
+"Keywords: TensorFlow, aarch64, wheel file.",https://api.github.com/repos/tensorflow/tensorflow/issues/62695
+"Keywords: OpenCL, TfLite GPU delegate, bug",https://api.github.com/repos/tensorflow/tensorflow/issues/62694
+"Keywords: TensorFlow, installation, version.",https://api.github.com/repos/tensorflow/tensorflow/issues/62693
+"Keywords: TensorFlow Lite, build error, bazel.",https://api.github.com/repos/tensorflow/tensorflow/issues/62692
+"Keywords: TensorFlow, load_model, umlaut.",https://api.github.com/repos/tensorflow/tensorflow/issues/62691
+"Keywords: tf.data, autotuning, metrics.",https://api.github.com/repos/tensorflow/tensorflow/issues/62690
+"Keywords: GPU, TensorRT, TensorFlow.",https://api.github.com/repos/tensorflow/tensorflow/issues/62689
+"Keywords: CUDA, compiler, heap space.",https://api.github.com/repos/tensorflow/tensorflow/issues/62688
+"Keywords: TensorFlow, numerical precision, GPU.",https://api.github.com/repos/tensorflow/tensorflow/issues/62687
+"Keywords: GPU, memory consumption, tensorflow_java.",https://api.github.com/repos/tensorflow/tensorflow/issues/62686
+"Keywords: TFLite, CPU backend, inference.",https://api.github.com/repos/tensorflow/tensorflow/issues/62685
+"Keywords: tensorflow, GPU, issue.",https://api.github.com/repos/tensorflow/tensorflow/issues/62684
+"Keywords: mediapipe, face-detection, confidence score.",https://api.github.com/repos/tensorflow/tensorflow/issues/62683
+"Keywords: GPU, plugin, MklCPUAllocator.",https://api.github.com/repos/tensorflow/tensorflow/issues/62682
+"Keywords: GPU, ValueError, tensor shape.",https://api.github.com/repos/tensorflow/tensorflow/issues/62681
+"Keywords: tflite, Android, interpreter_delegate",https://api.github.com/repos/tensorflow/tensorflow/issues/62680
+"Keywords: TensorFlow, TFLite, crash.",https://api.github.com/repos/tensorflow/tensorflow/issues/62679
+"Keywords: GPU, LLVM, TensorFlow Nightly.",https://api.github.com/repos/tensorflow/tensorflow/issues/62678
+"Keywords: GPU, TFLite, tf.function.",https://api.github.com/repos/tensorflow/tensorflow/issues/62677
+"Keywords: temporary directory, session root, setUp method.",https://api.github.com/repos/tensorflow/tensorflow/issues/62676
+"Keywords: tensorflow-gpu, installation, subprocess-exited-with-error.",https://api.github.com/repos/tensorflow/tensorflow/issues/62675
+"Keywords: TensorFlow, TFLiteConverter, signature_def",https://api.github.com/repos/tensorflow/tensorflow/issues/62674
+"Keywords: tensorflow-cpu, meta package, platform support.",https://api.github.com/repos/tensorflow/tensorflow/issues/62673
+"Keywords: TensorFlowLiteC, xcframework, app size.",https://api.github.com/repos/tensorflow/tensorflow/issues/62671
+"Keywords: ESP32, compilation, error.",https://api.github.com/repos/tensorflow/tensorflow/issues/62670
+"Keywords: CUDA 12.2, Bazel build failure, Nvidia A100 80GB_PCIE.",https://api.github.com/repos/tensorflow/tensorflow/issues/62669
+"Keywords: tflite C++, CMake, libraries.",https://api.github.com/repos/tensorflow/tensorflow/issues/62668
+"Keywords: memory leak, TF_DeleteSession, reload model.",https://api.github.com/repos/tensorflow/tensorflow/issues/62667
+"Keywords: CUDA 12.3, cuDNN 8.9.6, XLA_GPU_ENABLE_CUDNN_FMHA.",https://api.github.com/repos/tensorflow/tensorflow/issues/62666
+"Keywords: TF 2.14, CUDA 12.2, A100 80GB.",https://api.github.com/repos/tensorflow/tensorflow/issues/62665
+"Keywords: TFLite converter, ConcreteFunctions, int8 quantization.",https://api.github.com/repos/tensorflow/tensorflow/issues/62664
+"Keywords: cuptiGetTimestamp, CUDA version, tensorboard_callback.",https://api.github.com/repos/tensorflow/tensorflow/issues/62660
+"Keywords: TensorFlow, build, ppc64le.",https://api.github.com/repos/tensorflow/tensorflow/issues/62659
+"Keywords: GPU, ImportError, Anaconda.",https://api.github.com/repos/tensorflow/tensorflow/issues/62658
+"Keywords: compilation error, dependency file, fatal error.",https://api.github.com/repos/tensorflow/tensorflow/issues/62657
+"Keywords: TFUniformReplayBuffer, observer, error.",https://api.github.com/repos/tensorflow/tensorflow/issues/62656
+"Keywords: GPU, RaggedTensors, TypeError",https://api.github.com/repos/tensorflow/tensorflow/issues/62655
+"Keywords: Android Studio, TensorFlow, Gradle.",https://api.github.com/repos/tensorflow/tensorflow/issues/62654
+"Keywords: GPU, Tensorflow, TextVectorization.",https://api.github.com/repos/tensorflow/tensorflow/issues/62653
+"Keywords: TFLite Documentation, Android Studio, hyperlinking glitch.",https://api.github.com/repos/tensorflow/tensorflow/issues/62652
+"Keywords: ESP32-CAM, TFLite model, PAD.",https://api.github.com/repos/tensorflow/tensorflow/issues/62651
+"Keywords: CUDA/cuDNN version, GPU model, Build/Install.",https://api.github.com/repos/tensorflow/tensorflow/issues/62649
+"Keywords: FP16 support, oneDNN, AVX-512.",https://api.github.com/repos/tensorflow/tensorflow/issues/62648
+"Keywords: pattern fusion, input control dependency, output control dependency.",https://api.github.com/repos/tensorflow/tensorflow/issues/62647
+"Keywords: GPU, OneDNN, performance.",https://api.github.com/repos/tensorflow/tensorflow/issues/62646
+"Keywords: Docker, CI, error.",https://api.github.com/repos/tensorflow/tensorflow/issues/62645
+"Keywords: TFUniform, replay buffer, dataset.",https://api.github.com/repos/tensorflow/tensorflow/issues/62644
+"Keywords: GPU, Learning Rate, Progress Bar.",https://api.github.com/repos/tensorflow/tensorflow/issues/62643
+"Keywords: TensorFlow, build commands, execution time.",https://api.github.com/repos/tensorflow/tensorflow/issues/62642
+"Keywords: fusion optimization, FullyConnected, TFLiteConverter.",https://api.github.com/repos/tensorflow/tensorflow/issues/62641
+"Keywords: TensorFlow, quantifying, tflite.",https://api.github.com/repos/tensorflow/tensorflow/issues/62640
+"Keywords: GPU, error, dilation.",https://api.github.com/repos/tensorflow/tensorflow/issues/62638
+"Keywords: GPU, gcc, tensorflow-nightly",https://api.github.com/repos/tensorflow/tensorflow/issues/62635
+"Keywords: crash, NullPointerException, update.",https://api.github.com/repos/tensorflow/tensorflow/issues/62634
+"Keywords: GPU, Training, Blue screen.",https://api.github.com/repos/tensorflow/tensorflow/issues/62633
+"Keywords: TensorFlow, TextFileInitializer, dtypes.",https://api.github.com/repos/tensorflow/tensorflow/issues/62631
+"Keywords: GPU, device, feature.",https://api.github.com/repos/tensorflow/tensorflow/issues/62629
+"Keywords: GPU, tensorflow, embedding_lookup.",https://api.github.com/repos/tensorflow/tensorflow/issues/62628
+"Sorry, I couldn't find any relevant keywords in the provided Github issue to extract.",https://api.github.com/repos/tensorflow/tensorflow/issues/62627
+"Keywords: cuDNN, version, documentation bug.",https://api.github.com/repos/tensorflow/tensorflow/issues/62626
+"Keywords: GPU, device, error.",https://api.github.com/repos/tensorflow/tensorflow/issues/62625
+"Keywords: Semantic Search, bug, GPU.",https://api.github.com/repos/tensorflow/tensorflow/issues/62624
+"Keywords: GPU, FP16, ViT.",https://api.github.com/repos/tensorflow/tensorflow/issues/62622
+"Keywords: metadata, interpreter, signature.",https://api.github.com/repos/tensorflow/tensorflow/issues/62620
+"Keywords: GPU, quantized types, ops.",https://api.github.com/repos/tensorflow/tensorflow/issues/62619
+"Keywords: TensorFlow, CUDA, NVIDIA.",https://api.github.com/repos/tensorflow/tensorflow/issues/62618
+"Keywords: bazel, compilation, clang-16",https://api.github.com/repos/tensorflow/tensorflow/issues/62616
+"Keywords: TFLite, inference time, version.",https://api.github.com/repos/tensorflow/tensorflow/issues/62615
+"Keywords: TensorFlow profiler, GPU hang, CUDA.",https://api.github.com/repos/tensorflow/tensorflow/issues/62614
+"Keywords: tensorflow-gpu, installation, error.",https://api.github.com/repos/tensorflow/tensorflow/issues/62613
+"Keywords: GPU, TensorFlow, SyntaxError.",https://api.github.com/repos/tensorflow/tensorflow/issues/62612
+"Keywords: TensorFlow Lite, AWS Lambda, Docker.",https://api.github.com/repos/tensorflow/tensorflow/issues/62611
+"Keywords: tflite model, error, LLVM ERROR.",https://api.github.com/repos/tensorflow/tensorflow/issues/62610
+"Keywords: Tensorflow-lite, Visual Studio, build failure.",https://api.github.com/repos/tensorflow/tensorflow/issues/62609
+"Keywords: GPU, prediction, layer normalization.",https://api.github.com/repos/tensorflow/tensorflow/issues/62607
+"Keywords: tf-tfl converter, quantization scales, tensorflow lite interpreter.",https://api.github.com/repos/tensorflow/tensorflow/issues/62605
+"Keywords: CUDA, tf.gather, Tensorflow Nightly.",https://api.github.com/repos/tensorflow/tensorflow/issues/62603
+"Keywords: MaxPooling3D, bfloat 16, tensorflow 2.12.0.",https://api.github.com/repos/tensorflow/tensorflow/issues/62602
+"Keywords: CUDA_ERROR_NO_DEVICE, tensorflow_decision_forests, TFXIO format.",https://api.github.com/repos/tensorflow/tensorflow/issues/62601
+"Keywords: depthwiseconv, accuracy issue, nnlib.",https://api.github.com/repos/tensorflow/tensorflow/issues/62600
+"Keywords: Protobuf, Bazel, upgrade.",https://api.github.com/repos/tensorflow/tensorflow/issues/62599
+"Keywords: bzlmod, MODULE.bazel, migration guide.",https://api.github.com/repos/tensorflow/tensorflow/issues/62598
+"Keywords: CUDA, compilation, clang.",https://api.github.com/repos/tensorflow/tensorflow/issues/62597
+"Keywords: gen_array_ops.py, import, array_ops.py",https://api.github.com/repos/tensorflow/tensorflow/issues/62595
+"Keywords: GPU, TensorFlow, model_prediction",https://api.github.com/repos/tensorflow/tensorflow/issues/62592
+"Keywords: GPU, float16, inference.",https://api.github.com/repos/tensorflow/tensorflow/issues/62591
+"Keywords: TensorFlow, version, advisory database.",https://api.github.com/repos/tensorflow/tensorflow/issues/62590
+"Keywords: GPU, siamese model, TensorFlow Nightly.",https://api.github.com/repos/tensorflow/tensorflow/issues/62588
+"Keywords: TensorFlow lite, Static library, build instructions.",https://api.github.com/repos/tensorflow/tensorflow/issues/62586
+"Keywords: TFLite, MirrorPad, reflect mode.",https://api.github.com/repos/tensorflow/tensorflow/issues/62585
+"Keywords: tf.maximum, dtype, TypeError.",https://api.github.com/repos/tensorflow/tensorflow/issues/62584
+"Keywords: tflite_runtime, manylinux2014_x86_64, auditwheel.",https://api.github.com/repos/tensorflow/tensorflow/issues/62581
+"Keywords: GPU, library builds, symbols.",https://api.github.com/repos/tensorflow/tensorflow/issues/62579
+"Keywords: TensorFlow, LecunNormal, seeded initializer.",https://api.github.com/repos/tensorflow/tensorflow/issues/62577
+"Keywords: TensorFlow, model, training.",https://api.github.com/repos/tensorflow/tensorflow/issues/62576
+"Keywords: TensorBoard callback, profiling, infinite loop.",https://api.github.com/repos/tensorflow/tensorflow/issues/62574
+"Keywords: GPU, freezing, tf.distribute.MirroredStrategy.",https://api.github.com/repos/tensorflow/tensorflow/issues/62571
+"Keywords: broken links, `Readme.md`, TensorFlow website.",https://api.github.com/repos/tensorflow/tensorflow/issues/62570
+"Keywords: tensor names, OPs, communication.",https://api.github.com/repos/tensorflow/tensorflow/issues/62568
+"Keywords: TFLite, GPU delegate, benchmark model.",https://api.github.com/repos/tensorflow/tensorflow/issues/62565
+"Keywords: GPU, TPU, mixed precision.",https://api.github.com/repos/tensorflow/tensorflow/issues/62564
+"Keywords: TensorFlow, top_k, negative.",https://api.github.com/repos/tensorflow/tensorflow/issues/62563
+"Keywords: TensorFlow, GPU, KeyError.",https://api.github.com/repos/tensorflow/tensorflow/issues/62559
+"Keywords: NaN, tf.GradientTape(), GPU.",https://api.github.com/repos/tensorflow/tensorflow/issues/62558
+"Keywords: CUDA, clang, build error.",https://api.github.com/repos/tensorflow/tensorflow/issues/62552
+"Keywords: GPU, memory leak, TensorFlow 3.11.",https://api.github.com/repos/tensorflow/tensorflow/issues/62551
+"Keywords: TensorFlow, XLA compilation, GPU.",https://api.github.com/repos/tensorflow/tensorflow/issues/62550
+"Keywords: XLA compilation, GPU, TensorFlow.",https://api.github.com/repos/tensorflow/tensorflow/issues/62548
+"Keywords: GPU, XLA compilation, TensorFlow.",https://api.github.com/repos/tensorflow/tensorflow/issues/62547
+"Keywords: TensorFlow, XLA compilation, GPU.",https://api.github.com/repos/tensorflow/tensorflow/issues/62546
+"Keywords: TensorFlow, XLA compilation, inconsistency.",https://api.github.com/repos/tensorflow/tensorflow/issues/62539
+"Keywords: XLA compilation, tf.matmul, tensor shapes.",https://api.github.com/repos/tensorflow/tensorflow/issues/62537
+"Keywords: TensorFlow, XLA compilation, inconsistency.",https://api.github.com/repos/tensorflow/tensorflow/issues/62535
+"Keywords: GPU, XLA, TensorFlow.",https://api.github.com/repos/tensorflow/tensorflow/issues/62534
+"Keywords: TensorFlow, GPU, XLA compilation.",https://api.github.com/repos/tensorflow/tensorflow/issues/62532
+"Keywords: TensorFlow version, AttributeError, downgrade.",https://api.github.com/repos/tensorflow/tensorflow/issues/62531
+"Keywords: Google Colab, TensorFlow, Post-Training Quantization.",https://api.github.com/repos/tensorflow/tensorflow/issues/62530
+"Keywords: TensorFlow, GPU, XLA compilation.",https://api.github.com/repos/tensorflow/tensorflow/issues/62528
+"Keywords: GPU, inconsistency, XLA compilation.",https://api.github.com/repos/tensorflow/tensorflow/issues/62527
+"Keywords: CUDA, GPU, Tensorflow.",https://api.github.com/repos/tensorflow/tensorflow/issues/62526
+"Keywords: GPU, rendezvous mechanism, strided slice op.",https://api.github.com/repos/tensorflow/tensorflow/issues/62523
+"Keywords: TensorFlow, MapStage, MapUnstage.",https://api.github.com/repos/tensorflow/tensorflow/issues/62522
+"Keywords: XLA, model, inconsistency",https://api.github.com/repos/tensorflow/tensorflow/issues/62521
+"Keywords: TensorFlow, XLA compilation, GPU.",https://api.github.com/repos/tensorflow/tensorflow/issues/62519
+"Keywords: XLA compilation, GPU, inconsistency.",https://api.github.com/repos/tensorflow/tensorflow/issues/62518
+"Keywords: TensorFlow, XLA, assertion.",https://api.github.com/repos/tensorflow/tensorflow/issues/62515
+"Keywords: XLA compilation, GPU, TensorFlow.",https://api.github.com/repos/tensorflow/tensorflow/issues/62514
+"Keywords: TensorFlow, XLA compilation, concat.",https://api.github.com/repos/tensorflow/tensorflow/issues/62512
+"Keywords: TensorFlow, XLA, compilation.",https://api.github.com/repos/tensorflow/tensorflow/issues/62510
+"Keywords: GPU, XLA compilation, Transposed tensor.",https://api.github.com/repos/tensorflow/tensorflow/issues/62509
+"Keywords: GPU, CopyCPUTensorToGPU, int32.",https://api.github.com/repos/tensorflow/tensorflow/issues/62508
+"Keywords: tf.squeeze, MemoryError, validation.",https://api.github.com/repos/tensorflow/tensorflow/issues/62507
+"Keywords: aarch64, TensorFlow, benchmarking.",https://api.github.com/repos/tensorflow/tensorflow/issues/62506
+"Keywords: tf.squeeze, MemoryError, input argument handling.",https://api.github.com/repos/tensorflow/tensorflow/issues/62504
+"Keywords: tf.truncatemod, Op, dtypes.",https://api.github.com/repos/tensorflow/tensorflow/issues/62502
+"Keywords: GPU, build process, Ubuntu 22.04.",https://api.github.com/repos/tensorflow/tensorflow/issues/62500
+"Keywords: PadV2, tflite, quantization.",https://api.github.com/repos/tensorflow/tensorflow/issues/62499
+"Keywords: GPU, TensorFlow, compiling.",https://api.github.com/repos/tensorflow/tensorflow/issues/62497
+"Keywords: GPU, ModelCheckpoint, Google Cloud Storage.",https://api.github.com/repos/tensorflow/tensorflow/issues/62495
+"Keywords: GPU, building, error.",https://api.github.com/repos/tensorflow/tensorflow/issues/62490
+"Keywords: TensorFlowException, Op type, SavedModelBundle.",https://api.github.com/repos/tensorflow/tensorflow/issues/62489
+"Keywords: TensorFlow, XLA compilation, GPU-accelerated computation.",https://api.github.com/repos/tensorflow/tensorflow/issues/62488
+"Keywords: TensorFlow, GPU, atrous_conv2d.",https://api.github.com/repos/tensorflow/tensorflow/issues/62486
+"Keywords: tensorflowlite_flex, building, option.",https://api.github.com/repos/tensorflow/tensorflow/issues/62484
+"Keywords: TensorFlow, MirroredStrategy, weights.",https://api.github.com/repos/tensorflow/tensorflow/issues/62483
+"Keywords: GPU, device, error.",https://api.github.com/repos/tensorflow/tensorflow/issues/62482
+"Keywords: TensorFlow, XLA, GPU.",https://api.github.com/repos/tensorflow/tensorflow/issues/62481
+"Keywords: tf.nn.conv2d_transpose, inconsistent outputs, GPU.",https://api.github.com/repos/tensorflow/tensorflow/issues/62477
+"Keywords: docker images, hash pinning, security benefit.",https://api.github.com/repos/tensorflow/tensorflow/issues/62472
+"Keywords: GPU, device, error.",https://api.github.com/repos/tensorflow/tensorflow/issues/62470
+"Keywords: tensorflowlite_flex, custom BUILD, model_not_existing.",https://api.github.com/repos/tensorflow/tensorflow/issues/62468
+"Keywords: TensorFlow, computation, XLA.",https://api.github.com/repos/tensorflow/tensorflow/issues/62467
+"Keywords: GPU, threads, crash.",https://api.github.com/repos/tensorflow/tensorflow/issues/62466
+"Keywords: GPU, XLA compilation, TensorFlow model.",https://api.github.com/repos/tensorflow/tensorflow/issues/62463
+"Keywords: GPU, XLA-compiled, Tensorflow.",https://api.github.com/repos/tensorflow/tensorflow/issues/62461
+"Keywords: TensorFlow, CUDA support, Clang compiler.",https://api.github.com/repos/tensorflow/tensorflow/issues/62459
+"Keywords: python, pip, package.",https://api.github.com/repos/tensorflow/tensorflow/issues/62458
+"Keywords: Bug, TensorFlow Nightly, Android.",https://api.github.com/repos/tensorflow/tensorflow/issues/62454
+"Keywords: LIT tests, legalization, quantized operators.",https://api.github.com/repos/tensorflow/tensorflow/issues/62453
+"Keywords: EqualizeRanks, SquaredDifference, LIT test.",https://api.github.com/repos/tensorflow/tensorflow/issues/62452
+"Keywords: TensorFlow, CUDA, GPU.",https://api.github.com/repos/tensorflow/tensorflow/issues/62451
+"Keywords: manylinux_2_28, tensorflow v2.15, gcc 11/GCC12.",https://api.github.com/repos/tensorflow/tensorflow/issues/62448
+"Keywords: GPU, memory consumption, convolution.",https://api.github.com/repos/tensorflow/tensorflow/issues/62441
+"Keywords: GPU, endian conversion, protobuf.",https://api.github.com/repos/tensorflow/tensorflow/issues/62437
+"Keywords: GPU, theoretical gradient, numerical gradient.",https://api.github.com/repos/tensorflow/tensorflow/issues/62436
+"Keywords: TensorFlow, GlobalMaxPooling2D, gradient.",https://api.github.com/repos/tensorflow/tensorflow/issues/62435
+"Keywords: GPU, numerical gradient, theoretical gradient.",https://api.github.com/repos/tensorflow/tensorflow/issues/62434
+"Keywords: DepthwiseConv2D, backprop, InvalidArgumentError.",https://api.github.com/repos/tensorflow/tensorflow/issues/62433
+"Keywords: TensorFlow, tf.keras.layers.Dense, backprop.",https://api.github.com/repos/tensorflow/tensorflow/issues/62432
+"Keywords: TensorFlow, Conv3DTranspose, gradient.",https://api.github.com/repos/tensorflow/tensorflow/issues/62431
+"Keywords: TensorFlow, numerical gradient, theoretical gradient.",https://api.github.com/repos/tensorflow/tensorflow/issues/62429
+"Keywords: API crashes, backprop, ValueError.",https://api.github.com/repos/tensorflow/tensorflow/issues/62427
+"Keywords: GPU, TensorFlow, Conv3D.",https://api.github.com/repos/tensorflow/tensorflow/issues/62425
+"Keywords: CUDA, tf.autodiff.ForwardAccumulator, Negative dimension size.",https://api.github.com/repos/tensorflow/tensorflow/issues/62423
+"Keywords: Forward AD, tf.autodiff.ForwardAccumulator, AveragePooling2D.",https://api.github.com/repos/tensorflow/tensorflow/issues/62422
+"Keywords: TensorFlow, AlphaDropout, noise_shape parameter.",https://api.github.com/repos/tensorflow/tensorflow/issues/62421
+"Keywords: TensorFlow, gradient, inconsistency.",https://api.github.com/repos/tensorflow/tensorflow/issues/62420
+"Keywords: GPU, random number generation, tensorflow-metal.",https://api.github.com/repos/tensorflow/tensorflow/issues/62419
+"Keywords: TensorFlow, Bazel, Clang.",https://api.github.com/repos/tensorflow/tensorflow/issues/62416
+"Keywords: warning, tensorflow, CPU instructions",https://api.github.com/repos/tensorflow/tensorflow/issues/62415
+"Keywords: GPU, colab, crash.",https://api.github.com/repos/tensorflow/tensorflow/issues/62414
+"Keywords: TensorFlow, Docker, CUDA 12.2.",https://api.github.com/repos/tensorflow/tensorflow/issues/62412
+"Keywords: GPU, device, Subgraph.",https://api.github.com/repos/tensorflow/tensorflow/issues/62411
+"Keywords: GPU, Op registry, complex dtypes.",https://api.github.com/repos/tensorflow/tensorflow/issues/62409
+"Keywords: TFLite, Android, Permission denied.",https://api.github.com/repos/tensorflow/tensorflow/issues/62407
+"Keywords: bazel coverage, c++ code coverage, python program.",https://api.github.com/repos/tensorflow/tensorflow/issues/62403
+"Keywords: TensorFlow, log_softmax, float32 error.",https://api.github.com/repos/tensorflow/tensorflow/issues/62400
+"Keywords: TensorFlow, subnormal floats, log.",https://api.github.com/repos/tensorflow/tensorflow/issues/62399
+"Keywords: TensorFlow session, session factory, GPUModelError.",https://api.github.com/repos/tensorflow/tensorflow/issues/62395
+"Keywords: TensorFlow Nightly, tf.experimental.numpy.take_along_axis, InvalidArgumentError.",https://api.github.com/repos/tensorflow/tensorflow/issues/62391
+"Keywords: GPU, performance, vectors.",https://api.github.com/repos/tensorflow/tensorflow/issues/62390
+"Keywords: TensorFlow, versions, documentation.",https://api.github.com/repos/tensorflow/tensorflow/issues/62389
+"Keywords: TensorFlow, Bazel, LLVM.",https://api.github.com/repos/tensorflow/tensorflow/issues/62384
+"Keywords: Golang, TensorFlow, Mac ARM-based.",https://api.github.com/repos/tensorflow/tensorflow/issues/62383
+"Keywords: CUDA, CMake, pthreadpool",https://api.github.com/repos/tensorflow/tensorflow/issues/62381
+"Keywords: GPU, JIT compile, tf.linalg.lstsq.",https://api.github.com/repos/tensorflow/tensorflow/issues/62378
+"Keywords: TensorFlow profiler, measurement results, TensorBoard.",https://api.github.com/repos/tensorflow/tensorflow/issues/62373
+"Keywords: Raspberry Pi, TensorFlow 2.14.0, Segmentation fault.",https://api.github.com/repos/tensorflow/tensorflow/issues/62371
+"Keywords: OutOfMemory, inter op scheduler, memory footprint.",https://api.github.com/repos/tensorflow/tensorflow/issues/62367
+"Keywords: Merged PR, rolled back, reviewer.",https://api.github.com/repos/tensorflow/tensorflow/issues/62364
+"Keywords: GPU, TensorFlow, model loading.",https://api.github.com/repos/tensorflow/tensorflow/issues/62363
+"Keywords: GPU, training, accuracy.",https://api.github.com/repos/tensorflow/tensorflow/issues/62361
+"Keywords: TFLite, conversion, delegate.",https://api.github.com/repos/tensorflow/tensorflow/issues/62360
+"Keywords: TensorFlow, Build, Onednn.",https://api.github.com/repos/tensorflow/tensorflow/issues/62355
+"Keywords: TensorFlow Nightly, load error, repositories.bzl.",https://api.github.com/repos/tensorflow/tensorflow/issues/62340
+"Keywords: CUDA, Clang, variadic functions.",https://api.github.com/repos/tensorflow/tensorflow/issues/62339
+"Keywords: TensorFlow, UNC path, load_model error.",https://api.github.com/repos/tensorflow/tensorflow/issues/62337
+"Keywords: inference, op level, tensorflow.",https://api.github.com/repos/tensorflow/tensorflow/issues/62329
+"Keywords: GPU, device, error.",https://api.github.com/repos/tensorflow/tensorflow/issues/62321
+"Keywords: TensorFlow, network drive, save error.",https://api.github.com/repos/tensorflow/tensorflow/issues/62319
+"Keywords: TensorFlow, TextVectorization, RMSprop.",https://api.github.com/repos/tensorflow/tensorflow/issues/62317
+"Keywords: GPU, device, issue.",https://api.github.com/repos/tensorflow/tensorflow/issues/62316
+"Keywords: patch, legalization, tfl.fully_connected.",https://api.github.com/repos/tensorflow/tensorflow/issues/62310
+"Keywords: GPU, device error, bug.",https://api.github.com/repos/tensorflow/tensorflow/issues/62309
+"Keywords: rfftn, tensorflow, feature request.",https://api.github.com/repos/tensorflow/tensorflow/issues/62305
+"Keywords: resizeInput, TFLite Interpreter, dynamic input shapes.",https://api.github.com/repos/tensorflow/tensorflow/issues/62303
+"Keywords: GPU, support, ResizeNearestNeighborGrad.",https://api.github.com/repos/tensorflow/tensorflow/issues/62301
+"Keywords: GPU, flatc, dependency.",https://api.github.com/repos/tensorflow/tensorflow/issues/62298
+"Keywords: GPU, RGBToHSV, tf.function.",https://api.github.com/repos/tensorflow/tensorflow/issues/62295
+"Keywords: tf.raw_ops.Pow, JIT compilation, GPU.",https://api.github.com/repos/tensorflow/tensorflow/issues/62294
+"Keywords: NDK, API level, GPU delegate.",https://api.github.com/repos/tensorflow/tensorflow/issues/62292
+"Keywords: compile issues, microfrontend, enabled.",https://api.github.com/repos/tensorflow/tensorflow/issues/62291
+"Keywords: GPU, compiler errors, warnings.",https://api.github.com/repos/tensorflow/tensorflow/issues/62290
+"Keywords: Segmentation fault, TensorFlow, TFLiteConverter",https://api.github.com/repos/tensorflow/tensorflow/issues/62281
+"Keywords: tf.raw_ops.Acos, JIT compilation, GPU.",https://api.github.com/repos/tensorflow/tensorflow/issues/62280
+"Keywords: GPU, tf.raw_ops.Cos, tf.raw_ops.Square.",https://api.github.com/repos/tensorflow/tensorflow/issues/62279
+"Keywords: GPU, tf.raw_ops, BatchMatMulV2.",https://api.github.com/repos/tensorflow/tensorflow/issues/62276
+"Keywords: tf.nn.depthwise_conv2d, strides, documentation.",https://api.github.com/repos/tensorflow/tensorflow/issues/62271
+"Keywords: tf.raw_ops, JIT compilation, inconsistency.",https://api.github.com/repos/tensorflow/tensorflow/issues/62267
+"Keywords: GPU, tf.raw_ops.AdjustSaturation, inconsistency.",https://api.github.com/repos/tensorflow/tensorflow/issues/62265
+"Keywords: tf.raw_ops.SqrtGrad, JIT compilation, GPU.",https://api.github.com/repos/tensorflow/tensorflow/issues/62263
+"Keywords: tf.raw_ops.DivNoNan, JIT compilation, GPU device.",https://api.github.com/repos/tensorflow/tensorflow/issues/62255
+"Keywords: tf.raw_ops.Zeta, tf.raw_ops.Square, inconsistent results.",https://api.github.com/repos/tensorflow/tensorflow/issues/62254
+"Keywords: tf.raw_ops.Zeta, JIT compilation, CPU device.",https://api.github.com/repos/tensorflow/tensorflow/issues/62251
+"Keywords: TensorFlow, tf.function, inconsistent results.",https://api.github.com/repos/tensorflow/tensorflow/issues/62247
+"Keywords: tf.raw_ops.Zeta, JIT compilation, CPU device.",https://api.github.com/repos/tensorflow/tensorflow/issues/62246
+"Keywords: Tensorflow, GPU, translation.",https://api.github.com/repos/tensorflow/tensorflow/issues/62245
+"Keywords: tf.image.non_max_suppression_padded, CUDA, implementation.",https://api.github.com/repos/tensorflow/tensorflow/issues/62244
+"Keywords: RISC-V, soft-float, double-float.",https://api.github.com/repos/tensorflow/tensorflow/issues/62241
+"Keywords: TensorFlow, GPU, tf.function.",https://api.github.com/repos/tensorflow/tensorflow/issues/62237
+"Keywords: tf.raw_ops.Cosh, JIT compilation, GPU device.",https://api.github.com/repos/tensorflow/tensorflow/issues/62236
+"Keywords: GPU, TensorFlow, cuDNN.",https://api.github.com/repos/tensorflow/tensorflow/issues/62234
+"Keywords: TensorFlow XLA AOT Compilation, CUDA, GPU model.",https://api.github.com/repos/tensorflow/tensorflow/issues/62231
+"Keywords: GPU, TensorFlow, build error.",https://api.github.com/repos/tensorflow/tensorflow/issues/62228
+"Keywords: TensorFlow, bounding boxes, vectorized.",https://api.github.com/repos/tensorflow/tensorflow/issues/62226
+"Keywords: GPU, tf.raw_ops.Asinh, JIT compilation.",https://api.github.com/repos/tensorflow/tensorflow/issues/62220
+"Keywords: TensorFlow, typing-extensions, bug.",https://api.github.com/repos/tensorflow/tensorflow/issues/62217
+"Keywords: GPU, device, error.",https://api.github.com/repos/tensorflow/tensorflow/issues/62216
+"Keywords: XNNPACK, profiling, flags.",https://api.github.com/repos/tensorflow/tensorflow/issues/62214
+"Keywords: padding, computation, transpose_conv2d.",https://api.github.com/repos/tensorflow/tensorflow/issues/62213
+"Keywords: CUDA, Sigmoid, Inconsistent behavior.",https://api.github.com/repos/tensorflow/tensorflow/issues/62212
+"Keywords: GPU, tf.image.resize, matplotlib.imshow",https://api.github.com/repos/tensorflow/tensorflow/issues/62205
+"Keywords: memory leak, tf.random.normal, tf.function.",https://api.github.com/repos/tensorflow/tensorflow/issues/62203
+"Keywords: GPU, quantization, error.",https://api.github.com/repos/tensorflow/tensorflow/issues/62196
+"Keywords: TensorFlow, Docker, cuDNN.",https://api.github.com/repos/tensorflow/tensorflow/issues/62194
+"Keywords: GPU, weights, mismatch.",https://api.github.com/repos/tensorflow/tensorflow/issues/62193
+"Keywords: TensorFlow, string to number, error.",https://api.github.com/repos/tensorflow/tensorflow/issues/62191
+"Keywords: TensorFlow, hessians, AddN.",https://api.github.com/repos/tensorflow/tensorflow/issues/62187
+"Keywords: TensorFlow, TensorScatterUpdate, GPU error.",https://api.github.com/repos/tensorflow/tensorflow/issues/62184
+"Keywords: TFLite, transposed conv, PyTorch.",https://api.github.com/repos/tensorflow/tensorflow/issues/62181
+"Keywords: GPU, tf.map_fn, backpropagation.",https://api.github.com/repos/tensorflow/tensorflow/issues/62174
+"Keywords: TensorFlow Lite, Android Emulator, UnsatisfiedLinkError.",https://api.github.com/repos/tensorflow/tensorflow/issues/62173
+"Keywords: TensorFlow, quantization, CNN.",https://api.github.com/repos/tensorflow/tensorflow/issues/62171
+"Keywords: TensorFlow, GPU memory, u-net model.",https://api.github.com/repos/tensorflow/tensorflow/issues/62170
+"Keywords: CUDA, TensorFlow Lite, segmentation fault",https://api.github.com/repos/tensorflow/tensorflow/issues/62169
+"Keywords: reduce_prod, null pointer dereference, segmentation fault.",https://api.github.com/repos/tensorflow/tensorflow/issues/62168
+"Keywords: pad operator, null pointer dereference, TensorFlow Lite.",https://api.github.com/repos/tensorflow/tensorflow/issues/62167
+"Keywords: GPU, null pointer dereference, segmentation fault.",https://api.github.com/repos/tensorflow/tensorflow/issues/62166
+"Keywords: null pointer dereference, TensorFlow Lite, benchmark_model.",https://api.github.com/repos/tensorflow/tensorflow/issues/62165
+"Keywords: GPU, TensorFlow, reshape",https://api.github.com/repos/tensorflow/tensorflow/issues/62164
+"Keywords: null pointer dereference, TensorFlow Lite, benchmarking.",https://api.github.com/repos/tensorflow/tensorflow/issues/62163
+"Keywords: dequantize operator, null pointer dereference, TensorFlow Lite.",https://api.github.com/repos/tensorflow/tensorflow/issues/62162
+"Keywords: densify operator, null pointer dereference, TensorFlow Lite.",https://api.github.com/repos/tensorflow/tensorflow/issues/62161
+"Keywords: TensorFlow, squeeze operator, segmentation fault.",https://api.github.com/repos/tensorflow/tensorflow/issues/62160
+"Keywords: Relu6Eval, denial of service, out-of-bounds write.",https://api.github.com/repos/tensorflow/tensorflow/issues/62159
+"Keywords: GPU, device, error.",https://api.github.com/repos/tensorflow/tensorflow/issues/62153
+"Keywords: thread pool, performance degradation, AArch64.",https://api.github.com/repos/tensorflow/tensorflow/issues/62152
+"Keywords: TFL, TOSA legalization, GELU approximation transform.",https://api.github.com/repos/tensorflow/tensorflow/issues/62149
+"Keywords: TensorFlow, BiasAdd, core dumped.",https://api.github.com/repos/tensorflow/tensorflow/issues/62146
+"Keywords: CUDA, core dumped, Conv2DBackpropFilter.",https://api.github.com/repos/tensorflow/tensorflow/issues/62142
+"Keywords: GPU, macOS, autoencoder.",https://api.github.com/repos/tensorflow/tensorflow/issues/62137
+"Keywords: GPU, configuration, command line.",https://api.github.com/repos/tensorflow/tensorflow/issues/62130
+"Keywords: TFLite, GPU Delegate, Android device.",https://api.github.com/repos/tensorflow/tensorflow/issues/62120
+"Keywords: TensorFlow 2.14, manylinux failures, auditwheel.",https://api.github.com/repos/tensorflow/tensorflow/issues/62103
+"Keywords: TensorFlow, enable_op_determinism, convolution layers.",https://api.github.com/repos/tensorflow/tensorflow/issues/62100
+"Keywords: GPU, false test failure, numpy bug.",https://api.github.com/repos/tensorflow/tensorflow/issues/62096
+"Keywords: ParameterServer, communication overhead, keras model.",https://api.github.com/repos/tensorflow/tensorflow/issues/62093
+"Keywords: TensorFlow, depthwise conv, mixed_float16.",https://api.github.com/repos/tensorflow/tensorflow/issues/62089
+"Keywords: TensorFlow, ExtensionType, Nested ExtensionTypes.",https://api.github.com/repos/tensorflow/tensorflow/issues/62082
+"Keywords: nvcc, compilation, absl/strings/str_format.h",https://api.github.com/repos/tensorflow/tensorflow/issues/62081
+"Keywords: dimension, TFL_NumElementsEqualsDim, fixes.",https://api.github.com/repos/tensorflow/tensorflow/issues/62079
+"Keywords: RaggedTensors, performance, embedding_lookup.",https://api.github.com/repos/tensorflow/tensorflow/issues/62078
+"Keywords: TFL_NumElementsEqualsDim, dimensions, filter.",https://api.github.com/repos/tensorflow/tensorflow/issues/62076
+"Keywords: cuDNN, CUDA, GPU.",https://api.github.com/repos/tensorflow/tensorflow/issues/62075
+"Keywords: TensorFlow, truncatediv, dtype.",https://api.github.com/repos/tensorflow/tensorflow/issues/62071
+"Keywords: TensorFlow, truncatemod, data type.",https://api.github.com/repos/tensorflow/tensorflow/issues/62070
+"Keywords: TensorFlow, GPU, gather method.",https://api.github.com/repos/tensorflow/tensorflow/issues/62065
+"Keywords: TensorFlow, Windows, native libraries.",https://api.github.com/repos/tensorflow/tensorflow/issues/62062
+"Keywords: TensorFlow, Segmentation Fault, Pose Detector.",https://api.github.com/repos/tensorflow/tensorflow/issues/62058
+"Keywords: CUDA, QuantizeAndDequantizeV4, core dumped.",https://api.github.com/repos/tensorflow/tensorflow/issues/62055
+"Keywords: GPU, TensorFlow, callback.",https://api.github.com/repos/tensorflow/tensorflow/issues/62053
+"Keywords: tf-opt, flatbuffer_translate, compilation.",https://api.github.com/repos/tensorflow/tensorflow/issues/62044
+"Keywords: TFL, TOSA, scaling ratio.",https://api.github.com/repos/tensorflow/tensorflow/issues/62041
+"Keywords: error C2665, std::atomic_flag, ATOMIC_FLAG_INIT.",https://api.github.com/repos/tensorflow/tensorflow/issues/62037
+"Keywords: pip install, tf-nightly, CUDA.",https://api.github.com/repos/tensorflow/tensorflow/issues/62035
+"Keywords: padding, input dim, stride.",https://api.github.com/repos/tensorflow/tensorflow/issues/62034
+"Keywords: TensorFlow, Go bindings, deprecated packages.",https://api.github.com/repos/tensorflow/tensorflow/issues/62020
+"Keywords: TensorFlow, IPv6, profiler_client.",https://api.github.com/repos/tensorflow/tensorflow/issues/62018
+"Keywords: TensorFlow, TFLite, ConverterError.",https://api.github.com/repos/tensorflow/tensorflow/issues/62014
+"Keywords: GPU, device, errors.",https://api.github.com/repos/tensorflow/tensorflow/issues/62012
+"Keywords: tf.data.Dataset, tf.train.Checkpoint, iterator.",https://api.github.com/repos/tensorflow/tensorflow/issues/62006
+"Keywords: GPU, device, legalization.",https://api.github.com/repos/tensorflow/tensorflow/issues/62005
+"Keywords: TimeDistributed, multi-output layers, AttributeError.",https://api.github.com/repos/tensorflow/tensorflow/issues/62004
+"Keywords: Python 3.12 compatibility, TensorFlow nightly, Installation issue.",https://api.github.com/repos/tensorflow/tensorflow/issues/62003
+"Keywords: CUDA/cuDNN, tensorflow, error.",https://api.github.com/repos/tensorflow/tensorflow/issues/62002
+"Keywords: TensorFlow, build, ld_error",https://api.github.com/repos/tensorflow/tensorflow/issues/62001
+"Keywords: TensorFlow, metadata, dependencies.",https://api.github.com/repos/tensorflow/tensorflow/issues/62000
+"Keywords: GPU, device, errors.",https://api.github.com/repos/tensorflow/tensorflow/issues/61994"Keywords: GPU, device, error.",https://api.github.com/repos/pytorch/pytorch/issues/116434
+"Keywords: inductor, dynamic shapes, strides.",https://api.github.com/repos/pytorch/pytorch/issues/116433
+"Keywords: memory corruption, IValueUnion, flatbuffer.",https://api.github.com/repos/pytorch/pytorch/issues/116432
+"Keywords: clang-tidy, lint warnings, variable naming rules.",https://api.github.com/repos/pytorch/pytorch/issues/116431
+"Keywords: distributed training, functional collectives, DTensor.",https://api.github.com/repos/pytorch/pytorch/issues/116430
+"Keywords: GPU, device errors, ghstack.",https://api.github.com/repos/pytorch/pytorch/issues/116429
+"Keywords: GPU, device errors, Github issue.",https://api.github.com/repos/pytorch/pytorch/issues/116428
+"Keywords: GPU, device, error.",https://api.github.com/repos/pytorch/pytorch/issues/116427
+"Keywords: GPU, device, error.",https://api.github.com/repos/pytorch/pytorch/issues/116426
+"Keywords: triton, tests, linting.",https://api.github.com/repos/pytorch/pytorch/issues/116425
+"Keywords: GPU, test, scatter reduce.",https://api.github.com/repos/pytorch/pytorch/issues/116424
+"Keywords: GPU, segmentation fault, torch.distributed.",https://api.github.com/repos/pytorch/pytorch/issues/116423
+"Keywords: clang-16, FreeBSD 14.0, C++14.",https://api.github.com/repos/pytorch/pytorch/issues/116422
+"Keywords: get_unbacked_symbol_defs, set membership, deterministic.",https://api.github.com/repos/pytorch/pytorch/issues/116421
+"Keywords: PyTorch, CUDA, AvgPool2d.",https://api.github.com/repos/pytorch/pytorch/issues/116420
+"Keywords: GPU, device, error.",https://api.github.com/repos/pytorch/pytorch/issues/116419
+"Keywords: GPU, device, error.",https://api.github.com/repos/pytorch/pytorch/issues/116418
+"Keywords: Opinfo, third-party devices, test framework.",https://api.github.com/repos/pytorch/pytorch/issues/116417
+"Keywords: Build fails, error, cast.",https://api.github.com/repos/pytorch/pytorch/issues/116416
+"Keywords: onnx, floating_point_exception, PyTorch.",https://api.github.com/repos/pytorch/pytorch/issues/116415
+"Keywords: GPU, complex convolution, CUDA.",https://api.github.com/repos/pytorch/pytorch/issues/116414
+"Keywords: GPU, refactor, annotations.",https://api.github.com/repos/pytorch/pytorch/issues/116413
+"Keywords: Intel GPU Inductor, backend, code generation.",https://api.github.com/repos/pytorch/pytorch/issues/116411
+"Keywords: torch, DtypeTensor, options_from_string.",https://api.github.com/repos/pytorch/pytorch/issues/116410
+"Keywords: FSDP, SHARD_GRAD_OP, torch version 2.1.0.",https://api.github.com/repos/pytorch/pytorch/issues/116409
+"Keywords: oneDNN, GEMM, matmul fusion.",https://api.github.com/repos/pytorch/pytorch/issues/116406
+"Keywords: GPU, device, error.",https://api.github.com/repos/pytorch/pytorch/issues/116404
+"Keywords: GPU, pin_memory, device.",https://api.github.com/repos/pytorch/pytorch/issues/116403
+"Keywords: GPU, device, error.",https://api.github.com/repos/pytorch/pytorch/issues/116401
+"Keywords: RuntimeError, transformer, multi_head_attention_forward.",https://api.github.com/repos/pytorch/pytorch/issues/116400
+"Keywords: operator, test suite, coverage.",https://api.github.com/repos/pytorch/pytorch/issues/116397
+"Keywords: GPU, operators, torch.",https://api.github.com/repos/pytorch/pytorch/issues/116396
+"Keywords: torch, distributed, IndexError.",https://api.github.com/repos/pytorch/pytorch/issues/116393
+"Keywords: GPU, getattr, tuple(tensor).",https://api.github.com/repos/pytorch/pytorch/issues/116391
+"Keywords: Intel GPU, device-related APIs, lazy initialization.",https://api.github.com/repos/pytorch/pytorch/issues/116390
+"Keywords: auto-generated, xla hash, nightly.",https://api.github.com/repos/pytorch/pytorch/issues/116388
+"Keywords: RUNTIME_EXCEPTION, onnx, onnxruntime.",https://api.github.com/repos/pytorch/pytorch/issues/116386
+"Keywords: AttributeError, TransformerEncoderLayer, device.",https://api.github.com/repos/pytorch/pytorch/issues/116385
+"Keywords: modules, torch.nn, executorch.",https://api.github.com/repos/pytorch/pytorch/issues/116384
+"Keywords: GPU, device, error.",https://api.github.com/repos/pytorch/pytorch/issues/116383
+"I'm sorry, but I am unable to extract any keywords from the provided Github issue.",https://api.github.com/repos/pytorch/pytorch/issues/116382
+"Keywords: GPU, bug, speed improvement.",https://api.github.com/repos/pytorch/pytorch/issues/116377
+"Keywords: GPU, sequences, efficient.",https://api.github.com/repos/pytorch/pytorch/issues/116376
+"Keywords: GPU, device, errors.",https://api.github.com/repos/pytorch/pytorch/issues/116375
+"Keywords: unintentional modification, treespec.children_specs, attribute.",https://api.github.com/repos/pytorch/pytorch/issues/116374
+"Keywords: GPU, device error, ghstack.",https://api.github.com/repos/pytorch/pytorch/issues/116372
+"Keywords: GPU, device, error.",https://api.github.com/repos/pytorch/pytorch/issues/116371
+"Keywords: aten operation, torch.compile, hermetic Python object.",https://api.github.com/repos/pytorch/pytorch/issues/116368
+"Keywords: GPU, multi-threading, benchmarks.",https://api.github.com/repos/pytorch/pytorch/issues/116367
+"Keywords: mixed precision, LSTM, RuntimeError.",https://api.github.com/repos/pytorch/pytorch/issues/116361
+"Keywords: GPU, device errors, ghstack.",https://api.github.com/repos/pytorch/pytorch/issues/116360
+"Keywords: GPU, autograd, tracing.",https://api.github.com/repos/pytorch/pytorch/issues/116358
+"Keywords: clang-tidy, readability-simplify-subscript-expr, STL.",https://api.github.com/repos/pytorch/pytorch/issues/116356
+"Keywords: PyTorch, cloud computing, GPU.",https://api.github.com/repos/pytorch/pytorch/issues/116354
+"Keywords: clang-tidy, coverage, c10.",https://api.github.com/repos/pytorch/pytorch/issues/116353
+"Keywords: full_coo_indices, ones, efficiency.",https://api.github.com/repos/pytorch/pytorch/issues/116352
+"Keywords: torch.quantize_per_channel, FPE, AddressSanitizer.",https://api.github.com/repos/pytorch/pytorch/issues/116351
+"Keywords: scaled_dot_product_attention, RuntimeError, derivative.",https://api.github.com/repos/pytorch/pytorch/issues/116350
+"Keywords: CrossEntropyLoss, nan, bug.",https://api.github.com/repos/pytorch/pytorch/issues/116349
+"Keywords: RuntimeError, derivative, scaled_dot_product_attention.",https://api.github.com/repos/pytorch/pytorch/issues/116348
+"Keywords: pool1d, max_pool1d, check.",https://api.github.com/repos/pytorch/pytorch/issues/116342
+"Keywords: export, training, grad mode ops.",https://api.github.com/repos/pytorch/pytorch/issues/116339
+"Keywords: GPU, torch, ValueError.",https://api.github.com/repos/pytorch/pytorch/issues/116336
+"Keywords: GPU, device, error.",https://api.github.com/repos/pytorch/pytorch/issues/116334
+"Keywords: contiguous, CUDA, scaled_dot_product_attention.",https://api.github.com/repos/pytorch/pytorch/issues/116333
+"Keywords: GPU, inference, transformers.",https://api.github.com/repos/pytorch/pytorch/issues/116331
+"Keywords: GPU, device-bias, runtime code.",https://api.github.com/repos/pytorch/pytorch/issues/116330
+"Keywords: ROCm, layout optimization, NHWC.",https://api.github.com/repos/pytorch/pytorch/issues/116329
+"Keywords: torch, quantized_max_pool1d, Segmentation fault.",https://api.github.com/repos/pytorch/pytorch/issues/116323
+"Keywords: GPU, Device Allocator, Memory caching mechanism.",https://api.github.com/repos/pytorch/pytorch/issues/116322
+"Keywords: Intel GPU, device-related APIs, XPUHooks.",https://api.github.com/repos/pytorch/pytorch/issues/116321
+"Keywords: vmap, ensemble models, CUDA.",https://api.github.com/repos/pytorch/pytorch/issues/116320
+"Keywords: ops consistency tests, dtype bugs, ONNX registry.",https://api.github.com/repos/pytorch/pytorch/issues/116319
+"Keywords: GPU, optimization, benchmark.",https://api.github.com/repos/pytorch/pytorch/issues/116318
+"Keywords: oneDNN, Intel GPU, compilation.",https://api.github.com/repos/pytorch/pytorch/issues/116317
+"Keywords: GPU, device, error.",https://api.github.com/repos/pytorch/pytorch/issues/116316
+"Keywords: SparseAdam, test_errors, bug.",https://api.github.com/repos/pytorch/pytorch/issues/116315
+"Keywords: flaky test, CI, debugging.",https://api.github.com/repos/pytorch/pytorch/issues/116314
+"Keywords: Disable, pointwise_cat, CPU.",https://api.github.com/repos/pytorch/pytorch/issues/116313
+"Keywords: lintrunner, MYPYINDUCTOR, patches.",https://api.github.com/repos/pytorch/pytorch/issues/116311
+"Keywords: GPU, device, efficient.",https://api.github.com/repos/pytorch/pytorch/issues/116310
+"Keywords: GPU, subclass, double replay process.",https://api.github.com/repos/pytorch/pytorch/issues/116308
+"Keywords: torch.onnx.errors.UnsupportedOperatorError, aten_bicubic_2d, Tesla T4.",https://api.github.com/repos/pytorch/pytorch/issues/116306
+"Keywords: tests, native kernels, GPU.",https://api.github.com/repos/pytorch/pytorch/issues/116305
+"Keywords: rendezvous, C10 based store, timeout.",https://api.github.com/repos/pytorch/pytorch/issues/116304
+"Keywords: GPU, device, error.",https://api.github.com/repos/pytorch/pytorch/issues/116303
+"Keywords: GPU, device, errors.",https://api.github.com/repos/pytorch/pytorch/issues/116302
+"Keywords: GPU, optimize_ddp_lazy_compile, stride.",https://api.github.com/repos/pytorch/pytorch/issues/116300
+"Keywords: GPU capability, build time flag, hasMAGMA.",https://api.github.com/repos/pytorch/pytorch/issues/116299
+"Keywords: GPU, device errors, Github issue.",https://api.github.com/repos/pytorch/pytorch/issues/116295
+"Keywords: custom dtypes, python frontend, torch.int4.",https://api.github.com/repos/pytorch/pytorch/issues/116294
+"Keywords: CUDA error, illegal memory access, device-side assertions.",https://api.github.com/repos/pytorch/pytorch/issues/116289
+"Keywords: tensor types, cum_seq outputs, empty tensors.",https://api.github.com/repos/pytorch/pytorch/issues/116286
+"Keywords: pad_sequence, symbolic shape specialization, export.",https://api.github.com/repos/pytorch/pytorch/issues/116285
+"Keywords: ROCm, Fedora, cmake variable.",https://api.github.com/repos/pytorch/pytorch/issues/116277
+"Keywords: lldb, cuInit, SIGCHLD.",https://api.github.com/repos/pytorch/pytorch/issues/116276
+"Keywords: failing workflows, GPU, reversion.",https://api.github.com/repos/pytorch/pytorch/issues/116273
+"Keywords: dynamo, scipy.stats.kstest, RuntimeError.",https://api.github.com/repos/pytorch/pytorch/issues/116271
+"Keywords: GPU, device, error.",https://api.github.com/repos/pytorch/pytorch/issues/116270
+"Keywords: GPU, torch, AOTIModelContainerRunner",https://api.github.com/repos/pytorch/pytorch/issues/116269
+"Keywords: GPU, log organization, timeout.",https://api.github.com/repos/pytorch/pytorch/issues/116268
+"Keywords: Dynamo CI, green, GPU.",https://api.github.com/repos/pytorch/pytorch/issues/116265
+"Keywords: PyTorch, bug, dataclass.",https://api.github.com/repos/pytorch/pytorch/issues/116264
+"Keywords: GPU, device, error.",https://api.github.com/repos/pytorch/pytorch/issues/116261
+"Keywords: HPU, RuntimeError, backendCompilerFailed.",https://api.github.com/repos/pytorch/pytorch/issues/116259
+"Keywords: GPU, device, error.",https://api.github.com/repos/pytorch/pytorch/issues/116258
+"Keywords: Torch.compile, ipex, backend.",https://api.github.com/repos/pytorch/pytorch/issues/116257
+"Keywords: torch.onnx, quantization, unsupportedOperatorError.",https://api.github.com/repos/pytorch/pytorch/issues/116256
+"Keywords: GPU, CUDA, PyTorch.",https://api.github.com/repos/pytorch/pytorch/issues/116255
+"Keywords: at::quantized_max_pool2d, heap buffer overflow, specific input.",https://api.github.com/repos/pytorch/pytorch/issues/116254
+"Keywords: torch.Tensor.flipud, heap buffer overflow, PyTorch 2.3.0a0+git1ee7950.",https://api.github.com/repos/pytorch/pytorch/issues/116253
+"Keywords: heap buffer overflow, torch.Tensor.fliplr, AddressSanitizer",https://api.github.com/repos/pytorch/pytorch/issues/116252
+"Keywords: heap buffer overflow, torch.Tensor.flip, specific input.",https://api.github.com/repos/pytorch/pytorch/issues/116251
+"Keywords: conda, mxnet, ModuleNotFoundError.",https://api.github.com/repos/apache/mxnet/issues/21226
+"Keywords: mxnet-cu110, AttributeError, module.",https://api.github.com/repos/apache/mxnet/issues/21225
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/21224
+"Keywords: mxnet, numpy, AttributeError.",https://api.github.com/repos/apache/mxnet/issues/21223
+"Keywords: GPU, device errors, bugs.",https://api.github.com/repos/apache/mxnet/issues/21222
+"Keywords: GPU, device, vulnerability.",https://api.github.com/repos/apache/mxnet/issues/21221
+"Keywords: conversational UI, natural language interfaces, API requests.",https://api.github.com/repos/apache/mxnet/issues/21220
+"Keywords: GPU, device, setup.py.",https://api.github.com/repos/apache/mxnet/issues/21219
+"Keywords: barrier function, Horovod KV Store API, PR's title.",https://api.github.com/repos/apache/mxnet/issues/21217
+"Keywords: build bots, GPU, validation.",https://api.github.com/repos/apache/mxnet/issues/21216
+"Keywords: GPU, device, errors.",https://api.github.com/repos/apache/mxnet/issues/21215
+"Keywords: mxnet, M1 machine, numpy.",https://api.github.com/repos/apache/mxnet/issues/21213
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/21212
+"Keywords: Cuda 11.8, mxnet-cu118, deprecated container.",https://api.github.com/repos/apache/mxnet/issues/21210
+"Keywords: GPU, error message, stack trace.",https://api.github.com/repos/apache/mxnet/issues/21209
+"Keywords: nvidia-smi, CUDA, MXNet.",https://api.github.com/repos/apache/mxnet/issues/21208
+"Keywords: GPU, device, errors.",https://api.github.com/repos/apache/mxnet/issues/21207
+"Keywords: MXNet, deep learning, community.",https://api.github.com/repos/apache/mxnet/issues/21206
+"Keywords: logger, files, occupy.",https://api.github.com/repos/apache/mxnet/issues/21204
+"Keywords: MXNetError, reorder primitive, convolution.",https://api.github.com/repos/apache/mxnet/issues/21199
+"Keywords: GPU, mxnet, gather_nd.",https://api.github.com/repos/apache/mxnet/issues/21195
+"Keywords: CUDA Toolkit 12.x, API breaking changes, cudaGraphExecUpdateResultInfo.",https://api.github.com/repos/apache/mxnet/issues/21190
+"Keywords: SoftmaxCrossEntropy, class_weights, TypeError.",https://api.github.com/repos/apache/mxnet/issues/21189
+"Keywords: MXNetError, parameter format, Docker.",https://api.github.com/repos/apache/mxnet/issues/21187
+"Keywords: GPU, device error, params file.",https://api.github.com/repos/apache/mxnet/issues/21184
+"Keywords: AWSCLI, Python, version.",https://api.github.com/repos/apache/mxnet/issues/21181
+"Keywords: MXNet, pip install, Windows users.",https://api.github.com/repos/apache/mxnet/issues/21180
+"Keywords: mxnet, cudnn, cublas error.",https://api.github.com/repos/apache/mxnet/issues/21179
+"Keywords: pip, installation, version.",https://api.github.com/repos/apache/mxnet/issues/21178
+"Keywords: NHWC format, Conv2D, CPU devices.",https://api.github.com/repos/apache/mxnet/issues/21176
+"Keywords: GPU, device, errors.",https://api.github.com/repos/apache/mxnet/issues/21171
+"Keywords: MacOS, compilation, CMake.",https://api.github.com/repos/apache/mxnet/issues/21170
+"Keywords: MXNet, NumPy 1.24, OpenVINO.",https://api.github.com/repos/apache/mxnet/issues/21165
+"Keywords: GPU, device, errors.",https://api.github.com/repos/apache/mxnet/issues/21164
+"Keywords: mxnet, RTX3090, whl file.",https://api.github.com/repos/apache/mxnet/issues/21160
+"Keywords: command injection, bug fix, argument injection.",https://api.github.com/repos/apache/mxnet/issues/21159
+"Keywords: GPU, TypeError, MXNet.",https://api.github.com/repos/apache/mxnet/issues/21156
+"Keywords: CVE-2007-4559, patch, tarfile.",https://api.github.com/repos/apache/mxnet/issues/21155
+"Keywords: MXNet, Perl bindings, symbol lookup error",https://api.github.com/repos/apache/mxnet/issues/21154
+"Keywords: mxnet, compilation error, CUDA_CALL.",https://api.github.com/repos/apache/mxnet/issues/21153
+"Keywords: mxnet, decorators, python.",https://api.github.com/repos/apache/mxnet/issues/21150
+"Keywords: GPU, device, errors.",https://api.github.com/repos/apache/mxnet/issues/21147
+"Keywords: DeferredInitializationError, Parameter, AttributeError.",https://api.github.com/repos/apache/mxnet/issues/21146
+"Keywords: Ubuntu 22.04, CUDA 11.7, linker errors.",https://api.github.com/repos/apache/mxnet/issues/21144
+"Keywords: RNN, gradient, sequence length.",https://api.github.com/repos/apache/mxnet/issues/21143
+"Keywords: C Predict API, uninitialized read, symbols.",https://api.github.com/repos/apache/mxnet/issues/21141
+"Keywords: Mxnet, compiling, error.",https://api.github.com/repos/apache/mxnet/issues/21138
+"Keywords: mxnet library, Linux machines, operator tuning.",https://api.github.com/repos/apache/mxnet/issues/21135
+"Keywords: GPU, mxnet, CUDA.",https://api.github.com/repos/apache/mxnet/issues/21125
+"Keywords: GPU, segment fault, MxNet1.9.1.",https://api.github.com/repos/apache/mxnet/issues/21119
+"Keywords: MXNet, distributed training, sparse gradients.",https://api.github.com/repos/apache/mxnet/issues/21118
+"Keywords: nvidia-container-cli, driver/library version mismatch, initialization error.",https://api.github.com/repos/apache/mxnet/issues/21114
+"Keywords: CI jobs, ClosedChannelException, workspace.",https://api.github.com/repos/apache/mxnet/issues/21113
+"Keywords: cudnn, batchnorm, inconsistency.",https://api.github.com/repos/apache/mxnet/issues/21111
+"Keywords: pip install, legacy-install-failure, numpy.",https://api.github.com/repos/apache/mxnet/issues/21109
+"Keywords: FlexiBLAS, vendor, BLAS libs.",https://api.github.com/repos/apache/mxnet/issues/21093
+"Keywords: GPU, gradients, autograd.",https://api.github.com/repos/apache/mxnet/issues/21091
+"Keywords: CUDA, build, errors.",https://api.github.com/repos/apache/mxnet/issues/21085
+"Keywords: num_workers, DataLoader, AttributeError.",https://api.github.com/repos/apache/mxnet/issues/21084
+"Keywords: MXNet, compilation, CUDA.",https://api.github.com/repos/apache/mxnet/issues/21081
+"Keywords: libmxnet, windows, prebuilt binary package.",https://api.github.com/repos/apache/mxnet/issues/21080
+"Keywords: GPU, device, errors.",https://api.github.com/repos/apache/mxnet/issues/21078
+"Keywords: GPU, device, errors.",https://api.github.com/repos/apache/mxnet/issues/21073
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/21071
+"Keywords: mxnet, ARM64, Embedding.",https://api.github.com/repos/apache/mxnet/issues/21069
+"Keywords: test_quantization_mkldnn, MXNetError, primitive descriptor.",https://api.github.com/repos/apache/mxnet/issues/21061
+"Keywords: GPU, memory efficiency, BERT implementation.",https://api.github.com/repos/apache/mxnet/issues/21059
+"Keywords: memory leak, MXPredCreate, Valgrind.",https://api.github.com/repos/apache/mxnet/issues/21052
+"Keywords: SymbolBlock, bug, parameter attributes.",https://api.github.com/repos/apache/mxnet/issues/21044
+"Keywords: GPU, test_operator_gpu, numerical assertion.",https://api.github.com/repos/apache/mxnet/issues/21040
+"Keywords: sockeye, 2.3.2, build.",https://api.github.com/repos/apache/mxnet/issues/21037
+"Keywords: mxnet, CUDA, GPU.",https://api.github.com/repos/apache/mxnet/issues/21035
+"Keywords: GPU, inference, training set.",https://api.github.com/repos/apache/mxnet/issues/21028
+"Keywords: Mxnet crashes, libmxnet.so, Debug mode.",https://api.github.com/repos/apache/mxnet/issues/21019
+"Keywords: GPU, docker, nvidia-container-cli.",https://api.github.com/repos/apache/mxnet/issues/21006
+"Keywords: distributed training, launch.py, program exit.",https://api.github.com/repos/apache/mxnet/issues/21005
+"Keywords: MxNet, installation, error.",https://api.github.com/repos/apache/mxnet/issues/20992
+"Keywords: mxnet-cu112, support, version.",https://api.github.com/repos/apache/mxnet/issues/20988
+"Keywords: GPU, onnx, importing.",https://api.github.com/repos/apache/mxnet/issues/20985
+"Keywords: convolution, GPU, error.",https://api.github.com/repos/apache/mxnet/issues/20979
+"Keywords: worker thread crash, cu101, cu102.",https://api.github.com/repos/apache/mxnet/issues/20978
+"Keywords: mxnet.numpy, uint64, array api.",https://api.github.com/repos/apache/mxnet/issues/20968
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/20964
+"Keywords: failure, teardown routine, leaked NDArrays.",https://api.github.com/repos/apache/mxnet/issues/20960
+"Keywords: GPU memory leak, gluon.data.DataLoader, Cuda-11.1/Cudnn-8.2.x.",https://api.github.com/repos/apache/mxnet/issues/20959
+"Keywords: CUDA, DLL, python version.",https://api.github.com/repos/apache/mxnet/issues/20954
+"Keywords: mxnet, infer_shape_partial, error.",https://api.github.com/repos/apache/mxnet/issues/20951
+"Keywords: mxnet-1.9.0, Raspberry PI 4, CMake Error.",https://api.github.com/repos/apache/mxnet/issues/20945
+"Keywords: Horovod, MXNet, installation.",https://api.github.com/repos/apache/mxnet/issues/20936
+"Keywords: Git, source code, submodule.",https://api.github.com/repos/apache/mxnet/issues/20935
+"Keywords: Transfer, GPU, PR.",https://api.github.com/repos/apache/mxnet/issues/20924
+"Keywords: Python API, mxnet.apache.org, empty pages.",https://api.github.com/repos/apache/mxnet/issues/20901
+"Keywords: Mxnet, huggingface, backend.",https://api.github.com/repos/apache/mxnet/issues/20900
+"Keywords: GPU, numpy, broadcasting.",https://api.github.com/repos/apache/mxnet/issues/20898
+"Keywords: MXnet, Graphviz, requirements.",https://api.github.com/repos/apache/mxnet/issues/20897
+"Keywords: unittests, linkcheck, merge.",https://api.github.com/repos/apache/mxnet/issues/20888
+"Keywords: test_np_get_dtype, dtype, numpy versions.",https://api.github.com/repos/apache/mxnet/issues/20886
+"Keywords: mxnet, packaging, library.",https://api.github.com/repos/apache/mxnet/issues/20885
+"Keywords: numpy, test failure, IndexError.",https://api.github.com/repos/apache/mxnet/issues/20880
+"Keywords: infer_shape, batch_size, mxnet.",https://api.github.com/repos/apache/mxnet/issues/20875
+"Keywords: mxnet, Convolution, shape checks.",https://api.github.com/repos/apache/mxnet/issues/20870
+"Keywords: numpy, vulnerabilities, CI.",https://api.github.com/repos/apache/mxnet/issues/20869
+"Keywords: MXNet 1.7, NVIDIA AGX Xavier, pip installing.",https://api.github.com/repos/apache/mxnet/issues/20845
+"Keywords: mxnet, GPU, pointers",https://api.github.com/repos/apache/mxnet/issues/20844
+"Keywords: GPU, argmax, MXNet version.",https://api.github.com/repos/apache/mxnet/issues/20842
+"Keywords: zero sharding, reduce operation, deadlock.",https://api.github.com/repos/apache/mxnet/issues/20837
+"Keywords: python setup, ValueError, Newlines.",https://api.github.com/repos/apache/mxnet/issues/20829
+"Keywords: setuptools, warning, packaging.version.",https://api.github.com/repos/apache/mxnet/issues/20824
+"Keywords: GPU, device, errors.",https://api.github.com/repos/apache/mxnet/issues/20814
+"Keywords: MXNetError, Operator dot16, incorrect size inference.",https://api.github.com/repos/apache/mxnet/issues/20805
+"Keywords: GPU, mxnet-cu100, training.",https://api.github.com/repos/apache/mxnet/issues/20802
+"Keywords: KeyError, inputs, initialization.",https://api.github.com/repos/apache/mxnet/issues/20799
+"Keywords: GPU, error, C++14.",https://api.github.com/repos/apache/mxnet/issues/20784
+"Keywords: Deformable-ConvNets, onnx, AttributeError.",https://api.github.com/repos/apache/mxnet/issues/20779
+"Keywords: GPU, macOS-11, timeout.",https://api.github.com/repos/apache/mxnet/issues/20778
+"Keywords: cuda10, GPU, device error.",https://api.github.com/repos/apache/mxnet/issues/20774
+"Keywords: ONNX, MXNet, ValueError.",https://api.github.com/repos/apache/mxnet/issues/20769
+"Keywords: MXNet, AArch64, ACL.",https://api.github.com/repos/apache/mxnet/issues/20766
+"Keywords: RAdam optimizer, Python implementation, hardware restrictions.",https://api.github.com/repos/apache/mxnet/issues/20762
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/20761
+"Keywords: Mxnet, pip install, Pycharm.",https://api.github.com/repos/apache/mxnet/issues/20760
+"Keywords: NVIDIA, A100, gluon_net.load_params.",https://api.github.com/repos/apache/mxnet/issues/20758
+"Keywords: MXNet, onnx, ValidationError.",https://api.github.com/repos/apache/mxnet/issues/20754
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/20743
+"Keywords: oneapi, Dockerfile, apt-get update.",https://api.github.com/repos/apache/mxnet/issues/20738
+"Keywords: MXnet, UnsatisfiedLinkError, Installation.",https://api.github.com/repos/apache/mxnet/issues/20733
+"Keywords: TVM logic operators, NaN, wrong results.",https://api.github.com/repos/apache/mxnet/issues/20729
+"Keywords: GPU, nnvm operators, InplaceOption.",https://api.github.com/repos/apache/mxnet/issues/20710
+"Keywords: GPU, StorageManager, mxnet.",https://api.github.com/repos/apache/mxnet/issues/20702
+"Keywords: byteps, EngineAsyncFunc, GPU.",https://api.github.com/repos/apache/mxnet/issues/20697
+"Keywords: segmentation fault, concat, slice_axis.",https://api.github.com/repos/apache/mxnet/issues/20691
+"Keywords: GPU, memory allocation, binding.",https://api.github.com/repos/apache/mxnet/issues/20687
+"Keywords: GPU, device, errors.",https://api.github.com/repos/apache/mxnet/issues/20685
+"Keywords: GPU, performance loss, Windows.",https://api.github.com/repos/apache/mxnet/issues/20675
+"Keywords: GPU, device, issue.",https://api.github.com/repos/apache/mxnet/issues/20671
+"Keywords: torch, onnx, mxnet.",https://api.github.com/repos/apache/mxnet/issues/20659
+"Keywords: MXNET_CONF_PATH, tvmop.conf, IsADirectoryError",https://api.github.com/repos/apache/mxnet/issues/20657
+"Keywords: cross compile, TVM_OP, libtvm.so",https://api.github.com/repos/apache/mxnet/issues/20656
+"Keywords: github actions, MKL, MacOS.",https://api.github.com/repos/apache/mxnet/issues/20655
+"Keywords: nd.random.uniform, mxnet, GPU.",https://api.github.com/repos/apache/mxnet/issues/20651
+"Keywords: onnx_mxnet, bug, padding.",https://api.github.com/repos/apache/mxnet/issues/20639
+"Keywords: GPU, device, errors.",https://api.github.com/repos/apache/mxnet/issues/20633
+"Keywords: windows 10, mxnet, CMake error.",https://api.github.com/repos/apache/mxnet/issues/20632
+"Keywords: documentation, links, repository.",https://api.github.com/repos/apache/mxnet/issues/20625
+"Keywords: GPU, Compatibility, Gluon APIs.",https://api.github.com/repos/apache/mxnet/issues/20619
+"Keywords: cuDNN, convolution op cache, MXNet.",https://api.github.com/repos/apache/mxnet/issues/20618
+"Keywords: CSRNDArray, sparse gradient, PyTorch.",https://api.github.com/repos/apache/mxnet/issues/20605
+"Keywords: Mxnet, Python, Docker.",https://api.github.com/repos/apache/mxnet/issues/20594
+"Keywords: arm64, version, installation.",https://api.github.com/repos/apache/mxnet/issues/20586
+"Keywords: GPU, Device, Error.",https://api.github.com/repos/apache/mxnet/issues/20579
+"Keywords: AttributeError, SymbolBlock, export.",https://api.github.com/repos/apache/mxnet/issues/20577
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/20569
+"Keywords: functorch, function transforms, gradient.",https://api.github.com/repos/apache/mxnet/issues/20561
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/20560
+"Keywords: GPU, device errors, bugs.",https://api.github.com/repos/apache/mxnet/issues/20538
+"Keywords: oneDNN, v2.3, segmentation fault.",https://api.github.com/repos/apache/mxnet/issues/20529
+"Keywords: GPU, notebook, APIs.",https://api.github.com/repos/apache/mxnet/issues/20527
+"Keywords: Cholesky test, float32, negligence.",https://api.github.com/repos/apache/mxnet/issues/20508
+"Keywords: GPU, API, synchronization.",https://api.github.com/repos/apache/mxnet/issues/20501
+"Keywords: GPU, device, errors.",https://api.github.com/repos/apache/mxnet/issues/20497
+"Keywords: TensorRT, C++ API, unit tests.",https://api.github.com/repos/apache/mxnet/issues/20491
+"Keywords: GPU, device errors, bugs.",https://api.github.com/repos/apache/mxnet/issues/20488
+"Keywords: MXNet, ZeroPadding2D, backend.",https://api.github.com/repos/apache/mxnet/issues/20483
+"Keywords: GPU, Target gradient, sign flipped.",https://api.github.com/repos/apache/mxnet/issues/20471
+"Keywords: GPU, device, issue.",https://api.github.com/repos/apache/mxnet/issues/20470
+"Keywords: Sockeye, GPU, Training.",https://api.github.com/repos/apache/mxnet/issues/20469
+"Keywords: CUDA 11.4, nvmlProcessInfo_st, nvmlDeviceGetComputeRunningProcesses.",https://api.github.com/repos/apache/mxnet/issues/20467
+"Keywords: GPU, shape inference, C API.",https://api.github.com/repos/apache/mxnet/issues/20465
+"Keywords: MXNet, Mac OS, make error.",https://api.github.com/repos/apache/mxnet/issues/20460
+"Keywords: MXNet, Epoch, OneDNN.",https://api.github.com/repos/apache/mxnet/issues/20455
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/20454
+"Keywords: onnx export, mx2onnx, GPU/device errors.",https://api.github.com/repos/apache/mxnet/issues/20453
+"Keywords: MXNet, NumPy Array, Type inconsistent.",https://api.github.com/repos/apache/mxnet/issues/20447
+"Keywords: GPU, convolutions, restrictions.",https://api.github.com/repos/apache/mxnet/issues/20445
+"Keywords: pip install, mxnet, nightly version.",https://api.github.com/repos/apache/mxnet/issues/20441
+"Keywords: requests library, chardet, charset-normalizer.",https://api.github.com/repos/apache/mxnet/issues/20440
+"Keywords: MXNet, framework, Android.",https://api.github.com/repos/apache/mxnet/issues/20424
+"Keywords: GPU, slicing, mxnet.",https://api.github.com/repos/apache/mxnet/issues/20422
+"Keywords: mxnet, keras-mxnet, prediction error.",https://api.github.com/repos/apache/mxnet/issues/20416
+"Keywords: TLB misses, CPU cycles, page table walking.",https://api.github.com/repos/apache/mxnet/issues/20412
+"Keywords: Segfault, custom operator, mxnet.",https://api.github.com/repos/apache/mxnet/issues/20411
+"Keywords: custom data type, fixed-point format, computation.",https://api.github.com/repos/apache/mxnet/issues/20410
+"Keywords: mx.numpy_extension.savez, TypeError, filename.",https://api.github.com/repos/apache/mxnet/issues/20405
+"Keywords: mxnet, onnx, KeyError.",https://api.github.com/repos/apache/mxnet/issues/20394
+"Keywords: GPU, row_sparse, ValueError.",https://api.github.com/repos/apache/mxnet/issues/20391
+"Keywords: mxnet, ImportError, Symbol not found.",https://api.github.com/repos/apache/mxnet/issues/20390
+"Keywords: random number generation, test failures, tolerance.",https://api.github.com/repos/apache/mxnet/issues/20389
+"Keywords: LICENSE, ONNX, fix.",https://api.github.com/repos/apache/mxnet/issues/20379
+"Keywords: LICENSE, ONNX files, fix.",https://api.github.com/repos/apache/mxnet/issues/20378
+"Keywords: uint16_t array, int32_t array, dirty memory.",https://api.github.com/repos/apache/mxnet/issues/20376
+"Keywords: timeout, CPU test, mx.cpu(1)",https://api.github.com/repos/apache/mxnet/issues/20374
+"Keywords: MXNet 2.0, operators, migration.",https://api.github.com/repos/apache/mxnet/issues/20373
+"Keywords: GPU, Intel DNNL, CMake.",https://api.github.com/repos/apache/mxnet/issues/20353
+"Keywords: pytest-parallel plugin, slowdown, deadlocks.",https://api.github.com/repos/apache/mxnet/issues/20352
+"Keywords: hotfix, input param, delay_alloc_.",https://api.github.com/repos/apache/mxnet/issues/20351
+"Keywords: GPU, device, errors.",https://api.github.com/repos/apache/mxnet/issues/20348
+"Keywords: coding, delay_alloc, source code.",https://api.github.com/repos/apache/mxnet/issues/20343
+"Keywords: windows-gpu, flaky tests, mxnet.",https://api.github.com/repos/apache/mxnet/issues/20337
+"Keywords: pip install, mxnet-cu112, Windows 10.",https://api.github.com/repos/apache/mxnet/issues/20336
+"Keywords: MXNet, timeout, hangs.",https://api.github.com/repos/apache/mxnet/issues/20334
+"Keywords: module bind error, MXNetError, InferShape.",https://api.github.com/repos/apache/mxnet/issues/20330
+"Keywords: mxnet, grad_cam, TypeError.",https://api.github.com/repos/apache/mxnet/issues/20329
+"Keywords: MXNet, ONNX, KeyError.",https://api.github.com/repos/apache/mxnet/issues/20317
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/20316
+"Keywords: GPU memory, asnumpy(), mxnet.",https://api.github.com/repos/apache/mxnet/issues/20315
+"Keywords: GPU, device error, upgrade.",https://api.github.com/repos/apache/mxnet/issues/20308
+"Keywords: GPU, TensorRT, Error.",https://api.github.com/repos/apache/mxnet/issues/20307
+"Keywords: build process, cpp-package, in-source-build.",https://api.github.com/repos/apache/mxnet/issues/20306
+"Keywords: GPU, MXNet, CUDA.",https://api.github.com/repos/apache/mxnet/issues/20300
+"Keywords: GPG signing key, forward-port, master.",https://api.github.com/repos/apache/mxnet/issues/20298
+"Keywords: GPU, executor, thread safety.",https://api.github.com/repos/apache/mxnet/issues/20297
+"Keywords: MXNet, backend, DeprecationWarning.",https://api.github.com/repos/apache/mxnet/issues/20290
+"Keywords: AArch64, CD pipeline, python3.6",https://api.github.com/repos/apache/mxnet/issues/20289
+"Keywords: GPU, UnicodeDecodeError, Windows.",https://api.github.com/repos/apache/mxnet/issues/20287
+"Keywords: MXNET, UnicodeDecodeError, Visual Studio 2019.",https://api.github.com/repos/apache/mxnet/issues/20286
+"Keywords: np.einsum, Bus error, Abort trap.",https://api.github.com/repos/apache/mxnet/issues/20282
+"Keywords: convert_deconvolution, output_padding, _op_translations.py.",https://api.github.com/repos/apache/mxnet/issues/20281
+"Keywords: Mxnet, Deconvolution, TensorRT.",https://api.github.com/repos/apache/mxnet/issues/20280
+"Keywords: MXNet, MKLDNN, ACL.",https://api.github.com/repos/apache/mxnet/issues/20265
+"Keywords: CUDA, Compiler, Error.",https://api.github.com/repos/apache/mxnet/issues/20256
+"Keywords: MXNet, AArch64, Arm Performance Libraries.",https://api.github.com/repos/apache/mxnet/issues/20251
+"Keywords: BERT, self-attention, inference speed up.",https://api.github.com/repos/apache/mxnet/issues/20249
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/20241
+"Keywords: Floating point exception, tests, onnx.",https://api.github.com/repos/apache/mxnet/issues/20239
+"Keywords: GPU, ONNX, OneDNN.",https://api.github.com/repos/apache/mxnet/issues/20238
+"Keywords: blas library, avx512, performance.",https://api.github.com/repos/apache/mxnet/issues/20235
+"Keywords: save_parameters, model, file-like object.",https://api.github.com/repos/apache/mxnet/issues/20225
+"Keywords: MKL, Cuda 11.0, mxnet.",https://api.github.com/repos/apache/mxnet/issues/20224
+"Keywords: GPU, RandomRotation, TypeError.",https://api.github.com/repos/apache/mxnet/issues/20223
+"Keywords: GPU, batching, performance.",https://api.github.com/repos/apache/mxnet/issues/20220
+"Keywords: nightly release, windows version, daily builds.",https://api.github.com/repos/apache/mxnet/issues/20217
+"Keywords: GluonNLP, MXNet 1.8.0, Segmentation fault.",https://api.github.com/repos/apache/mxnet/issues/20197
+"Keywords: aarch64, pip install, wheels.",https://api.github.com/repos/apache/mxnet/issues/20184
+"Keywords: mxnet, segfault, signsgd_update.",https://api.github.com/repos/apache/mxnet/issues/20183
+"Keywords: mxnet, segmentation fault, empty tensor.",https://api.github.com/repos/apache/mxnet/issues/20182
+"Keywords: mxnet.ndarray.pick, segmentation fault, empty tensor.",https://api.github.com/repos/apache/mxnet/issues/20181
+"Keywords: mxnet, ndarray.contrib.box_encode, segfault.",https://api.github.com/repos/apache/mxnet/issues/20180
+"Keywords: GPU memory, foreach function, CUDNN_STATUS_EXECUTION_FAILED.",https://api.github.com/repos/apache/mxnet/issues/20159
+"Keywords: valgrind, memory leak, CI.",https://api.github.com/repos/apache/mxnet/issues/20158
+"Keywords: compiler error, internal error, GPU.",https://api.github.com/repos/apache/mxnet/issues/20156
+"Keywords: mxnet, SeparableConv1D, CUDA 10.1.",https://api.github.com/repos/apache/mxnet/issues/20147
+"Keywords: cudnn_cnn_infer64_8.dll, Stack overflow, MXNET.",https://api.github.com/repos/apache/mxnet/issues/20143
+"Keywords: tensorRT, INT8, layer computation precision.",https://api.github.com/repos/apache/mxnet/issues/20134
+"Keywords: mxnet, segmentation fault, BatchNorm.",https://api.github.com/repos/apache/mxnet/issues/20128
+"Keywords: argpartition, context mismatch, GPU.",https://api.github.com/repos/apache/mxnet/issues/20123
+"Keywords: CUDA, installation, error.",https://api.github.com/repos/apache/mxnet/issues/20118
+"Keywords: download page, file types, current versions.",https://api.github.com/repos/apache/mxnet/issues/20112
+"Keywords: GPU, CI tests, MKLDNN.",https://api.github.com/repos/apache/mxnet/issues/20111
+"Keywords: GPU, migration, C API.",https://api.github.com/repos/apache/mxnet/issues/20109
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/20108
+"Keywords: GPU, int16, mxnet.",https://api.github.com/repos/apache/mxnet/issues/20104
+"Keywords: force_reinit, parameters, initialized.",https://api.github.com/repos/apache/mxnet/issues/20100
+"Keywords: GPU, device error, numpy extension.",https://api.github.com/repos/apache/mxnet/issues/20096
+"Keywords: libgomp, GCC Runtime Library Exception, manylinux2014.",https://api.github.com/repos/apache/mxnet/issues/20095
+"Keywords: TRT, dynamic bert graph, INT64 weights",https://api.github.com/repos/apache/mxnet/issues/20089
+"Keywords: GPU, testing, dependencies.",https://api.github.com/repos/apache/mxnet/issues/20088
+"Keywords: cuda, mxnet, symbol.",https://api.github.com/repos/apache/mxnet/issues/20081
+"Keywords: mxnet, histogram, segmentation fault.",https://api.github.com/repos/apache/mxnet/issues/20079
+"Keywords: Segmentation fault, SequenceMask, SequenceReverse.",https://api.github.com/repos/apache/mxnet/issues/20076
+"Keywords: custom operator, C++, mxnet.",https://api.github.com/repos/apache/mxnet/issues/20066
+"Keywords: mxnet, segmentation fault, double free.",https://api.github.com/repos/apache/mxnet/issues/20064
+"Keywords: ONNX, MX2ONNX, GluonCV/NLP.",https://api.github.com/repos/apache/mxnet/issues/20063
+"Keywords: mxnet, Segmentation fault, MakeLoss.",https://api.github.com/repos/apache/mxnet/issues/20062
+"Keywords: mxnet, segmentation fault, empty tensor.",https://api.github.com/repos/apache/mxnet/issues/20052
+"Keywords: mxnet, segmentation fault, sample_uniform.",https://api.github.com/repos/apache/mxnet/issues/20051
+"Keywords: mxnet, segmentation fault, empty tensor.",https://api.github.com/repos/apache/mxnet/issues/20050
+"Keywords: mxnet, Segmentation fault, crash.",https://api.github.com/repos/apache/mxnet/issues/20049
+"Keywords: mxnet, Segmentation fault, one_hot.",https://api.github.com/repos/apache/mxnet/issues/20047
+"Keywords: mxnet, image.resize, interp.",https://api.github.com/repos/apache/mxnet/issues/20046
+"Keywords: mxnet, segmentation fault, hard_sigmoid.",https://api.github.com/repos/apache/mxnet/issues/20045
+"Keywords: mxnet, boolean_mask, Segmentation fault.",https://api.github.com/repos/apache/mxnet/issues/20044
+"Keywords: GPU_MEM_POOL_LIMIT, C API, MXNet.",https://api.github.com/repos/apache/mxnet/issues/20043
+"Keywords: mxnet, Segmentation fault, Tensor.",https://api.github.com/repos/apache/mxnet/issues/20041
+"Keywords: mxnet, Segmentation fault, choose_element_0index.",https://api.github.com/repos/apache/mxnet/issues/20040
+"Keywords: mxnet, slice_like, Segmentation fault.",https://api.github.com/repos/apache/mxnet/issues/20039
+"Keywords: mxnet, recordio, unpack.",https://api.github.com/repos/apache/mxnet/issues/20037
+"Keywords: HDRNet, bilateral slice, deep learning framework.",https://api.github.com/repos/apache/mxnet/issues/20033
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/20023
+"Keywords: GPU, optimization, BERT performance.",https://api.github.com/repos/apache/mxnet/issues/20016
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/20012
+"Keywords: GPU, flaky tests, Segmentation fault",https://api.github.com/repos/apache/mxnet/issues/20011
+"Keywords: GPU, bug, documentation.",https://api.github.com/repos/apache/mxnet/issues/20010
+"Keywords: mxnet, log_softmax, floating point exception.",https://api.github.com/repos/apache/mxnet/issues/20005
+"Keywords: MXNet, ONNX, dynamic input shapes.",https://api.github.com/repos/apache/mxnet/issues/20000
+"Keywords: GPU, hanging, mxnet.",https://api.github.com/repos/apache/mxnet/issues/19994
+"Keywords: variable, make_config, cmake_config.",https://api.github.com/repos/apache/mxnet/issues/19993
+"Keywords: GPU, CMake, nvcc.",https://api.github.com/repos/apache/mxnet/issues/19991
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/19968
+"Keywords: macOS, wheel build, automate.",https://api.github.com/repos/apache/mxnet/issues/19957
+"Keywords: optimizer, Adabelief, update direction.",https://api.github.com/repos/apache/mxnet/issues/19950
+"Keywords: GPU, distributed training, mxnet.",https://api.github.com/repos/apache/mxnet/issues/19949
+"Keywords: mxnet, version selector, website.",https://api.github.com/repos/apache/mxnet/issues/19943
+"Keywords: mxnet, ndarray.take, segmentation fault.",https://api.github.com/repos/apache/mxnet/issues/19941
+"Keywords: test_np_percentile, numpy 1.20.0, mx.np.percentile.",https://api.github.com/repos/apache/mxnet/issues/19938
+"Keywords: Conv1D, floating point exception, groups=0.",https://api.github.com/repos/apache/mxnet/issues/19921
+"Keywords: license changes, PRs, v1.x branch.",https://api.github.com/repos/apache/mxnet/issues/19920
+"Keywords: GPU, device error, Jenkins.",https://api.github.com/repos/apache/mxnet/issues/19915
+"Keywords: cmake, FC33, path.",https://api.github.com/repos/apache/mxnet/issues/19913
+"Keywords: GPU, error message, attribute error.",https://api.github.com/repos/apache/mxnet/issues/19907
+"Keywords: onnx, forward port, tests.",https://api.github.com/repos/apache/mxnet/issues/19899
+"Keywords: mxnet, GPU, compilation.",https://api.github.com/repos/apache/mxnet/issues/19897
+"Keywords: Numpy, MXNet, dtype.",https://api.github.com/repos/apache/mxnet/issues/19891
+"Keywords: GPU, device errors, requirements.",https://api.github.com/repos/apache/mxnet/issues/19885
+"Keywords: GPU, device, errors.",https://api.github.com/repos/apache/mxnet/issues/19876
+"Keywords: GPU, device, errors.",https://api.github.com/repos/apache/mxnet/issues/19873
+"Keywords: Memory leaks, Valgrind, MXNet.",https://api.github.com/repos/apache/mxnet/issues/19871
+"Keywords: mxnet, nn.swish, beta",https://api.github.com/repos/apache/mxnet/issues/19860
+"Keywords: mxnet, GPU, NaN.",https://api.github.com/repos/apache/mxnet/issues/19859
+"Keywords: mxnet, instancenorm, NaN.",https://api.github.com/repos/apache/mxnet/issues/19852
+"Keywords: MXNet-TRT, ONNX, onnx_tensorrt.",https://api.github.com/repos/apache/mxnet/issues/19849
+"Keywords: GPU, issue, numpy.",https://api.github.com/repos/apache/mxnet/issues/19844
+"Keywords: CUDA error, GTX 1650 Mobile, sym evaluation.",https://api.github.com/repos/apache/mxnet/issues/19841
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/19825
+"Keywords: mxnet, onnx, import_model.",https://api.github.com/repos/apache/mxnet/issues/19803
+"Keywords: floating point exception, mxnet, depth_to_space.",https://api.github.com/repos/apache/mxnet/issues/19798
+"Keywords: GPU, JavaCPP, Gradle.",https://api.github.com/repos/apache/mxnet/issues/19797
+"Keywords: GPU, floating point exception, mxnet.",https://api.github.com/repos/apache/mxnet/issues/19793
+"Keywords: cuDNN, cuTensor, MXNet.",https://api.github.com/repos/apache/mxnet/issues/19786
+"Keywords: Floating point exception, GroupNorm, num_groups.",https://api.github.com/repos/apache/mxnet/issues/19785
+"Keywords: floating point exception, PixelShuffle, mxnet.",https://api.github.com/repos/apache/mxnet/issues/19784
+"Keywords: Mxnet, Conv1d, Error.",https://api.github.com/repos/apache/mxnet/issues/19781
+"Keywords: MXNet, include_dirs, setup.py.",https://api.github.com/repos/apache/mxnet/issues/19778
+"Keywords: np.pad, dmlc::Error, mxnet.",https://api.github.com/repos/apache/mxnet/issues/19777
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/19776
+"Keywords: GPU, indices, dtype.",https://api.github.com/repos/apache/mxnet/issues/19753
+"Keywords: GPU, BilinearResize2D, Symbol.",https://api.github.com/repos/apache/mxnet/issues/19752
+"Keywords: tensorrt, mxnet, compilation error.",https://api.github.com/repos/apache/mxnet/issues/19731
+"Keywords: cutensor, acceleration, pip wheel",https://api.github.com/repos/apache/mxnet/issues/19730
+"Keywords: mxnet, Categorical, logit.",https://api.github.com/repos/apache/mxnet/issues/19722
+"Keywords: MXNet, dropout, MXPredForward.",https://api.github.com/repos/apache/mxnet/issues/19719
+"Keywords: mxnet, batch normalization, keras-mxnet.",https://api.github.com/repos/apache/mxnet/issues/19717
+"Keywords: CUDA 11.1, mxnet, pre-built binary.",https://api.github.com/repos/apache/mxnet/issues/19712
+"Keywords: OOM error, numpy files, gcc8.",https://api.github.com/repos/apache/mxnet/issues/19688
+"Keywords: Floating Point Exception, mxnet, interleaved_matmul_selfatt_qk.",https://api.github.com/repos/apache/mxnet/issues/19686
+"Keywords: Floating point exception, mxnet, arange_like.",https://api.github.com/repos/apache/mxnet/issues/19683
+"Keywords: CUDA, CMake, compilation.",https://api.github.com/repos/apache/mxnet/issues/19681
+"Keywords: PR-awaiting-merge label, CI, approval.",https://api.github.com/repos/apache/mxnet/issues/19673
+"Keywords: PackedFunc based FFI, Map container, Object system.",https://api.github.com/repos/apache/mxnet/issues/19672
+"Keywords: view model, visualization, API.",https://api.github.com/repos/apache/mxnet/issues/19665
+"Keywords: cuDNN lib mismatch, MXNetError, storage.cc",https://api.github.com/repos/apache/mxnet/issues/19659
+"Keywords: race condition, garbage data, wait_to_read.",https://api.github.com/repos/apache/mxnet/issues/19655
+"Keywords: OPENBLAS_USE64BITINT, libopenblas64, cmake build config.",https://api.github.com/repos/apache/mxnet/issues/19651
+"Keywords: GPU, symbol block, api.",https://api.github.com/repos/apache/mxnet/issues/19650
+"Keywords: mxnet, cuda, RTX 3090.",https://api.github.com/repos/apache/mxnet/issues/19649
+"Keywords: exception, optimize_for, backend.",https://api.github.com/repos/apache/mxnet/issues/19647
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/19646
+"Keywords: gcc-8.0, PPA, Ubuntu.",https://api.github.com/repos/apache/mxnet/issues/19636
+"Keywords: half precision, GPU, CTCLoss.",https://api.github.com/repos/apache/mxnet/issues/19628
+"Keywords: out of memory, ccache, Killed signal",https://api.github.com/repos/apache/mxnet/issues/19623
+"Keywords: libprotobuf, Protocol Buffer, Dockerfiles.",https://api.github.com/repos/apache/mxnet/issues/19622
+"Keywords: TVM Bridge, link failure, MSVC bug.",https://api.github.com/repos/apache/mxnet/issues/19619
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/19616
+"Keywords: gluon.nn.GroupNorm, mx.npx.set_np(), ValueError.",https://api.github.com/repos/apache/mxnet/issues/19609
+"Keywords: Docker, connection, GPU.",https://api.github.com/repos/apache/mxnet/issues/19606
+"Keywords: GPU, buildkit, multi-stage builds.",https://api.github.com/repos/apache/mxnet/issues/19605
+"Keywords: mxnet-cu111, installation, GPU.",https://api.github.com/repos/apache/mxnet/issues/19599
+"Keywords: onnx, API, model.",https://api.github.com/repos/apache/mxnet/issues/19598
+"Keywords: mxnet, imread, FileNotFoundError.",https://api.github.com/repos/apache/mxnet/issues/19591
+"Keywords: memory pool, MXNet, fragmentation issue.",https://api.github.com/repos/apache/mxnet/issues/19585
+"Keywords: GPU, image, learning rate decay.",https://api.github.com/repos/apache/mxnet/issues/19583
+"Keywords: mxnet-cu102, installation, error.",https://api.github.com/repos/apache/mxnet/issues/19581
+"Keywords: MXNet, gluon model zoo, pretrained.",https://api.github.com/repos/apache/mxnet/issues/19580
+"Keywords: MXNET_ENABLE_GPU_P2P, CUDA, memory access.",https://api.github.com/repos/apache/mxnet/issues/19577
+"Keywords: memory leak, tojson, MXSymbolRemoveAmpCast.",https://api.github.com/repos/apache/mxnet/issues/19574
+"Keywords: mxnet, gluon, SymbolBlock.",https://api.github.com/repos/apache/mxnet/issues/19569
+"Keywords: ONNX, Gluon, expand.",https://api.github.com/repos/apache/mxnet/issues/19567
+"Keywords: mxnet1.8-cuda11.0, segfault error, EC2 p3.8x GPU instance.",https://api.github.com/repos/apache/mxnet/issues/19556
+"Keywords: Ruby, mxnet.rb, bindings.",https://api.github.com/repos/apache/mxnet/issues/19551
+"Keywords: c++, inference, tensorRT.",https://api.github.com/repos/apache/mxnet/issues/19550
+"Keywords: GPU, onnx, conversion.",https://api.github.com/repos/apache/mxnet/issues/19527
+"Keywords: mxnet, RTX 3090, cuda11.",https://api.github.com/repos/apache/mxnet/issues/19520
+"Keywords: MXNet, Crash course, formatting issues.",https://api.github.com/repos/apache/mxnet/issues/19517
+"Keywords: gpu, scalar_tensor_creation, FAILED.",https://api.github.com/repos/apache/mxnet/issues/19511
+"Keywords: SyncBN, GPU memory, iteration.",https://api.github.com/repos/apache/mxnet/issues/19498
+"Keywords: GluonNLP, gradient, dtype.",https://api.github.com/repos/apache/mxnet/issues/19495
+"Keywords: bug, calib_data, dshapes.",https://api.github.com/repos/apache/mxnet/issues/19477
+"Keywords: mxnet-1.7.0, CUDA, multi_threaded_inference.",https://api.github.com/repos/apache/mxnet/issues/19461
+"Keywords: tensordot, workspace, deallocate.",https://api.github.com/repos/apache/mxnet/issues/19458
+"Keywords: grid_dst, scalar, target_shape.",https://api.github.com/repos/apache/mxnet/issues/19436
+"Keywords: GPU, numpy, shuffle.",https://api.github.com/repos/apache/mxnet/issues/19423
+"Keywords: mxnet, numpy, array.",https://api.github.com/repos/apache/mxnet/issues/19422
+"Keywords: GluonNLP, mxnet-cu102, multiprocessing.",https://api.github.com/repos/apache/mxnet/issues/19420
+"Keywords: installation error, datawig, mxnet.",https://api.github.com/repos/apache/mxnet/issues/19383
+"Keywords: engine, lifetime, handling.",https://api.github.com/repos/apache/mxnet/issues/19379
+"Keywords: libtiff, dependency, Ubuntu.",https://api.github.com/repos/apache/mxnet/issues/19372
+"Keywords: GPU, error, internals.",https://api.github.com/repos/apache/mxnet/issues/19371
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/19369
+"Keywords: denormal floating point, CPU flags, hardware features.",https://api.github.com/repos/apache/mxnet/issues/19361
+"Keywords: GPU, synchronization, buffer allocation.",https://api.github.com/repos/apache/mxnet/issues/19353
+"Keywords: SoftmaxOutput, RuntimeError, missing parameter.",https://api.github.com/repos/apache/mxnet/issues/19351
+"Keywords: GPU, computation graph, operator/kernel.",https://api.github.com/repos/apache/mxnet/issues/19348
+"Keywords: mxnet, dtype, broadcast_like.",https://api.github.com/repos/apache/mxnet/issues/19343
+"Keywords: GPU, test functions, independent runs.",https://api.github.com/repos/apache/mxnet/issues/19337
+"Keywords: GPU, device, errors.",https://api.github.com/repos/apache/mxnet/issues/19335
+"Keywords: gluon.rnn.GRU, backward, cuDNN.",https://api.github.com/repos/apache/mxnet/issues/19333
+"Keywords: GPU, parallel computing, pos_weight.",https://api.github.com/repos/apache/mxnet/issues/19332
+"Keywords: CI failure, laggy filesystem, Jenkins.",https://api.github.com/repos/apache/mxnet/issues/19330
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/19315
+"Keywords: TensorFlow, pytorch, TPU.",https://api.github.com/repos/apache/mxnet/issues/19280
+"Keywords: MacOS, downloading, network error.",https://api.github.com/repos/apache/mxnet/issues/19279
+"Keywords: autograd, variable, input validation.",https://api.github.com/repos/apache/mxnet/issues/19275
+"Keywords: GPU, build, make.",https://api.github.com/repos/apache/mxnet/issues/19252
+"Keywords: GPU, device, errors.",https://api.github.com/repos/apache/mxnet/issues/19249
+"Keywords: MXNDArrayAt, array indexing, memory allocations.",https://api.github.com/repos/apache/mxnet/issues/19245
+"Keywords: MXNET, ARM64, Dockerhub.",https://api.github.com/repos/apache/mxnet/issues/19234
+"Keywords: memory corruption, fastbin entry, benchmark.",https://api.github.com/repos/apache/mxnet/issues/19231
+"Keywords: GPU, device, tensor.",https://api.github.com/repos/apache/mxnet/issues/19229
+"Keywords: GPU, device, errors.",https://api.github.com/repos/apache/mxnet/issues/19227
+"Keywords: GPU, Conv Layer, Inference speed.",https://api.github.com/repos/apache/mxnet/issues/19218
+"Keywords: np.resize, mxnet, python custom ops.",https://api.github.com/repos/apache/mxnet/issues/19211
+"Keywords: CI feature, flaky unittests, test shake-out.",https://api.github.com/repos/apache/mxnet/issues/19207
+"Keywords: Docker, cache, runtime.",https://api.github.com/repos/apache/mxnet/issues/19183
+"Keywords: GPU, debug information, clang.",https://api.github.com/repos/apache/mxnet/issues/19178
+"Keywords: mxnet, access violation, ctypes.",https://api.github.com/repos/apache/mxnet/issues/19176
+"Keywords: MXNet, array indexing, memory sharing.",https://api.github.com/repos/apache/mxnet/issues/19170
+"Keywords: MXNET_TEST_SEED, nosetests, test_random_transforms.",https://api.github.com/repos/apache/mxnet/issues/19166
+"Keywords: GPU memory allocation, OOM error, multi-threading.",https://api.github.com/repos/apache/mxnet/issues/19159
+"Keywords: CUDA, GPU memory, batch size.",https://api.github.com/repos/apache/mxnet/issues/19155
+"Keywords: MXNet, 403 error, newcomers.",https://api.github.com/repos/apache/mxnet/issues/19144
+"Keywords: GPU, device error, bugs.",https://api.github.com/repos/apache/mxnet/issues/19139
+"Keywords: GPU, device, errors.",https://api.github.com/repos/apache/mxnet/issues/19138
+"Keywords: lib_api.h, version number, semantic versioning.",https://api.github.com/repos/apache/mxnet/issues/19135
+"Keywords: MXNET_BACKWARD_DO_MIRROR, MXNET_USE_FUSION, OOM exception.",https://api.github.com/repos/apache/mxnet/issues/19133
+"Keywords: images, not visible, documentation page.",https://api.github.com/repos/apache/mxnet/issues/19111
+"Keywords: Mac, segfault, clang.",https://api.github.com/repos/apache/mxnet/issues/19101
+"Keywords: HDFS, support, wheel.",https://api.github.com/repos/apache/mxnet/issues/19097
+"Keywords: issue template, documentation, website.",https://api.github.com/repos/apache/mxnet/issues/19094
+"Keywords: Error 404, Github link, Java Demo.",https://api.github.com/repos/apache/mxnet/issues/19088
+"Keywords: pip, install, mxnet.",https://api.github.com/repos/apache/mxnet/issues/19087
+"Keywords: GPU, error handling, C API.",https://api.github.com/repos/apache/mxnet/issues/19084
+"Keywords: GPU, multi-threaded, inferencing.",https://api.github.com/repos/apache/mxnet/issues/19082
+"Keywords: GPU, AssertionError, mxnet.",https://api.github.com/repos/apache/mxnet/issues/19081
+"Keywords: MXEnginePush, ContextHandle, C API.",https://api.github.com/repos/apache/mxnet/issues/19080
+"Keywords: GPU, device error, assertion error.",https://api.github.com/repos/apache/mxnet/issues/19076
+"Keywords: MXnet, random.multinomial, distribution.",https://api.github.com/repos/apache/mxnet/issues/19073
+"Keywords: GPU, AssertionError, mxnet.",https://api.github.com/repos/apache/mxnet/issues/19071
+"Keywords: Arcface model, ONNX Operators, NotImplementedError.",https://api.github.com/repos/apache/mxnet/issues/19066
+"Keywords: GPU, ABI, linker scripts.",https://api.github.com/repos/apache/mxnet/issues/19057
+"Keywords: PSPNet, GluonCV, Cityscapes dataset.",https://api.github.com/repos/apache/mxnet/issues/19056
+"Keywords: mxnet amp, Tesla V100, speed increase.",https://api.github.com/repos/apache/mxnet/issues/19052
+"Keywords: GPU, documentation, tests.",https://api.github.com/repos/apache/mxnet/issues/19049
+"Keywords: MXNet, building, configuration.",https://api.github.com/repos/apache/mxnet/issues/19048
+"Keywords: GPU, gradient testing, statistical testing.",https://api.github.com/repos/apache/mxnet/issues/19045
+"Keywords: MXNetError, stacking, tensors.",https://api.github.com/repos/apache/mxnet/issues/19030
+"Keywords: License issue, Legal issue, Numpy compatible interface.",https://api.github.com/repos/apache/mxnet/issues/19029
+"Keywords: SSD training, Horovod, MXNet.",https://api.github.com/repos/apache/mxnet/issues/19024
+"Keywords: numpy, mxnet, matmul.",https://api.github.com/repos/apache/mxnet/issues/19023
+"Keywords: gradient results, backward, input shape.",https://api.github.com/repos/apache/mxnet/issues/19021
+"Keywords: GPU version, cub apis, int usage.",https://api.github.com/repos/apache/mxnet/issues/19020
+"Keywords: MXNet, Automatic mixed precision, Memory allocation.",https://api.github.com/repos/apache/mxnet/issues/19019
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/19007
+"Keywords: reinterpret_cast, PR, GPU.",https://api.github.com/repos/apache/mxnet/issues/19005
+"Keywords: documentation, API, parameter.",https://api.github.com/repos/apache/mxnet/issues/19003
+"Keywords: mxnet, build, error.",https://api.github.com/repos/apache/mxnet/issues/19002
+"Keywords: mxnet, documentation, foreach.",https://api.github.com/repos/apache/mxnet/issues/19001
+"Keywords: signature-description inconsistency, API, TypeError.",https://api.github.com/repos/apache/mxnet/issues/19000
+"Keywords: documentation, bug, parameter.",https://api.github.com/repos/apache/mxnet/issues/18999
+"Keywords: mxnet, dgl_subgraph, ParamError.",https://api.github.com/repos/apache/mxnet/issues/18991
+"Keywords: mxnet, symbol, linspace.",https://api.github.com/repos/apache/mxnet/issues/18990
+"Keywords: GPU, parameter, signature.",https://api.github.com/repos/apache/mxnet/issues/18989
+"Keywords: mxnet, GPU, r package.",https://api.github.com/repos/apache/mxnet/issues/18985
+"Keywords: Torch.onnx.export, dynamic_axes, onnx_mxnet.export_model.",https://api.github.com/repos/apache/mxnet/issues/18979
+"Keywords: NVCC bug, Windows build, source.",https://api.github.com/repos/apache/mxnet/issues/18978
+"Keywords: NVCC bug, build failure, windows artifact.",https://api.github.com/repos/apache/mxnet/issues/18977
+"Keywords: GPU, CUDA, pipeline.",https://api.github.com/repos/apache/mxnet/issues/18971
+"Keywords: mxnet, onnx model, ConstantOfShape.",https://api.github.com/repos/apache/mxnet/issues/18970
+"Keywords: NVCC bug, build failure, windows artifact.",https://api.github.com/repos/apache/mxnet/issues/18967
+"Keywords: GPU, device errors, bugs.",https://api.github.com/repos/apache/mxnet/issues/18963
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/18962
+"Keywords: libcuda.so.1, mxnet, Dockerfile.",https://api.github.com/repos/apache/mxnet/issues/18960
+"Keywords: mxnet, GPU, include.",https://api.github.com/repos/apache/mxnet/issues/18957
+"Keywords: MXNet, GPU, synchronization.",https://api.github.com/repos/apache/mxnet/issues/18951
+"Keywords: large tensor support, _numpy_op_doc, broken GPU.",https://api.github.com/repos/apache/mxnet/issues/18950
+"Keywords: large tensor support, GPU, operators.",https://api.github.com/repos/apache/mxnet/issues/18949
+"Keywords: large tensor support, npx, operators.",https://api.github.com/repos/apache/mxnet/issues/18948
+"Keywords: int64_t, BLAS, cuDNN.",https://api.github.com/repos/apache/mxnet/issues/18947
+"Keywords: mxnet, segmentation fault, autograd.",https://api.github.com/repos/apache/mxnet/issues/18944
+"Keywords: mxnet, SequenceReverse, floating point exception.",https://api.github.com/repos/apache/mxnet/issues/18940
+"Keywords: GPU, NumPy-like programming, Gluon 2.0.",https://api.github.com/repos/apache/mxnet/issues/18931
+"Keywords: GPU, quantize_v2, FP16.",https://api.github.com/repos/apache/mxnet/issues/18928
+"Keywords: GPU, OpenBLAS, precision.",https://api.github.com/repos/apache/mxnet/issues/18926
+"Keywords: mxnet, onnx, import_model.",https://api.github.com/repos/apache/mxnet/issues/18923
+"Keywords: RandomState, gradient check-pointing, reversible networks.",https://api.github.com/repos/apache/mxnet/issues/18922
+"Keywords: GPU, device, error.",https://api.github.com/repos/apache/mxnet/issues/18920
+"Keywords: MXNetError, TBlob, shape.",https://api.github.com/repos/apache/mxnet/issues/18919
+"Keywords: npx.set_np(), TypeError, mxnet.numpy.ndarray.",https://api.github.com/repos/apache/mxnet/issues/18918
+"Keywords: ILP64 OpenBLAS, gfortran linkage, lapack-dependent operators.",https://api.github.com/repos/apache/mxnet/issues/18915
+"Keywords: Maven Repository, missing version, error message.",https://api.github.com/repos/apache/mxnet/issues/18900
+"Keywords: CUDA, OpenCV, error.",https://api.github.com/repos/apache/mxnet/issues/18898
+"Keywords: AMP, CUDA crash, layout optimization.",https://api.github.com/repos/apache/mxnet/issues/18896
+"Keywords: Jetson Nano, mxnet, GPU inference.",https://api.github.com/repos/apache/mxnet/issues/18893
+"Keywords: dynamic shape ops, graph partitioning, recursive implementation.",https://api.github.com/repos/apache/mxnet/issues/18888
+"Keywords: GPU, batch_dot, numpy.",https://api.github.com/repos/apache/mxnet/issues/18881
+"Keywords: MXNet, compilation, memory error.",https://api.github.com/repos/apache/mxnet/issues/18869
+"Keywords: MXNet, numpy, ubuntu.",https://api.github.com/repos/apache/mxnet/issues/18866
+"Keywords: GPU, seed, multi-processing.",https://api.github.com/repos/apache/mxnet/issues/18865
+"Keywords: R-package, loadModule, installation.",https://api.github.com/repos/apache/mxnet/issues/18860
+"Keywords: BLAS, NumPy, MXNet.",https://api.github.com/repos/apache/mxnet/issues/18855
+"Keywords: GPU, issue tracking, community.",https://api.github.com/repos/apache/mxnet/issues/18841
+"Keywords: GPU, device, errors.",https://api.github.com/repos/apache/mxnet/issues/18835
+"Keywords: Jax, Jaxlib, aarch64.",https://api.github.com/repos/google/jax/issues/19128
+"Keywords: GPU, platform_name, call_tf.",https://api.github.com/repos/google/jax/issues/19126
+"Keywords: jax/jaxlib version, GPU, in-place change.",https://api.github.com/repos/google/jax/issues/19123
+"Keywords: GPU, termination criteria, jax.",https://api.github.com/repos/google/jax/issues/19122
+"Keywords: TPU pod, XLA compiler bug, multi-worker pod.",https://api.github.com/repos/google/jax/issues/19118
+"Keywords: jax.lax.scan, GPU, IndexError.",https://api.github.com/repos/google/jax/issues/19113
+"Keywords: solve_discrete_lyapunov, solve_continuous_lyapunov, solve_discrete_are.",https://api.github.com/repos/google/jax/issues/19109
+"Keywords: GPU, TPU, jnp.concatenate.",https://api.github.com/repos/google/jax/issues/19106
+"Keywords: roll back, internal breakage, fix.",https://api.github.com/repos/google/jax/issues/19098
+"Keywords: GPU, device, error.",https://api.github.com/repos/google/jax/issues/19094
+"Keywords: GPU, device, error.",https://api.github.com/repos/google/jax/issues/19092
+"Keywords: gradient calculation, NaN, jax.",https://api.github.com/repos/google/jax/issues/19089
+"Keywords: custom_vjp_call_jaxpr, KeyError, NotImplementedError.",https://api.github.com/repos/google/jax/issues/19087
+"Keywords: random_bit_generator, vmap, performance_hit.",https://api.github.com/repos/google/jax/issues/19085
+"Keywords: GPU, dimensions, dynamic.",https://api.github.com/repos/google/jax/issues/19083
+"Keywords: GPU, devices, accuracy error.",https://api.github.com/repos/google/jax/issues/19080
+"Keywords: update, seeds, internal changes.",https://api.github.com/repos/google/jax/issues/19079
+"Keywords: jax, scipy, minimize.",https://api.github.com/repos/google/jax/issues/19078
+"Keywords: outdated, code blocks, decorator.",https://api.github.com/repos/google/jax/issues/19075
+"Keywords: GPU, non-blocking, callback.",https://api.github.com/repos/google/jax/issues/19069
+"Keywords: Pallas, NotImplementedError, vector layout.",https://api.github.com/repos/google/jax/issues/19058
+"Keywords: GPU, device, errors.",https://api.github.com/repos/google/jax/issues/19053
+"Sorry, I am unable to generate any keywords for this Github issue.",https://api.github.com/repos/google/jax/issues/19051
+"Keywords: Internal, Code Change.",https://api.github.com/repos/google/jax/issues/19050
+"Keywords: GPU, device, errors.",https://api.github.com/repos/google/jax/issues/19047
+"Keywords: run-time safety check, ptxas binary, CUDA runt-time.",https://api.github.com/repos/google/jax/issues/19041
+"Keywords: GPU, cuda, installation.",https://api.github.com/repos/google/jax/issues/19039
+"Keywords: float8, support, operations.",https://api.github.com/repos/google/jax/issues/19033
+"Keywords: CUDA, HLO dumps, jaxlib.",https://api.github.com/repos/google/jax/issues/19028
+"Keywords: GPU, error, refactor.",https://api.github.com/repos/google/jax/issues/19024
+"Keywords: JAX, flatten_one_level, public API.",https://api.github.com/repos/google/jax/issues/19019
+"Keywords: GPU, download error, FileNotFoundException.",https://api.github.com/repos/google/jax/issues/19015
+"Sorry, but I am not able to access the content within the given Github issue link. Therefore, I am unable to extract any related keywords.",https://api.github.com/repos/google/jax/issues/19013
+"Keywords: UnshapedArray errors, shape mismatch errors, backward pass interpreter.",https://api.github.com/repos/google/jax/issues/19009
+"Keywords: xla_tpu_use_enhanced_launch_barrier, default, Clout TPUs.",https://api.github.com/repos/google/jax/issues/19007
+"Keywords: GPU, device topology, training job.",https://api.github.com/repos/google/jax/issues/18998
+"Keywords: JAX, Kokoro job, aarch64.",https://api.github.com/repos/google/jax/issues/18990
+"Keywords: render, example, documentation.",https://api.github.com/repos/google/jax/issues/18986
+"Keywords: jax, random gamma sampling, tfp jax substrate.",https://api.github.com/repos/google/jax/issues/18984
+"Keywords: Jax, import, issue.",https://api.github.com/repos/google/jax/issues/18978
+"Keywords: jax, jaxlib, NotImplementedError.",https://api.github.com/repos/google/jax/issues/18977
+"Keywords: jaxlib, ROCm, symlinked location",https://api.github.com/repos/google/jax/issues/18976
+"Keywords: test, compile, subprocess.",https://api.github.com/repos/google/jax/issues/18973
+"Keywords: JAX, GPU, memory_analysis",https://api.github.com/repos/google/jax/issues/18954
+"Keywords: GPU, error messages, non_negative.",https://api.github.com/repos/google/jax/issues/18953
+"Keywords: pseudorandom tests, statistical tests, seeding code.",https://api.github.com/repos/google/jax/issues/18941
+"Keywords: JAX, KeyError, dynamic shapes.",https://api.github.com/repos/google/jax/issues/18936
+"Keywords: GPU, precision, matmul.",https://api.github.com/repos/google/jax/issues/18934
+"Keywords: testBall, jax/jaxlib, GPU.",https://api.github.com/repos/google/jax/issues/18932
+"Keywords: quantization, tensor, gradient.",https://api.github.com/repos/google/jax/issues/18931
+"Keywords: TRITON, JAX, dtype conversion.",https://api.github.com/repos/google/jax/issues/18927
+"Keywords: test RNG seed, test ordering, unstable.",https://api.github.com/repos/google/jax/issues/18916
+"Keywords: Mosaic, C++, custom_call_emitter.",https://api.github.com/repos/google/jax/issues/18912
+"Keywords: jax, atomic_cas, GPU.",https://api.github.com/repos/google/jax/issues/18909
+"Keywords: jax, MIOpen Error, AMD GPU.",https://api.github.com/repos/google/jax/issues/18906
+"Keywords: jvp, conjugate gradient, mismatch.",https://api.github.com/repos/google/jax/issues/18904
+"Keywords: GPU, hbf, hqf2.",https://api.github.com/repos/google/jax/issues/18902
+"Keywords: jax, Pallas, TPU.",https://api.github.com/repos/google/jax/issues/18897
+"Keywords: GPU device, jax, cuda.",https://api.github.com/repos/google/jax/issues/18890
+"Keywords: runtime error, TPU, MLIR operation.",https://api.github.com/repos/google/jax/issues/18887
+"Keywords: XLA:Mosaic, scf::ForOp, tpu::AssumeLayoutOp.",https://api.github.com/repos/google/jax/issues/18886
+"Keywords: JAX, jaxlib, TPU.",https://api.github.com/repos/google/jax/issues/18875
+"Keywords: SIGSEGV, stack overflow, compilation.",https://api.github.com/repos/google/jax/issues/18874
+"Keywords: persistent compilation cache, logging levels, debugging.",https://api.github.com/repos/google/jax/issues/18868
+"Keywords: cuDNN, GRU, bf16.",https://api.github.com/repos/google/jax/issues/18867
+"Keywords: UINT8, dtype conversion, JAX.",https://api.github.com/repos/google/jax/issues/18849
+"Keywords: PALLAS, Triton Lowering, GPU.",https://api.github.com/repos/google/jax/issues/18847
+"Keywords: Mosaic, operation invariants, on-device.",https://api.github.com/repos/google/jax/issues/18842
+"Keywords: GPU, errors, shape checks.",https://api.github.com/repos/google/jax/issues/18837
+"Keywords: segmentation fault, compile-time evaluation, model_data.",https://api.github.com/repos/google/jax/issues/18831
+"Keywords: compilation cache, process index, persistent cache write.",https://api.github.com/repos/google/jax/issues/18819
+"Keywords: jax, ad_checkpoint, GPU.",https://api.github.com/repos/google/jax/issues/18817
+"Keywords: Jax, Nvidia GPU, performance.",https://api.github.com/repos/google/jax/issues/18816
+"Keywords: cuDNN fused attention, XLA, bmm pattern.",https://api.github.com/repos/google/jax/issues/18814
+"Keywords: GPU, compilation time, XLA.",https://api.github.com/repos/google/jax/issues/18787
+"Keywords: optax, JAX, memory consumption.",https://api.github.com/repos/google/jax/issues/18769
+"Keywords: GPU, device errors, debugging.",https://api.github.com/repos/google/jax/issues/18768
+"Keywords: JAX, stack trace, debugging.",https://api.github.com/repos/google/jax/issues/18764
+"Keywords: macOS, build failure, unknown type name.",https://api.github.com/repos/google/jax/issues/18760
+"Keywords: xla, exceptions, third-party library.",https://api.github.com/repos/google/jax/issues/18758
+"Sorry, I am not able to generate keywords for this issue as it does not seem to be related to GPU/device errors/bugs.",https://api.github.com/repos/google/jax/issues/18755
+"Keywords: disk compilation cache, eviction policy, size bound.",https://api.github.com/repos/google/jax/issues/18751
+"Keywords: jaxlib, compilation cache, XLA.",https://api.github.com/repos/google/jax/issues/18750
+"Keywords: nan gradient, jax, GPU.",https://api.github.com/repos/google/jax/issues/18749
+"Keywords: Mosaic, lowering rule, jax.lax.logical_not.",https://api.github.com/repos/google/jax/issues/18748
+"Keywords: 7900xtx, rocm, jax.",https://api.github.com/repos/google/jax/issues/18747
+"Keywords: GPU, device, error.",https://api.github.com/repos/google/jax/issues/18738
+"Keywords: JAX, MLIR, sanitised dumps.",https://api.github.com/repos/google/jax/issues/18734
+"Keywords: GPU, transcendental function, optimization.",https://api.github.com/repos/google/jax/issues/18716
+"Keywords: GPU, error, shard_map.",https://api.github.com/repos/google/jax/issues/18701
+"Keywords: XLA, mhlo.topk, JAX.",https://api.github.com/repos/google/jax/issues/18699
+"Keywords: jax, GPU, AMD.",https://api.github.com/repos/google/jax/issues/18681
+"Keywords: GPU, jax-metal, XlaRuntimeError.",https://api.github.com/repos/google/jax/issues/18678
+"Keywords: GPU, device, errors.",https://api.github.com/repos/google/jax/issues/18677
+"Keywords: objax.nn.Conv2D, XlaRuntimeError, GPU.",https://api.github.com/repos/google/jax/issues/18674
+"Keywords: flax.linen.remat_scan, error, FLOP count.",https://api.github.com/repos/google/jax/issues/18672
+"Keywords: np.einsum, jax, AssertionError.",https://api.github.com/repos/google/jax/issues/18670
+"Keywords: GPU, activation function, performance.",https://api.github.com/repos/google/jax/issues/18669
+"Keywords: XLA, mhlo.topk, JAX.",https://api.github.com/repos/google/jax/issues/18668
+"Keywords: Mosaic, native tiling, TruncIOp.",https://api.github.com/repos/google/jax/issues/18667
+"Keywords: GPU, cuMemAlloc_v2, jax.",https://api.github.com/repos/google/jax/issues/18666
+"Keywords: GPU, jax, scan.",https://api.github.com/repos/google/jax/issues/18664
+"Keywords: segmentation fault, jax[cuda12_pip], GPU.",https://api.github.com/repos/google/jax/issues/18663
+"Keywords: memory usage, memory estimation, device memory profile.",https://api.github.com/repos/google/jax/issues/18650
+"Keywords: CUDA, Test failure, GPU_ERROR_OUT_OF_MEMORY.",https://api.github.com/repos/google/jax/issues/18645
+"Keywords: beacon metric, Jax compilation cache, tasks disabled.",https://api.github.com/repos/google/jax/issues/18630
+"Keywords: Refactor, JAX, StableHLO.",https://api.github.com/repos/google/jax/issues/18624
+"Keywords: GPU, JAX, Gradient.",https://api.github.com/repos/google/jax/issues/18622
+"Keywords: GPU, donated buffers, OOM.",https://api.github.com/repos/google/jax/issues/18617
+"Keywords: Pallas, jax_triton, installation.",https://api.github.com/repos/google/jax/issues/18603
+"Keywords: jax, computation, feature request.",https://api.github.com/repos/google/jax/issues/18601
+"Keywords: TPU, flash_attention, XlaRuntimeError.",https://api.github.com/repos/google/jax/issues/18595
+"Keywords: error messages, compiler, sharding annotations.",https://api.github.com/repos/google/jax/issues/18591
+"Keywords: GPU, documentation, bugs.",https://api.github.com/repos/google/jax/issues/18585
+"Keywords: make_jaxpr, abstracted_axes, get_aval.",https://api.github.com/repos/google/jax/issues/18579
+"Keywords: ptxas, CUDA, JAX.",https://api.github.com/repos/google/jax/issues/18578
+"Keywords: ptxas, driver, compatibility.",https://api.github.com/repos/google/jax/issues/18577
+"Keywords: Pytrees, JAX101, User Guides.",https://api.github.com/repos/google/jax/issues/18575
+"Keywords: GPU, device, error.",https://api.github.com/repos/google/jax/issues/18574
+"Keywords: Pallas, grid, dimensions.",https://api.github.com/repos/google/jax/issues/18570
+"Keywords: jitting, jax.extend, dynamic trace.",https://api.github.com/repos/google/jax/issues/18544
+"Keywords: mesh_remap, shard_map, communication patterns.",https://api.github.com/repos/google/jax/issues/18537
+"Keywords: jaxlib, hardware-dependent, test failure.",https://api.github.com/repos/google/jax/issues/18535
+"Keywords: Nvidia175b, benchmark, mock nccl calls.",https://api.github.com/repos/google/jax/issues/18531
+"Keywords: pytype, reenable, lax_numpy.",https://api.github.com/repos/google/jax/issues/18522
+"Keywords: pmap, shard_map, jit.",https://api.github.com/repos/google/jax/issues/18513
+"Keywords: JAX, dynamic tensor sizes, exception.",https://api.github.com/repos/google/jax/issues/18505
+"Keywords: jax.threefry_partitionable, context manager, flags.",https://api.github.com/repos/google/jax/issues/18483
+"Keywords: GPU, device, translation rules.",https://api.github.com/repos/google/jax/issues/18479
+"Keywords: mutex, performance, improvement.",https://api.github.com/repos/google/jax/issues/18473
+"Keywords: jax, cuda, RuntimeError.",https://api.github.com/repos/google/jax/issues/18471
+"Keywords: GPU, API, annotation.",https://api.github.com/repos/google/jax/issues/18459
+"Keywords: jax, AttributeError, flatten_util.",https://api.github.com/repos/google/jax/issues/18457
+"Keywords: CUDA, update, cuDNN.",https://api.github.com/repos/google/jax/issues/18456
+"Keywords: XLA error, TPU, jax.",https://api.github.com/repos/google/jax/issues/18454
+"Keywords: jax, GPU, inverse FFT.",https://api.github.com/repos/google/jax/issues/18453
+"Apologies, but I cannot find any meaningful keywords related to GPU/device errors/bugs in the given Github issue.",https://api.github.com/repos/google/jax/issues/18448
+"Keywords: TF_CLANG_NVCC, crosstool_wrapper_driver_is_not_gcc, clang compiler.",https://api.github.com/repos/google/jax/issues/18445
+"Keywords: pytorch, jax implementation, beta parameter.",https://api.github.com/repos/google/jax/issues/18443
+"Keywords: scatter_add, floating point errors, mitigation.",https://api.github.com/repos/google/jax/issues/18440
+"Keywords: XlaRuntimeError, host-to-device transfer, CPU backend.",https://api.github.com/repos/google/jax/issues/18436
+"Keywords: PositionalSharding, jax, sharding.",https://api.github.com/repos/google/jax/issues/18434
+"Keywords: GPU, device, error.",https://api.github.com/repos/google/jax/issues/18429
+"Keywords: Reverts, GPU, Issue.",https://api.github.com/repos/google/jax/issues/18423
+"Keywords: cuDNN, cuFFT, cuBLAS.",https://api.github.com/repos/google/jax/issues/18408
+"Keywords: jax, checkpoint, static_argnums.",https://api.github.com/repos/google/jax/issues/18405
+"Keywords: GPU, device error, MyPy.",https://api.github.com/repos/google/jax/issues/18395
+"Keywords: jax.scipy.special, comb function, testing coverage.",https://api.github.com/repos/google/jax/issues/18389
+"Keywords: TPU, Pallas, error.",https://api.github.com/repos/google/jax/issues/18388
+"Keywords: jax, numpy, GPU.",https://api.github.com/repos/google/jax/issues/18385
+"Keywords: segmentation fault, jax, GPU.",https://api.github.com/repos/google/jax/issues/18384
+"Keywords: jax.numpy, ufunc-style attributes, frompyfunc.",https://api.github.com/repos/google/jax/issues/18375
+"Keywords: TPU, jaxlib, MLIRError.",https://api.github.com/repos/google/jax/issues/18370
+"Keywords: jax, GPU, error.",https://api.github.com/repos/google/jax/issues/18357
+"Keywords: GPU, JAX, Array API.",https://api.github.com/repos/google/jax/issues/18353
+"Keywords: spmd_axis_name, vmap.",https://api.github.com/repos/google/jax/issues/18339
+"Keywords: Github workflow, issue metrics, report.",https://api.github.com/repos/google/jax/issues/18327
+"Keywords: jax, call_tf, error.",https://api.github.com/repos/google/jax/issues/18315
+"Keywords: XlaCallModule, serialization, RefineDynamicShapes.",https://api.github.com/repos/google/jax/issues/18312
+"Keywords: JAX, reverse mode, custom_jvp.",https://api.github.com/repos/google/jax/issues/18311
+"Keywords: WIP, mesh_utils, revamp.",https://api.github.com/repos/google/jax/issues/18310
+"Keywords: Mosaic, apply_vector_layout, C++ rewrite.",https://api.github.com/repos/google/jax/issues/18300
+"Keywords: jax, capture_intermediates, training time.",https://api.github.com/repos/google/jax/issues/18292
+"Keywords: GPU, device, errors.",https://api.github.com/repos/google/jax/issues/18290
+"Keywords: GPU, callbacks, effects.",https://api.github.com/repos/google/jax/issues/18273
+"Keywords: GPU, Pax, LaMDA.",https://api.github.com/repos/google/jax/issues/18272
+"Keywords: jax, initializer, dtype.",https://api.github.com/repos/google/jax/issues/18267
+"Keywords: GPU, device, error.",https://api.github.com/repos/google/jax/issues/18266
+"Keywords: GPU, device allocation, sharding.",https://api.github.com/repos/google/jax/issues/18255
+"Keywords: Ctrl+C, JAX update, keyboard interrupts.",https://api.github.com/repos/google/jax/issues/18246
+"Keywords: jax, vmap, ValueError.",https://api.github.com/repos/google/jax/issues/18244
+"Keywords: GPU, distributed environments, jaxpr.",https://api.github.com/repos/google/jax/issues/18243
+"Keywords: Jaxpr, pretty_print(), source_info.",https://api.github.com/repos/google/jax/issues/18240
+"Keywords: GPU, device, error.",https://api.github.com/repos/google/jax/issues/18239
+"Keywords: jax, associative_scan, complex numbers.",https://api.github.com/repos/google/jax/issues/18221
+"Keywords: timeout, serialization, fix.",https://api.github.com/repos/google/jax/issues/18184
+"Keywords: CUDA memory allocators, XLA, uninitialized allocations.",https://api.github.com/repos/google/jax/issues/18181
+"Keywords: dict, mismatch, error.",https://api.github.com/repos/google/jax/issues/18171
+"Sorry, I cannot generate a response as the provided Github issue does not seem to be related to GPU/device errors/bugs.",https://api.github.com/repos/google/jax/issues/18153
+"Keywords: jax, random variable, derivative.",https://api.github.com/repos/google/jax/issues/18129
+"Keywords: JAX, scipy, spherical Bessel functions.",https://api.github.com/repos/google/jax/issues/18119
+"Keywords: Cloud TPU, Nightly CI, failure.",https://api.github.com/repos/google/jax/issues/18116
+"Keywords: custom_jvp, Type Error, int32.",https://api.github.com/repos/google/jax/issues/18113
+"Keywords: GPU, device errors, semantics.",https://api.github.com/repos/google/jax/issues/18086
+"Keywords: JAX_TRACEBACK_FILTERING, documentation, environment variable.",https://api.github.com/repos/google/jax/issues/18082
+"Keywords: JVP rules, custom primitive, INVALID_ARGUMENT.",https://api.github.com/repos/google/jax/issues/18068
+"Keywords: jax.debug.breakpoint, jitted computation, restrictions.",https://api.github.com/repos/google/jax/issues/18059
+"Keywords: array trees, make_array_from_callback, jitted functions.",https://api.github.com/repos/google/jax/issues/18058
+"Keywords: documentation, link, index.",https://api.github.com/repos/google/jax/issues/18053
+"Keywords: jax, cuda, torch.",https://api.github.com/repos/google/jax/issues/18032
+"Keywords: GPU, de-duplicate, block start offset.",https://api.github.com/repos/google/jax/issues/18028
+"Keywords: cleanup, GPU, errors.",https://api.github.com/repos/google/jax/issues/18025
+"Keywords: Open in Kaggle, modern TPUs, Markdown version.",https://api.github.com/repos/google/jax/issues/18024
+"Keywords: jax, numpy, make_jaxpr.",https://api.github.com/repos/google/jax/issues/18020
+"Keywords: jax crashing, jacrev, GPU.",https://api.github.com/repos/google/jax/issues/17993
+"Keywords: GPU OOM, rematerialization, dropout.",https://api.github.com/repos/google/jax/issues/17982
+"Keywords: cuDNN, length 0 sequences, errors.",https://api.github.com/repos/google/jax/issues/17966
+"Keywords: Scaled Dot Product Attention, JAX-based, neural architectures.",https://api.github.com/repos/google/jax/issues/17957
+"Keywords: rFFT, GPU, float16.",https://api.github.com/repos/google/jax/issues/17954
+"Keywords: Rollback, breaks, internal project.",https://api.github.com/repos/google/jax/issues/17952
+"Keywords: FLOPS, convolution, GPU T4.",https://api.github.com/repos/google/jax/issues/17912
+"Keywords: jax, ShardMapPrimitive, TPU.",https://api.github.com/repos/google/jax/issues/17903
+"Keywords: JAX, compilation cache, skipped.",https://api.github.com/repos/google/jax/issues/17887
+"Keywords: GPU, mlir.custom_call, jaxlib fork.",https://api.github.com/repos/google/jax/issues/17880
+"Keywords: jax, vmap, assertion.",https://api.github.com/repos/google/jax/issues/17874
+"Keywords: NestedTensors, Torch ecosystem, ragged tensors.",https://api.github.com/repos/google/jax/issues/17863
+"Keywords: GPU, scan, dynamic_update_slice.",https://api.github.com/repos/google/jax/issues/17845
+"Keywords: scatter_add, vmap, XLA_FLAGS",https://api.github.com/repos/google/jax/issues/17844
+"Keywords: jax.default_dtype_bits, jax.random, dtype.",https://api.github.com/repos/google/jax/issues/17842
+"Keywords: GPU, custom_vjp, autodiff.",https://api.github.com/repos/google/jax/issues/17840
+"Keywords: jax, tf2jax, cu_threefry2x32.",https://api.github.com/repos/google/jax/issues/17816
+"Keywords: API, profile protos, aggregation.",https://api.github.com/repos/google/jax/issues/17809
+"Keywords: jax, tensorflow, ValueError.",https://api.github.com/repos/google/jax/issues/17803
+"Keywords: PyTreeDef, ValueError, Jax.",https://api.github.com/repos/google/jax/issues/17798
+"Keywords: JAX, dlpack, array.",https://api.github.com/repos/google/jax/issues/17784
+"Keywords: GPU, expm, pade approximation.",https://api.github.com/repos/google/jax/issues/17756
+"Keywords: vmap, arguments, in_axes.",https://api.github.com/repos/google/jax/issues/17747
+"Keywords: docs, PRNGKey, jax.random.",https://api.github.com/repos/google/jax/issues/17741
+"Keywords: polygamma, inaccuracy, jax.",https://api.github.com/repos/google/jax/issues/17738
+"Keywords: float64, jax, mpmath.",https://api.github.com/repos/google/jax/issues/17734
+"Keywords: GPU, error message, jax.",https://api.github.com/repos/google/jax/issues/17730
+"Keywords: GPU, device error, debugging.",https://api.github.com/repos/google/jax/issues/17722
+"Keywords: jax, PyInstaller, mlir.",https://api.github.com/repos/google/jax/issues/17705
+"Keywords: ml_dtypes, AttributeError, GPU.",https://api.github.com/repos/google/jax/issues/17693
+"Keywords: shard_map, NotImplementedError, replication rule.",https://api.github.com/repos/google/jax/issues/17691
+"Keywords: GPU, integer performance, JAX.",https://api.github.com/repos/google/jax/issues/17688
+"Keywords: Pytree, jax.lax.cond, type mismatch.",https://api.github.com/repos/google/jax/issues/17663
+"Keywords: jaxlib, GpuAllocatorConfig, AttributeError.",https://api.github.com/repos/google/jax/issues/17660
+"Keywords: GPU, JAX, performance.",https://api.github.com/repos/google/jax/issues/17640
+"Keywords: CUDA, repository command failed, CUDA toolkit path.",https://api.github.com/repos/google/jax/issues/17635
+"Keywords: XlaRuntimeError, key_reuse, GPU.",https://api.github.com/repos/google/jax/issues/17626
+"Keywords: GPU, device, xla_client.",https://api.github.com/repos/google/jax/issues/17625
+"Keywords: array_equal, jax.numpy.asarray, equality checks.",https://api.github.com/repos/google/jax/issues/17621
+"Keywords: GPU, out_dtype, performance.",https://api.github.com/repos/google/jax/issues/17612
+"Keywords: fori_loop, increment, stride.",https://api.github.com/repos/google/jax/issues/17611
+"Keywords: GPU, lowering rule, fpowi.",https://api.github.com/repos/google/jax/issues/17603
+"Keywords: jax-metal, GPU, in1d.",https://api.github.com/repos/google/jax/issues/17590
+"Keywords: jax, numpy, IndexError.",https://api.github.com/repos/google/jax/issues/17587
+"Keywords: GPU, device, error.",https://api.github.com/repos/google/jax/issues/17579
+"Keywords: implicit transfer, inspect, debugging.",https://api.github.com/repos/google/jax/issues/17559
+"Keywords: GPU, primitive, parallelism.",https://api.github.com/repos/google/jax/issues/17558
+"Keywords: jax, random.categorical, gradient.",https://api.github.com/repos/google/jax/issues/17556
+"Keywords: Mosaic, memref, layout.",https://api.github.com/repos/google/jax/issues/17554
+"Keywords: JAX, cudnn, GPU.",https://api.github.com/repos/google/jax/issues/17553
+"Keywords: performance drop, CUDA/C++, Pallas.",https://api.github.com/repos/google/jax/issues/17545
+"Keywords: jax.scipy, scipy.signal.butter, equivalent.",https://api.github.com/repos/google/jax/issues/17540
+"Keywords: cuDNN, heuristics, Ampere GPUs.",https://api.github.com/repos/google/jax/issues/17523
+"Keywords: JAX profiling, XLA, CUDA.",https://api.github.com/repos/google/jax/issues/17512
+"Keywords: error, unsafe casts, scatter.",https://api.github.com/repos/google/jax/issues/17503
+"Keywords: jax-metal, matrix inversion, GPU/Metal.",https://api.github.com/repos/google/jax/issues/17490
+"Keywords: out_shardings, donation, jit.",https://api.github.com/repos/google/jax/issues/17480
+"Keywords: JAX, Conv2DTranspose, GPU.",https://api.github.com/repos/google/jax/issues/17464
+"Keywords: shard_map, jax, TypeError.",https://api.github.com/repos/google/jax/issues/17461
+"Keywords: host_callback, TPUs, Send/Recv.",https://api.github.com/repos/google/jax/issues/17459
+"Keywords: memory leak, CPU, jax.",https://api.github.com/repos/google/jax/issues/17432
+"Keywords: jax.lax.with_sharding_constraint, sharding information, absl.app.run",https://api.github.com/repos/google/jax/issues/17422
+"Keywords: document, autodidax, update.",https://api.github.com/repos/google/jax/issues/17413
+"Keywords: jax, annotation, typo.",https://api.github.com/repos/google/jax/issues/17405
+"Keywords: jax.debug.breakpoint, tensors, ArrayImpl.",https://api.github.com/repos/google/jax/issues/17402
+"Keywords: Python, dict, kwargs.",https://api.github.com/repos/google/jax/issues/17400
+"Keywords: GPU, ncclCommInitRank, XLA runtime error.",https://api.github.com/repos/google/jax/issues/17399
+"Keywords: jnp.array.at.add, jax.ops.segment_sum, mode='drop'.",https://api.github.com/repos/google/jax/issues/17387
+"Keywords: Jax, Sphinx, GPU.",https://api.github.com/repos/google/jax/issues/17385
+"Keywords: Jax, custom_partitioning, AttributeError.",https://api.github.com/repos/google/jax/issues/17382
+"Keywords: GPU, device, errors.",https://api.github.com/repos/google/jax/issues/17381
+"Keywords: jax, slogdet, GPU",https://api.github.com/repos/google/jax/issues/17379
+"Keywords: Mosaic, loading, memref.",https://api.github.com/repos/google/jax/issues/17374
+"Keywords: XLA, unique, performance implications.",https://api.github.com/repos/google/jax/issues/17370
+"Keywords: jax.grad, lax.scan, debug.print.",https://api.github.com/repos/google/jax/issues/17357
+"Keywords: jnp.take_along_axis(), Metal backend, M1 GPU.",https://api.github.com/repos/google/jax/issues/17344
+"Keywords: custom_vmap, GPU, TypeError.",https://api.github.com/repos/google/jax/issues/17342
+"Keywords: GPU, compilation time, JAX.",https://api.github.com/repos/google/jax/issues/17335
+"Keywords: GPU, jax, ProcessPoolExecutor.",https://api.github.com/repos/google/jax/issues/17329
+"Keywords: GPU, compiler bug, optimization.",https://api.github.com/repos/google/jax/issues/17328
+"Keywords: GPU, device, error.",https://api.github.com/repos/google/jax/issues/17327
+"Keywords: offloading, asynchronous, memory-efficient.",https://api.github.com/repos/google/jax/issues/17323
+"Keywords: XLA error, Shared memory, Nvidia A100.",https://api.github.com/repos/google/jax/issues/17320
+"Keywords: NotImplementedError, Pallas GPU lowering, sign.",https://api.github.com/repos/google/jax/issues/17317
+"Keywords: GPU, sparse operands, gradients.",https://api.github.com/repos/google/jax/issues/17312
+"Keywords: jax, jaxlib, CUDA.",https://api.github.com/repos/google/jax/issues/17311
+"Keywords: XLA, map, JAX.",https://api.github.com/repos/google/jax/issues/17298
+"Keywords: jax code, bus error, /dev/shm.",https://api.github.com/repos/google/jax/issues/17296
+"Keywords: indices, devices, shard_arg_handlers.",https://api.github.com/repos/google/jax/issues/17281
+"Keywords: x64 mode, code snippet, dtype('float64').",https://api.github.com/repos/google/jax/issues/17273
+"Keywords: flash attention 2, Triton, JAX.",https://api.github.com/repos/google/jax/issues/17267
+"Keywords: JAX, xmap, jit.",https://api.github.com/repos/google/jax/issues/17266
+"Keywords: debugging, triton IRs, callback.",https://api.github.com/repos/google/jax/issues/17245
+"Keywords: JAX, cuDNN, CUDA.",https://api.github.com/repos/google/jax/issues/17217
+"Keywords: Jax, pipeline parallelism, PLAQUE.",https://api.github.com/repos/google/jax/issues/17216
+"Keywords: shard_map, SPMD, JEP.",https://api.github.com/repos/google/jax/issues/17210
+"Keywords: Jax, xmap, expm",https://api.github.com/repos/google/jax/issues/17201
+"Keywords: CPU, backend, XLA_FLAGS",https://api.github.com/repos/google/jax/issues/17188
+"Keywords: jax, pure_callback, broadcasting.",https://api.github.com/repos/google/jax/issues/17187
+"Keywords: XlaRuntimeError, mps.reshape, jax-metal.",https://api.github.com/repos/google/jax/issues/17175
+"Keywords: GPU/TPU found, CPU, jax.",https://api.github.com/repos/google/jax/issues/17172
+"Keywords: JAX, GPU, AssertionError.",https://api.github.com/repos/google/jax/issues/17156
+"Keywords: GPU, host_callback, custom_call.",https://api.github.com/repos/google/jax/issues/17137
+"Keywords: GPU, device, MLIR.",https://api.github.com/repos/google/jax/issues/17124
+"Keywords: jax.nn.softmax, gradient, bug.",https://api.github.com/repos/google/jax/issues/17117
+"Keywords: jax, xarray, TracerArrayConversionError",https://api.github.com/repos/google/jax/issues/17107
+"Keywords: cache key generation, CompileOptions, unit tests.",https://api.github.com/repos/google/jax/issues/17083
+"Keywords: jax, shard_map, kwargs.",https://api.github.com/repos/google/jax/issues/17077
+"Keywords: GPU, device error, gradient accuracy.",https://api.github.com/repos/google/jax/issues/17067
+"Keywords: XLA:GPU, autotuning, loop fusion.",https://api.github.com/repos/google/jax/issues/17048
+"Keywords: Bessel function, Jax, numerical stability.",https://api.github.com/repos/google/jax/issues/17038
+"Keywords: XLA:GPU, autotuning, GEMM.",https://api.github.com/repos/google/jax/issues/17036
+"Keywords: JAXopt, optimization, GPU.",https://api.github.com/repos/google/jax/issues/17025
+"Keywords: GPU, dynamic indexing, MemRefSliceOp.",https://api.github.com/repos/google/jax/issues/17011
+"Keywords: jax, pmap, vmap.",https://api.github.com/repos/google/jax/issues/17001
+"Keywords: GPU, documentation, Jax.",https://api.github.com/repos/google/jax/issues/16998
+"Keywords: CompileOptions, serialization, idempotent.",https://api.github.com/repos/google/jax/issues/16954
+"Keywords: GPU, device, error.",https://api.github.com/repos/google/jax/issues/16936
+"Keywords: JAX, GPU, execution time.",https://api.github.com/repos/google/jax/issues/16916
+"Keywords: JAX, dispatch, JIT.",https://api.github.com/repos/google/jax/issues/16905
+"Keywords: GPU, numerical error, strides.",https://api.github.com/repos/google/jax/issues/16894
+"Keywords: jax, type annotation, decorator.",https://api.github.com/repos/google/jax/issues/16863
+"Keywords: hermetic, python, TSL.",https://api.github.com/repos/google/jax/issues/16854
+"Keywords: GPU, device, error.",https://api.github.com/repos/google/jax/issues/16841
+"Keywords: TPU, jax, error.",https://api.github.com/repos/google/jax/issues/16825
+"Keywords: GPU, device error, bug.",https://api.github.com/repos/google/jax/issues/16808
+"Keywords: unsafe_rbg, vmap, performance issues.",https://api.github.com/repos/google/jax/issues/16792
+"Keywords: HPC cluster, GPUs, jax.distributed.initialize().",https://api.github.com/repos/google/jax/issues/16788
+"Keywords: jax.numpy.right_shift, GPU, bitwise calculation.",https://api.github.com/repos/google/jax/issues/16748
+"Keywords: JAX, UnexpectedTracerError, GPU.",https://api.github.com/repos/google/jax/issues/16732
+"Keywords: pinverse, nan, jax.",https://api.github.com/repos/google/jax/issues/16715
+"Keywords: JAX, jnp.repeat, fast path.",https://api.github.com/repos/google/jax/issues/16712
+"Keywords: TPU, jax.distributed.initialize, multi-host job.",https://api.github.com/repos/google/jax/issues/16708
+"Keywords: ValueError, Custom node type mismatch, dataclasses.",https://api.github.com/repos/google/jax/issues/16707
+"Keywords: Convolutions, mixed input types, dot-general.",https://api.github.com/repos/google/jax/issues/16702
+"Keywords: GPU, device error, dashboard.",https://api.github.com/repos/google/jax/issues/16700
+"Keywords: JAX, high precision, OOM.",https://api.github.com/repos/google/jax/issues/16698
+"Keywords: GPU, error, dashboard.",https://api.github.com/repos/google/jax/issues/16697
+"Keywords: GPU, memory allocation, pjit.",https://api.github.com/repos/google/jax/issues/16679
+"Keywords: GPU, hoisting, runtime speed.",https://api.github.com/repos/google/jax/issues/16663
+"Keywords: GPU, jax, runtime speed.",https://api.github.com/repos/google/jax/issues/16661
+"Keywords: jax, donate_argnums, GPU.",https://api.github.com/repos/google/jax/issues/16647
+"Keywords: GPU, device, error.",https://api.github.com/repos/google/jax/issues/16639
+"Keywords: jax, performance, argfirst.",https://api.github.com/repos/google/jax/issues/16638
+"Keywords: jax, debug callbacks, hoisting.",https://api.github.com/repos/google/jax/issues/16637
+"Keywords: Ruff error, insecure temp file use, S108.",https://api.github.com/repos/google/jax/issues/16633
+"Keywords: jax, pure_callback, result_shape_dtypes.",https://api.github.com/repos/google/jax/issues/16613
+"Keywords: Jax, transfer guard, XLA-CPU.",https://api.github.com/repos/google/jax/issues/16602
+"Keywords: GPU-accelerated, multiGPU, linear solvers.",https://api.github.com/repos/google/jax/issues/16597
+"Keywords: dynamic_update_slice_in_dim, bug, dimension check.",https://api.github.com/repos/google/jax/issues/16592
+"Keywords: GPU, device, bug.",https://api.github.com/repos/google/jax/issues/16585
+"Keywords: GPU, jax, sparse.",https://api.github.com/repos/google/jax/issues/16582
+"Keywords: checkpointing, policy, save_only_these_names.",https://api.github.com/repos/google/jax/issues/16578
+"Keywords: jax.profiler, XLA, tensorflow.package.",https://api.github.com/repos/google/jax/issues/16577
+"Keywords: spherical harmonics, GPU, computation.",https://api.github.com/repos/google/jax/issues/16573
+"Keywords: jax, GPU, error.",https://api.github.com/repos/google/jax/issues/16551
+"Keywords: experimental.odeint, jax, gradient.",https://api.github.com/repos/google/jax/issues/16517
+"Keywords: jax, ensure_compile_time_eval, ConcretizationTypeError.",https://api.github.com/repos/google/jax/issues/16515
+"Keywords: GPU, device error, bug.",https://api.github.com/repos/google/jax/issues/16513
+"Keywords: GPU memory, Out of memory, XLA_PYTHON_CLIENT_PREALLOCATE.",https://api.github.com/repos/google/jax/issues/16504
+"Keywords: GPU, device errors, metadata.",https://api.github.com/repos/google/jax/issues/16496
+"Keywords: jax, xmap, GPU.",https://api.github.com/repos/google/jax/issues/16476
+"Keywords: overlooked, triggering, tensorflow/tfjs.",https://api.github.com/repos/google/jax/issues/16465
+"Keywords: Refs, state-handling, type system.",https://api.github.com/repos/google/jax/issues/16456
+"Keywords: GPU, device, operand slots.",https://api.github.com/repos/google/jax/issues/16455
+"Keywords: ClosedJaxpr, properties, typechecking.",https://api.github.com/repos/google/jax/issues/16446
+"Keywords: jax, gmres, TypeError.",https://api.github.com/repos/google/jax/issues/16441
+"Keywords: casting, kernel crash, Metal device.",https://api.github.com/repos/google/jax/issues/16435
+"Keywords: Metal, assertion, GPU.",https://api.github.com/repos/google/jax/issues/16417
+"Keywords: jax, jaxlib, segmentation fault.",https://api.github.com/repos/google/jax/issues/16416
+"Keywords: GPU, jax, IntEnum.",https://api.github.com/repos/google/jax/issues/16376
+"Keywords: JAX, GPU, broadcast_in_dim.",https://api.github.com/repos/google/jax/issues/16374
+"Keywords: dims_out, process_call, batching rule.",https://api.github.com/repos/google/jax/issues/16368
+"Keywords: jax-metal, XlaRuntimeError, MPS.",https://api.github.com/repos/google/jax/issues/16366
+"Keywords: GPU, memory constraint, type hints.",https://api.github.com/repos/google/jax/issues/16341
+"Keywords: jax-metal, GPU, array updates",https://api.github.com/repos/google/jax/issues/16326
+"Keywords: jaxlib, cholesky, XlaRuntimeError.",https://api.github.com/repos/google/jax/issues/16321
+"Keywords: mpi4jax, XLA, token.",https://api.github.com/repos/google/jax/issues/16303
+"Keywords: Apple M2 Pro, jaxlib-v0.4.10, metal jax.",https://api.github.com/repos/google/jax/issues/16302
+"Keywords: GPU, device, errors.",https://api.github.com/repos/google/jax/issues/16295
+"Keywords: JAX, CPU, ConnectionError.",https://api.github.com/repos/google/jax/issues/16292
+"Keywords: nullability, jax, int64.",https://api.github.com/repos/google/jax/issues/16289
+"Keywords: mhlo.custom_call, XlaRuntimeError, legalize.",https://api.github.com/repos/google/jax/issues/16287
+"Keywords: out of memory, jax, GPU.",https://api.github.com/repos/google/jax/issues/16278
+"Keywords: conv_general_dilated, NotImplementedError, shard_map.",https://api.github.com/repos/google/jax/issues/16249
+"Keywords: jax.Array, type name, correct.",https://api.github.com/repos/google/jax/issues/16239
+"Keywords: GPU, documentation, transpose_kernel.",https://api.github.com/repos/google/jax/issues/16238
+"Keywords: type, output, arrays.",https://api.github.com/repos/google/jax/issues/16237
+"Keywords: interval length, algorithm, interpolation method.",https://api.github.com/repos/google/jax/issues/16236
+"Keywords: jax, jit, weakref.",https://api.github.com/repos/google/jax/issues/16226
+"Keywords: jax, weakref, gc.collect",https://api.github.com/repos/google/jax/issues/16226
+"Keywords: Dropout, training mode, convert.",https://api.github.com/repos/google/jax/issues/16218
+"Keywords: jax, threads, GPU.",https://api.github.com/repos/google/jax/issues/16215
+"Keywords: GPU, ValueError, Multiprocessing.",https://api.github.com/repos/google/jax/issues/16198
+"Keywords: jax, jit, IndexError.",https://api.github.com/repos/google/jax/issues/16187
+"Keywords: GPU, jax, linspace.",https://api.github.com/repos/google/jax/issues/16183
+"Keywords: jax.numpy.interp, performance, TPU.",https://api.github.com/repos/google/jax/issues/16182
+"Keywords: pmap, multi-machine, multi-gpu.",https://api.github.com/repos/google/jax/issues/16172
+"Keywords: jax, vmap, PyTree.",https://api.github.com/repos/google/jax/issues/16170
+"Keywords: mesh_utils, hybrid axes, slices.",https://api.github.com/repos/google/jax/issues/16165
+"Keywords: jax, overflow, dtype.",https://api.github.com/repos/google/jax/issues/16164
+"Keywords: GPU, serialization, compatibility.",https://api.github.com/repos/google/jax/issues/16145
+"Keywords: CUDA, CuDNN, TensorFlow.",https://api.github.com/repos/google/jax/issues/16107
+"Keywords: GPU, device, serialization.",https://api.github.com/repos/google/jax/issues/16091
+"Keywords: GPU, device, error.",https://api.github.com/repos/google/jax/issues/16090
+"Keywords: jax, hessian, NotImplementedError.",https://api.github.com/repos/google/jax/issues/16076
+"Keywords: GPU, JAX, transformation.",https://api.github.com/repos/google/jax/issues/16071
+"Keywords: einsum, vmap, batching.",https://api.github.com/repos/google/jax/issues/16056
+"Keywords: GPU, matplotlib, JAX.",https://api.github.com/repos/google/jax/issues/16054
+"Keywords: jax, local_devices, GPU.",https://api.github.com/repos/google/jax/issues/16024
+"Keywords: JAX, object detection, custom ops.",https://api.github.com/repos/google/jax/issues/16021
+"Keywords: GPU, static initializer, bug.",https://api.github.com/repos/google/jax/issues/16016
+"Keywords: jax, GPU, cost analysis.",https://api.github.com/repos/google/jax/issues/16008
+"Keywords: jax, TPU, transfer error.",https://api.github.com/repos/google/jax/issues/16002
+"Keywords: jax, custom_jvp, GPU.",https://api.github.com/repos/google/jax/issues/16000
+"Keywords: GPU, warning, user error.",https://api.github.com/repos/google/jax/issues/15999
+"Keywords: jax, all_to_all, ValueError.",https://api.github.com/repos/google/jax/issues/15982
+"Keywords: GPU, scatters/gathers, dot product.",https://api.github.com/repos/google/jax/issues/15977
+"Keywords: A100-8 GPU, performance, jax/jaxlib version.",https://api.github.com/repos/google/jax/issues/15962
+"Keywords: OOM error, XLA_PYTHON_CLIENT_MEM_FRACTION, GPU detection.",https://api.github.com/repos/google/jax/issues/15926
+"Keywords: is_fully_replicated, jax, CPUt + TPU.",https://api.github.com/repos/google/jax/issues/15919
+"Keywords: GPU, backprop, inefficiency.",https://api.github.com/repos/google/jax/issues/15906
+"Keywords: vmap, shard_map, spmd_axis_name.",https://api.github.com/repos/google/jax/issues/15905
+"Keywords: GPU, device, errors.",https://api.github.com/repos/google/jax/issues/15904
+"Keywords: jax, jaxlib, CUDA.",https://api.github.com/repos/google/jax/issues/15900
+"Keywords: Flax, A100 GPU, batch inputs.",https://api.github.com/repos/google/jax/issues/15898
+"Keywords: jax, experimental, sparse.",https://api.github.com/repos/google/jax/issues/15896
+"Keywords: GPU, dropout, data parallel training.",https://api.github.com/repos/google/jax/issues/15895
+"Keywords: NotImplementedError, shard_map, replication rule.",https://api.github.com/repos/google/jax/issues/15894
+"Keywords: spmd_axis_name, jax.vmap, distributed arrays.",https://api.github.com/repos/google/jax/issues/15889
+"Keywords: GPU, expression evaluation, error.",https://api.github.com/repos/google/jax/issues/15882
+"Keywords: GPU, device, error.",https://api.github.com/repos/google/jax/issues/15880
+"Keywords: jax.sharding.addressable_devices_indices_map, jax.Device, comparison operations.",https://api.github.com/repos/google/jax/issues/15878
+"Keywords: conda, jaxlib, cuda-version.",https://api.github.com/repos/google/jax/issues/15867
+"Keywords: Jax, HPC clusters, threads.",https://api.github.com/repos/google/jax/issues/15866
+"Keywords: Jax, grad, TypeError.",https://api.github.com/repos/google/jax/issues/15861
+"Keywords: GPU, jax, Oryx.",https://api.github.com/repos/google/jax/issues/15856
+"Keywords: jacobian, csr sparse matrices, NotImplementedError.",https://api.github.com/repos/google/jax/issues/15844
+"Keywords: GMRES, convergence, silent failure.",https://api.github.com/repos/google/jax/issues/15837
+"Keywords: approxtopk, gpu, CPU.",https://api.github.com/repos/google/jax/issues/15833
+"Keywords: GPU, device, error.",https://api.github.com/repos/google/jax/issues/15821
+"Keywords: Segmentation fault, jax, jaxlib.",https://api.github.com/repos/google/jax/issues/15810
+"Keywords: GPU, parallelization, batched functions.",https://api.github.com/repos/google/jax/issues/15803
+"Keywords: jax, pjit, sharding.",https://api.github.com/repos/google/jax/issues/15788
+"Keywords: XLARuntimeError, JAX, SPMD partitioning.",https://api.github.com/repos/google/jax/issues/15780
+"Keywords: GPU, cudnn_frontend, library.",https://api.github.com/repos/google/jax/issues/15777
+"Keywords: PyTorch, JAX, bicubic.",https://api.github.com/repos/google/jax/issues/15768
+"Keywords: GPU, error, HLO.",https://api.github.com/repos/google/jax/issues/15766
+"Keywords: jax, vmap, TypeError.",https://api.github.com/repos/google/jax/issues/15759
+"Keywords: JAX, ValueError, GPU.",https://api.github.com/repos/google/jax/issues/15754
+"Keywords: CUDA error, GPU, jax.",https://api.github.com/repos/google/jax/issues/15752
+"Keywords: XLA, Test, tile assignment.",https://api.github.com/repos/google/jax/issues/15749
+"Keywords: jax, compilation_cache, cache key.",https://api.github.com/repos/google/jax/issues/15739
+"Keywords: jax, performance issue, complex dtype.",https://api.github.com/repos/google/jax/issues/15735
+"Keywords: ValueError, Tuple arity mismatch, JAX.",https://api.github.com/repos/google/jax/issues/15728
+"Keywords: XlaRuntimeError, jax.lax.axis_index, INTERNAL.",https://api.github.com/repos/google/jax/issues/15723
+"Keywords: tridiagonal_solve, complex128, ValueError.",https://api.github.com/repos/google/jax/issues/15718
+"Keywords: flax, jax, joblib.",https://api.github.com/repos/google/jax/issues/15715
+"Keywords: jax, jaxlib, SIGSEGV.",https://api.github.com/repos/google/jax/issues/15711
+"Keywords: GPU, distributed computing, JAX.",https://api.github.com/repos/google/jax/issues/15710
+"Keywords: custom gradient, GELU activation, performance.",https://api.github.com/repos/google/jax/issues/15692
+"Keywords: preferred_element_type, jnp.dot, dtype parameter.",https://api.github.com/repos/google/jax/issues/15683
+"Keywords: FFT, sharding, jax.",https://api.github.com/repos/google/jax/issues/15680
+"Keywords: register_pytree_node_class, default, flatten.",https://api.github.com/repos/google/jax/issues/15655
+"Keywords: GPU, integer overflow, error.",https://api.github.com/repos/google/jax/issues/15631
+"Keywords: JAX, TFLiteConverter, Concrete Function.",https://api.github.com/repos/google/jax/issues/15627
+"Keywords: jax, GPU, clip.",https://api.github.com/repos/google/jax/issues/15626
+"Keywords: jitting, ConcretizationTypeError, function.",https://api.github.com/repos/google/jax/issues/15625
+"Keywords: XLA_FLAGS, TPU, environment variable.",https://api.github.com/repos/google/jax/issues/15616
+"Keywords: JAX, chlo, stablehlo.",https://api.github.com/repos/google/jax/issues/15608
+"Keywords: TypeError, device_put, api_boundary.",https://api.github.com/repos/google/jax/issues/15595
+"Keywords: JAX_LOG_COMPILES, documentation, recompilations.",https://api.github.com/repos/google/jax/issues/15587
+"Keywords: jax.jit, custom calls, keepalives.",https://api.github.com/repos/google/jax/issues/15536
+"Keywords: jax, tf.function, segmentation fault.",https://api.github.com/repos/google/jax/issues/15510
+"Keywords: JAX, fori_loop, Traced Values.",https://api.github.com/repos/google/jax/issues/15509
+"Keywords: ValueError, Betainc, gradient.",https://api.github.com/repos/google/jax/issues/15487
+"Keywords: JAX, tree_util, flatten_up_to.",https://api.github.com/repos/google/jax/issues/15478
+"Keywords: GPU, device, errors.",https://api.github.com/repos/google/jax/issues/15430
+"Keywords: vmap, jax, vectorization.",https://api.github.com/repos/google/jax/issues/15429
+"Keywords: JAX, finite differences, automatic differentiation.",https://api.github.com/repos/google/jax/issues/15425
+"Keywords: JAX, GPU, recompilation.",https://api.github.com/repos/google/jax/issues/15412
+"Keywords: GPU, error, catch_error.",https://api.github.com/repos/google/jax/issues/15389
+"Keywords: GPU, buffer donation, shard_map.",https://api.github.com/repos/google/jax/issues/15368
+"Keywords: implementation, gaussian filter, convolution.",https://api.github.com/repos/google/jax/issues/15359
+"Keywords: TypeError, jax, tree_map.",https://api.github.com/repos/google/jax/issues/15358
+"Keywords: GPU, device error, JAX.",https://api.github.com/repos/google/jax/issues/15348
+"Keywords: GPU, jax, performance.",https://api.github.com/repos/google/jax/issues/15339
+"Keywords: JAX, JIT, bounded method.",https://api.github.com/repos/google/jax/issues/15338
+"Keywords: jax, GPU, pmap.",https://api.github.com/repos/google/jax/issues/15336
+"Keywords: GPU, 32-bit, implementation.",https://api.github.com/repos/google/jax/issues/15296
+"Keywords: GPU, Optimizer, TypeError.",https://api.github.com/repos/google/jax/issues/15294
+"Keywords: jax, compile time, GPU.",https://api.github.com/repos/google/jax/issues/15290
+"Keywords: GPU, memory transfer, jax.",https://api.github.com/repos/google/jax/issues/15281
+"Keywords: GPU, device, errors.",https://api.github.com/repos/google/jax/issues/15280
+"Keywords: serialize, deserialize, public APIs.",https://api.github.com/repos/google/jax/issues/15216
+"Keywords: JAX, GPU, device errors.",https://api.github.com/repos/google/jax/issues/15214
+"Keywords: hilbert transform, signal processing, JAX.",https://api.github.com/repos/google/jax/issues/15211
+"Keywords: sharding, jax.Array, model parallelism.",https://api.github.com/repos/google/jax/issues/15208
+"Keywords: dtype, behavior, warning.",https://api.github.com/repos/google/jax/issues/15177
+"Keywords: TPU, memory, jax.lax.scan.",https://api.github.com/repos/google/jax/issues/15176
+"Keywords: jax.Array, sharded, fully replicated.",https://api.github.com/repos/google/jax/issues/15110
+"Keywords: GPU, NCCL library, PJRT Client API.",https://api.github.com/repos/google/jax/issues/15106
+"Keywords: jit acceleration, TypeError, replay_buffer.",https://api.github.com/repos/google/jax/issues/15093
+"Keywords: pytorch, jax, GPU.",https://api.github.com/repos/google/jax/issues/15084
+"Keywords: GPU, device, errors.",https://api.github.com/repos/google/jax/issues/15082
+"Keywords: GPU, device error, Jaxpr.",https://api.github.com/repos/google/jax/issues/15053
+"Keywords: GPU, JAX, 64-bit.",https://api.github.com/repos/google/jax/issues/15042
+"Keywords: vmap, jax.lax.scan, axes_scan.",https://api.github.com/repos/google/jax/issues/15041
